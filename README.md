@@ -1,2 +1,2 @@
-# portfolio-hugo-paper
+# portfolio-hugo
  
