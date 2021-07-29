@@ -16,6 +16,8 @@ author: "Aditya Telange"
 
 ---
 
+{{< notice question>}} One note here. {{< /notice >}}
+
 ## Guide
 
 Follow [Quick Start](https://gohugo.io/getting-started/quick-start/) guide to setup hugo and create a new site.
