@@ -16,9 +16,20 @@ author: "Aditya Telange"
 
 ---
 
-{{< notice question>}} One note here. {{< /notice >}}
-
 ## Guide
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ac massa vestibulum, vestibulum nunc in, imperdiet augue. Phasellus nisl est, tristique ac magna sed, aliquet faucibus eros. Vivamus tempus est eget risus tincidunt cursus. Praesent ac malesuada nulla. Curabitur ullamcorper velit urna, id ornare nisl convallis sed. Ut non elit tellus. Integer quis felis eget tortor interdum vulputate a ac dolor. Nullam tempus nisi ut magna fermentum, eu vestibulum ante viverra. Mauris augue elit, cursus sed urna eu, tincidunt fringilla lectus. Integer eleifend vel velit et dapibus. Praesent tincidunt purus nec accumsan luctus. Fusce id nisl faucibus, auctor nisl ut, dapibus felis. Maecenas tempor accumsan velit, at tincidunt est eleifend vel. Morbi aliquet ultricies mi, nec auctor nisl placerat sit amet. Phasellus odio urna, molestie ac mi non, facilisis molestie nisi. Pellentesque lectus nulla, ultrices at urna vel, sodales molestie erat.
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ac massa vestibulum, vestibulum nunc in, imperdiet augue. Phasellus nisl est, tristique ac magna sed, aliquet faucibus eros. Vivamus tempus est eget risus tincidunt cursus. Praesent ac malesuada nulla. Curabitur ullamcorper velit urna, id ornare nisl convallis sed. Ut non elit tellus. Integer quis felis eget tortor interdum vulputate a ac dolor. Nullam tempus nisi ut magna fermentum, eu vestibulum ante viverra. Mauris augue elit, cursus sed urna eu, tincidunt fringilla lectus. Integer eleifend vel velit et dapibus. Praesent tincidunt purus nec accumsan luctus. Fusce id nisl faucibus, auctor nisl ut, dapibus felis. Maecenas tempor accumsan velit, at tincidunt est eleifend vel. Morbi aliquet ultricies mi, nec auctor nisl placerat sit amet. Phasellus odio urna, molestie ac mi non, facilisis molestie nisi. Pellentesque lectus nulla, ultrices at urna vel, sodales molestie erat.
+
+## Part 2
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ac massa vestibulum, vestibulum nunc in, imperdiet augue. Phasellus nisl est, tristique ac magna sed, aliquet faucibus eros. Vivamus tempus est eget risus tincidunt cursus. Praesent ac malesuada nulla. Curabitur ullamcorper velit urna, id ornare nisl convallis sed. Ut non elit tellus. Integer quis felis eget tortor interdum vulputate a ac dolor. Nullam tempus nisi ut magna fermentum, eu vestibulum ante viverra. Mauris augue elit, cursus sed urna eu, tincidunt fringilla lectus. Integer eleifend vel velit et dapibus. Praesent tincidunt purus nec accumsan luctus. Fusce id nisl faucibus, auctor nisl ut, dapibus felis. Maecenas tempor accumsan velit, at tincidunt est eleifend vel. Morbi aliquet ultricies mi, nec auctor nisl placerat sit amet. Phasellus odio urna, molestie ac mi non, facilisis molestie nisi. Pellentesque lectus nulla, ultrices at urna vel, sodales molestie erat.
+
+- Never again
+- Never before
+- Never after
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ac massa vestibulum, vestibulum nunc in, imperdiet augue. Phasellus nisl est, tristique ac magna sed, aliquet faucibus eros. Vivamus tempus est eget risus tincidunt cursus. Praesent ac malesuada nulla. Curabitur ullamcorper velit urna, id ornare nisl convallis sed. Ut non elit tellus. Integer quis felis eget tortor interdum vulputate a ac dolor. Nullam tempus nisi ut magna fermentum, eu vestibulum ante viverra. Mauris augue elit, cursus sed urna eu, tincidunt fringilla lectus. Integer eleifend vel velit et dapibus. Praesent tincidunt purus nec accumsan luctus. Fusce id nisl faucibus, auctor nisl ut, dapibus felis. Maecenas tempor accumsan velit, at tincidunt est eleifend vel. Morbi aliquet ultricies mi, nec auctor nisl placerat sit amet. Phasellus odio urna, molestie ac mi non, facilisis molestie nisi. Pellentesque lectus nulla, ultrices at urna vel, sodales molestie erat.
+
 
 Follow [Quick Start](https://gohugo.io/getting-started/quick-start/) guide to setup hugo and create a new site.
 

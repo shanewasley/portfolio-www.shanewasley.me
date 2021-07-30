@@ -3,10 +3,10 @@
     margin: 24px auto var(--content-gap) auto;
 }
 
-.post-title {
+/* .post-title {
     margin-bottom: 2px;
     font-size: 40px;
-}
+} */
 
 .post-description {
     margin-top: 10px;
@@ -36,7 +36,7 @@
     color: var(--content);
 }
 
-.post-content h3,
+/* .post-content h3,
 .post-content h4,
 .post-content h5,
 .post-content h6 {
@@ -67,7 +67,7 @@
 
 .post-content h6 {
     font-size: 12px;
-}
+} */
 
 .post-content a,
 .toc a:hover {
