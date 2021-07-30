@@ -250,24 +250,32 @@ h1 {
 
 h2 {
     font-size: calc(1.5rem * var(--headings-multiplier));
-    margin-top: 1.3195rem;
-    margin-bottom: calc(2rem * var(--headings-multiplier)/2);
+    margin-top: calc(1.5rem * var(--headings-multiplier));
+    margin-bottom: calc(1.5rem * var(--headings-multiplier)/2);
 }
 
 h3 {
     font-size: calc(1.175rem * var(--headings-multiplier));
+    margin-top: calc(1.175rem * var(--headings-multiplier));
+    margin-bottom: calc(1.175rem * var(--headings-multiplier)/2);
 }
 
 h4 {
-    font-size: calc(1.125em * var(--headings-multiplier));
+    font-size: calc(1.125rem * var(--headings-multiplier));
+    margin-top: calc(1.125rem * var(--headings-multiplier));
+    margin-bottom: calc(1.125rem * var(--headings-multiplier)/2);
 }
 
 p {
     font-size: calc(1rem * var(--text-multiplier));
+    margin-top: calc(1rem * var(--text-multiplier));
+    margin-bottom: calc(1rem * var(--text-multiplier)/2);
 }
 
 li {
     font-size: calc(1rem * var(--text-multiplier));
+    margin-top: calc(1rem * var(--text-multiplier));
+    margin-bottom: calc(1rem * var(--text-multiplier)/2);
 }
 
 
