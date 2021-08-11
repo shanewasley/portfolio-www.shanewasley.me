@@ -12,8 +12,8 @@
     --footer-height: 60px;
     --radius: 8px;
     --theme: #fff;
-    --entry: #F8FAFC;
-    --primary: #4F46E5;
+    --entry: #F3F4F6;
+    --primary: #1D4ED8;
     --secondary: #374151;
     --tertiary: #6B7280;
     --content: #374151;
@@ -22,18 +22,32 @@
     --border: #E2E8F0;
     --text-multiplier: 1;
     --headings-multiplier: 1;
+    /* --color-triad:
+    #82D907;
+    #D95232
+    #04288C */
+    /* complementary
+    #1314F0
+    #4B12E6
+    #12BAE6  */
 }
 
 .dark {
     --theme: #111827;
-    --entry: #1E293B;
+    --entry: #1F2937;
     --primary: #FBBF24;
-    --secondary: #F1F5F9;
-    --tertiary: #CBD5E1;
+    --secondary: #9CA3AF;
+    --tertiary: #D1D5DB;
     --content: #F8FAFC;
     --hljs-bg: #2e2e33;
     --code-bg: #0F172A;
-    --border: #334155;
+    --border: #374151;
+    /* --color-triad:
+    #3CFAB9;
+    #CE0AFA */
+    /* complementary
+    #002EAD
+    #235CFA  */
 }
 
 .list {
@@ -489,7 +503,6 @@ button#theme-toggle {
         transform: translateY(-5rem);
     }
 }
-
 
 
 /* // Notice colors
