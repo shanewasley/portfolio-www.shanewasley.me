@@ -259,6 +259,18 @@ body {
     }
 }
 
+.page-header h1 {
+    font-size: calc(2rem * var(--headings-multiplier));
+    margin-top: 0;
+    margin-bottom: calc(2rem * var(--headings-multiplier)/2);
+}
+
+.post-content h1 {
+    font-size: calc(2rem * var(--headings-multiplier));
+    margin-top: 0;
+    margin-bottom: calc(2rem * var(--headings-multiplier)/2);
+}
+
 h1 {
     font-size: calc(2rem * var(--headings-multiplier));
     margin-top: 0;
@@ -291,8 +303,8 @@ p {
 
 li {
     font-size: calc(1rem * var(--text-multiplier));
-    margin-top: calc(1rem * var(--text-multiplier));
-    margin-bottom: calc(1rem * var(--text-multiplier)/2);
+    margin-top: calc(0.5rem * var(--text-multiplier));
+    margin-bottom: calc(0.5rem * var(--text-multiplier)/2);
 }
 
 /* Core Headings Colors */
@@ -340,10 +352,6 @@ button#theme-toggle {
 }
 
 /* main.css */
-
-.page-header h1 {
-    font-size: 40px;
-}
 
 .pagination a {
     color: var(--theme);
@@ -397,10 +405,6 @@ button#theme-toggle {
 }
 
 /* post-single.css */
-.post-title {
-    margin-bottom: 2px;
-    font-size: 40px;
-}
 
 .post-meta,
 .breadcrumbs {
@@ -419,11 +423,6 @@ button#theme-toggle {
 .post-content h5,
 .post-content h6 {
     margin: 24px 0 16px;
-}
-
-.post-content h1 {
-    margin: 40px auto 32px;
-    font-size: 40px;
 }
 
 .post-content h2 {
