@@ -12,11 +12,11 @@
     --footer-height: 60px;
     --radius: 8px;
     --theme: #fff;
-    --entry: #F3F4F6;
-    --primary: #1D4ED8;
-    --secondary: #374151;
+    --entry: #F1F5F9;
+    --primary: #F04330;
+    --secondary: #334155;
     --tertiary: #6B7280;
-    --content: #374151;
+    --content: #334155;
     --hljs-bg: #1E293B;
     --code-bg: #F1F5F9;
     --border: #E2E8F0;
@@ -41,15 +41,15 @@
 }
 
 .dark {
-    --theme: #111827;
-    --entry: #1F2937;
+    --theme: #0F172A;
+    --entry: #1E293B;
     --primary: #FBBF24;
-    --secondary: #9CA3AF;
+    --secondary: #94A3B8;
     --tertiary: #D1D5DB;
     --content: #F8FAFC;
-    --hljs-bg: #2e2e33;
+    --hljs-bg: #1E293B;
     --code-bg: #0F172A;
-    --border: #374151;
+    --border: #334155;
     /* --color-triad:
     #3CFAB9;
     #CE0AFA */
@@ -340,6 +340,7 @@ button {
 }
 
 /* header.css */
+
 .logo a {
     color: var(--primary);
     font-size: 24px;
