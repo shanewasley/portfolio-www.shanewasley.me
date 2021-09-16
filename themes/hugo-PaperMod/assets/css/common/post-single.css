@@ -3,10 +3,10 @@
     margin: 24px auto var(--content-gap) auto;
 }
 
-/* .post-title {
+.post-title {
     margin-bottom: 2px;
     font-size: 40px;
-} */
+}
 
 .post-description {
     margin-top: 10px;
@@ -43,7 +43,7 @@
     margin: 24px 0 16px;
 }
 
-/* .post-content h1 {
+.post-content h1 {
     margin: 40px auto 32px;
     font-size: 40px;
 }
@@ -67,7 +67,7 @@
 
 .post-content h6 {
     font-size: 12px;
-} */
+}
 
 .post-content a,
 .toc a:hover {
@@ -123,8 +123,8 @@
     padding-inline-start: 10px;
 }
 
-.post-content dd~dd,
-.post-content dt~dt {
+.post-content dd ~ dd,
+.post-content dt ~ dt {
     margin-top: 10px;
 }
 
@@ -160,7 +160,7 @@
     border-radius: var(--radius);
 }
 
-.post-content li>.highlight {
+.post-content li > .highlight {
     margin-inline-end: 0;
 }
 
@@ -187,6 +187,10 @@
 .post-content .highlighttable td .highlight,
 .post-content .highlighttable td .linenodiv pre {
     margin-bottom: 0;
+}
+
+.post-content .highlighttable td .highlight pre code::-webkit-scrollbar {
+    display: none;
 }
 
 .post-content .highlight span {
@@ -244,14 +248,14 @@
     text-align: center;
 }
 
-.post-content figure>figcaption {
+.post-content figure > figcaption {
     color: var(--primary);
     font-size: 16px;
     font-weight: bold;
     margin: 8px 0 16px;
 }
 
-.post-content figure>figcaption>p {
+.post-content figure > figcaption > p {
     color: var(--secondary);
     font-size: 14px;
     font-weight: normal;
@@ -364,8 +368,30 @@ h5:hover .anchor,
 h6:hover .anchor {
     display: inline-flex;
     color: var(--secondary);
-    /* margin-inline-start: 8px; */
+    margin-inline-start: 8px;
     font-weight: 500;
+}
+
+.post-content :not(table) ::-webkit-scrollbar-thumb {
+    border: 2px solid var(--hljs-bg);
+    background: rgba(255, 255, 255, 0.32);
+}
+
+.post-content :not(table) ::-webkit-scrollbar-thumb:hover {
+    background: rgba(255, 255, 255, 0.56);
+}
+
+.gist table::-webkit-scrollbar-thumb {
+    border: 2px solid rgb(255, 255, 255);
+    background: rgba(0, 0, 0, 0.32);
+}
+
+.gist table::-webkit-scrollbar-thumb:hover {
+    background: rgba(0, 0, 0, 0.56);
+}
+
+.post-content table::-webkit-scrollbar-thumb {
+    border-width: 2px;
 }
 
 .paginav {
