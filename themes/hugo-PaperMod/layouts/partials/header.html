@@ -38,37 +38,6 @@
 
 </script>
 {{- end }}
-<noscript>
-    <style type="text/css">
-        #theme-toggle,
-        .top-link {
-            display: none;
-        }
-
-    </style>
-    {{- if (and (ne .Site.Params.defaultTheme "light") (ne .Site.Params.defaultTheme "dark")) }}
-    <style>
-        @media (prefers-color-scheme: dark) {
-            :root {
-                    --theme: #111827;
-                    --entry: #1E293B;
-                    --primary: #F8FAFC;
-                    --secondary: #F1F5F9;
-                    --tertiary: #CBD5E1;
-                    --content: #F8FAFC;
-                    --hljs-bg: #2e2e33;
-                    --code-bg: #475569;
-                    --border: #334155;
-            }
-
-            .list {
-                background: var(--theme);
-            }
-        }
-
-    </style>
-    {{- end }}
-</noscript>
 
 <header class="header">
     <nav class="nav nav-content">

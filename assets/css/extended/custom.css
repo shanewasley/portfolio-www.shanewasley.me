@@ -601,3 +601,9 @@ body.colorscheme-dark .notice .notice-title {
         border-bottom: 1px solid #212121;
     }
 } */
+
+video {
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
