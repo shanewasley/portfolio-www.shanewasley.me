@@ -22,22 +22,10 @@
     --border: #E2E8F0;
     --text-multiplier: 1;
     --headings-multiplier: 1;
-    /* --color-triad:
-    #82D907;
-    #D95232
-    #04288C */
-    /* complementary
-    #1314F0
-    #4B12E6
-    #12BAE6  */
-    /*TRY OUT PRIMARY THESE COLORS BLUEISH ANALAGOUS
-    #32F6FC  -- cyanish
-    #4631F7  -- indigo-ish
-    */
-    /*TRY OUT PRIMARY THESE COLORS REDISH TRIAD LIKE BEAR
-    #F04330  -- orange-red
-    #F02E18  -- more red
-    */
+    --site-green: #1CA62A;
+    --site-fuchsia: #F62DAE;
+    --site-purple: #7926FF;
+    --site-blue: #2360FA;
 }
 
 .dark {
@@ -50,12 +38,6 @@
     --hljs-bg: #1E293B;
     --code-bg: #0F172A;
     --border: #334155;
-    /* --color-triad:
-    #3CFAB9;
-    #CE0AFA */
-    /* complementary
-    #002EAD
-    #235CFA  */
 }
 
 .list {
@@ -375,7 +357,7 @@ button {
 /* header.css */
 
 .logo a {
-    color: var(--primary);
+    /* color: var(--primary); */
     font-size: 24px;
     font-weight: 500;
 }
