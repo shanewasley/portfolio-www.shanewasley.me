@@ -106,7 +106,7 @@ Linked Issues:
 
 ## Custom Head / Footer
 
-![regular](/images/regular.jpg)
+<!-- ![regular](/images/regular.jpg) -->
 
 Custom css/js can be added by way mentioned below.
 

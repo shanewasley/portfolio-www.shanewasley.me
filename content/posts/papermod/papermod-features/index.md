@@ -96,13 +96,13 @@ ex: [archives.md](https://raw.githubusercontent.com/adityatelange/hugo-PaperMod/
 
 ### Regular Mode (default-mode)
 
-![regular](/images/regular.jpg)
+<!-- ![regular](/images/regular.jpg) -->
 
 ---
 
 ### Home-Info Mode
 
-![homeinfo](/images/homeinfo.jpg)
+<!-- ![homeinfo](/images/homeinfo.jpg) -->
 
 Use 1st entry as some Information
 

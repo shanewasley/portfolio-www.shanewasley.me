@@ -14,11 +14,8 @@ Hugo ships with several [Built-in Shortcodes](https://gohugo.io/content-manageme
 ## Video
 
 Hello
-{{< video src="/animated.mp4" type="video/mp4" autoplay="" muted="">}}
 
 ## YouTube Privacy Enhanced Shortcode
-
-
 
 {{< youtube ZJthWmvUzzc >}}
 

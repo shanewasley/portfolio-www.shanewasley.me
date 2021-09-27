@@ -267,31 +267,25 @@ body {
 .post-content h1 {
     font-size: calc(2rem * var(--headings-multiplier));
     margin-top: 0;
-    margin-bottom: calc(2rem * var(--headings-multiplier)/2);
-}
-
-.post-content h1 {
-    font-size: calc(2rem * var(--headings-multiplier));
-    margin-top: 0;
-    margin-bottom: calc(2rem * var(--headings-multiplier)/2);
+    margin-bottom: calc(2rem * var(--headings-multiplier)/3);
 }
 
 .post-content h2 {
     font-size: calc(1.5rem * var(--headings-multiplier));
     margin-top: calc(1.5rem * var(--headings-multiplier));
-    margin-bottom: calc(1.5rem * var(--headings-multiplier)/2);
+    margin-bottom: calc(1.5rem * var(--headings-multiplier)/3);
 }
 
 .post-content h3 {
     font-size: calc(1.175rem * var(--headings-multiplier));
     margin-top: calc(1.175rem * var(--headings-multiplier));
-    margin-bottom: calc(1.175rem * var(--headings-multiplier)/2);
+    margin-bottom: calc(1.175rem * var(--headings-multiplier)/3);
 }
 
 .post-content h4 {
     font-size: calc(1.125rem * var(--headings-multiplier));
     margin-top: calc(1.125rem * var(--headings-multiplier));
-    margin-bottom: calc(1.125rem * var(--headings-multiplier)/2);
+    margin-bottom: calc(1.125rem * var(--headings-multiplier)/3);
 }
 
 h1 {
@@ -460,13 +454,14 @@ button#theme-toggle {
     color: var(--primary);
     font-size: 16px;
     font-weight: bold;
-    margin: 8px 0 16px;
+    margin: 8px;
 }
 
 .post-content figure>figcaption>p {
     color: var(--secondary);
     font-size: 14px;
     font-weight: normal;
+    margin: 8px;
 }
 
 .post-tags a {
@@ -486,11 +481,24 @@ button#theme-toggle {
     color: var(--secondary);
 }
 
+.post-content figure {
+    margin-top: calc(2 * var(--content-gap));
+    margin-bottom: calc(2 * var(--content-gap));
+}
 
+.post-content figure>figcaption {
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: -8px;
+}
 
-
-
-
+.post-content figure>figcaption>p {
+    color: var(--secondary);
+    font-size: calc(0.813rem * var(--text-multiplier));
+    font-weight: normal;
+    margin-left: calc(var(--content-gap) / 2);
+    margin-right: calc(var(--content-gap) / 2);
+}
 
 /* footer */
 @media screen and (max-width: 992px) {
