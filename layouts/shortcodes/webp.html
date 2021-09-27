@@ -8,6 +8,8 @@ $altsplit 1 }}
     <img
       src="{{.Get `image`}}"
       alt="{{$altbase}}"
+      loading="lazy"
+      decoding="async"
       caption="{{.Get `caption` }}"
       defer
     />
