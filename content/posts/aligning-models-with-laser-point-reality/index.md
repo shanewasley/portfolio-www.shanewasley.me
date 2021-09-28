@@ -303,7 +303,7 @@ Then one of the developers proposed a compelling solution: splitting the screen.
 
 Once the team pushed a working version of the new rotational system to the development server, improvement to the viewing experience was evident. With the model and scan in their own viewing space, they rotated in place and required little or no panning to navigate around their shape. This split-screen change had made the process of finding surfaces quicker and easier. Split-screen was here to stay.
 
-### Simple and frank UI redesign
+### Minimal UI redesign
 
 Considering the new split-screen format and my notes about the user experience from research, I started iterating on the UI. My goal was to include only the critical elements for accomplishing the task — keep it simple and obvious. Another guiding principle was maximizing the viewing space to help the user find surfaces— take out as much UI chrome as possible.
 
