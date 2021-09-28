@@ -64,7 +64,7 @@ By comparing the CAD model to the point cloud, SKUR’s app created a visual map
 
 Even minor variances identified by SKUR’s app could have significant implications for a construction site. For example, a chemical pipe installed one inch higher than planned might be misaligned to a pipe it will connect to later in the project. The Variance Map was meant to identify these problems sooner before they became much more expensive repairs later— after the parts and crew arrived on site.
 
-{{< webp image="/background-variance-misalign.jpg" caption="The utility of the Variance Map comes from what it can predict. A pipe installed outside of design tolerances may be a problem for the pipe it should connect to at a later stage of the project." >}}
+{{< webp image="/background-variance-misalign.png" caption="The utility of the Variance Map comes from what it can predict. A pipe installed outside of design tolerances may be a problem for the pipe it should connect to at a later stage of the project." >}}
 
 ### Faster and easier than competitors
 
@@ -121,7 +121,7 @@ The other major constraint was limited technology to design prototypes in 3D. Du
 
 To see how much taller your tallest books are from the rest of your books, you could put them all on a bookshelf and compare them. With the books upright and aligned along their bottom edge, you could see precisely how far your tallest books stood out. Alignment reveals the variance.
 
-{{< webp image="process-variance-books.jpg" caption="Aligning objects along a standard reference helps identify how they vary in dimensions. Picture by Annie Spratt @ Unsplash">}}
+{{< webp image="/process-variance-books.jpg" caption="Aligning objects along a standard reference helps identify how they vary in dimensions. Picture by Annie Spratt @ Unsplash">}}
 
 For SKUR’s customers, alignment was a necessary step before reviewing variance. In their case, alignment took place in three dimensions: the corners, edges, and surfaces of a CAD model had to line up with an HDS capture of a built structure. In the industry, this lining-up process is called registration, aka alignment.
 
@@ -259,7 +259,7 @@ While the developers built the new feature, I met again with the PM to understan
 
 After outlining the design problem with the PM, we decided that the quickest option would be appending a sub-modal form to an existing modal form that Carson already interacts within the app within their user flow. Before handing off to developers, I created mockups of this appended form using Sketch and Bootstrap system components.
 
-{{< webp image="/process-input-forms-01.png" caption="Mockups of the input forms for the new Assisted Alignment feature. We kept it simple by adding a field with inline validation to an existing form (highlighted in red-orange)." >}}
+{{< webp image="/process-input-forms-01.png" caption="Mockups of the input forms for the new Assisted Alignment feature. We kept it simple by adding a field with inline validation to an existing form (highlighted yellow)." >}}
 
 I created a separate mockup of the re-alignment form (undo path) because Carson could mistakenly undo his work. We wanted the user to explicitly confirm the removal of their previous work, to prevent an upsetting amount of data loss, so we decided to create an input form that reflected that. To further prevent redundant work for Carson, we included in-line validation on the form to check whether the selected files were already aligned.
 
@@ -340,9 +340,9 @@ The last decision was to remove help. The release date was looming, and I did no
 
 For my final deliverables, I used Sketch and components from our Bootstrap design system to produce a second round of mockups for my handoff to the developers. These mockups contained each screen at every user flow step, with all the corresponding component states. I also created a click-through prototype to demonstrate the state changes.
 
-{{< webp image="/process-protoV2-mockup.png" caption="A sample screen from the final deliverables to the development team." >}}
+{{< webp image="/process-protoV2-responsive.png" caption="Sample screens from the design specifications showing responsive state changes for the nav bar and progress indicators." >}}
 
-{{< webp image="/process-protoV2-responsive.png" caption="Sample screens from the design specifications showing responsive state changes." >}}
+{{< webp image="/process-protoV2-mockup.png" caption="A sample screen from the final deliverables to the development team." >}}
 
 {{< video src="process-protoV2-demo@540" autoplay="true" muted="true" loop="true" playsinline="true" caption="A click-through prototype demonstrating the default path to complete alignment.">}}
 

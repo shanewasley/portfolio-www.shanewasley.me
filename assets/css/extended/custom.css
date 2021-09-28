@@ -283,9 +283,9 @@ body {
 }
 
 .post-content h4 {
-    font-size: calc(1.125rem * var(--headings-multiplier));
-    margin-top: calc(1.125rem * var(--headings-multiplier));
-    margin-bottom: calc(1.125rem * var(--headings-multiplier)/3);
+    font-size: calc(1rem * var(--headings-multiplier));
+    margin-top: calc(1rem * var(--headings-multiplier));
+    margin-bottom: calc(1rem * var(--headings-multiplier)/3);
 }
 
 h1 {
