@@ -1,5 +1,5 @@
 ---
-title: "Aligning models with laser point reality"
+title: "Aligning models with reality"
 date: 2020-09-15T11:30:03+00:00
 # weight: 1
 # aliases: ["/first"]
@@ -14,25 +14,25 @@ comments: false
 description: "Desc Text WRITE SOMETHING?."
 canonicalURL: "https://competent-bartik-7bb565.netlify.app/posts/aligning-models-with-laser-point-reality/"
 disableHLJS: true # to disable highlightjs
-disableShare: false
+disableShare: true
 hideSummary: false
 searchHidden: true
 ShowReadingTime: true
 ShowBreadCrumbs: false
 ShowPostNavLinks: false
 cover:
-  image: "<image path/url>" # image path/url
-  alt: "<alt text>" # alt text
-  caption: "<text>" # display caption under cover
+  image: "/images/cover-image.jpg" # image path/url
+  alt: "cover-image" # alt text
+  caption: "The cover image" # display caption under cover
   relative: false # when using page bundles set this to true
   hidden: true # only hide on current single page
 ---
 
-## Summary
+## Introduction
 
 SKUR Inc. created a web app for high-fidelity visual analysis of construction sites. By showing how laser surface scans of buildings differed from their 3D design specifications, SKUR’s app helped customers identify problems that could increase project delays and costs if they went unaddressed. As SKUR's UI/UX designer, I helped design new product features and improve the user experience for customers. This case study will highlight the team effort to transform a service into a new product feature that would save customers time.
 
-## Highlights
+## Summary
 
 **Company:** SKUR Inc.
 
@@ -125,17 +125,9 @@ To see how much taller your tallest books are from the rest of your books, you c
 
 For SKUR’s customers, alignment was a necessary step before reviewing variance. In their case, alignment took place in three dimensions: the corners, edges, and surfaces of a CAD model had to line up with an HDS capture of a built structure. In the industry, this lining-up process is called registration, aka alignment.
 
-#### Alignment in context
+When Carson used SKUR’s app, he would encounter the new alignment feature we were building as an intermediate step of the user flow: after he uploaded his model and point cloud files, and before the app provided him a variance map.
 
-Where does alignment fit into the overall context of our user, Carson?
-
-1. First a survey team hired by SKUR’s customer creates an HDS reality capture of the build site, producing a point cloud.
-2. Carson uploads the site’s CAD model and the point cloud into SKUR’s app.
-3. SKUR’s app aligns the model and point cloud (with the feature in this case study)
-4. Carson reviews the variance analysis in SKUR’s app.
-5. Problems revealed by the variance analysis are addressed at the build site
-
-{{< webp image="/process-alignment-flow.png" caption="This case study reviews a new feature that would help users in the middle of their overall user flow through the SKUR app.">}}
+{{< webp image="/process-alignment-within-overall-flow.png" caption="This case study covers a new feature, Assisted Alignment, which is in the middle of the user flow for SKUR's app.">}}
 
 ### Scope and requirements
 
@@ -179,11 +171,12 @@ I assumed it was best to choose three colors for this new AA feature— correspo
 
 Keeping our customer’s context in mind, my criteria for choosing the three colors for the new AA feature were:
 
-1. No choosing similar colors to the three-color system already implemented for variance analysis
-2. Contrast with colors of the UI
-3. Contrast with the grey-shade rendering of models and point clouds
-4. Contrast with a light background in the viewing screen
-5. Color-blind-friendly
+1. Not reusing Variance Map colors (red, yellow, green)
+2. Color-blind-friendly
+3. High contrast with
+   - colors in the UI navigation and controls
+   - the greyscale rendering of models and point clouds
+   - the light background of the viewing screen
 
 {{< webp image="/process-protoV1-color-tiles.png" caption="I narrowed the color choices for the new feature by laying out the colors already used in SKUR’s app." >}}
 
@@ -196,7 +189,7 @@ Then I created a click-through prototype to show two paths that Carson could tak
 1. the default or “happy path” picking surfaces and executing alignment,
 2. and an error path for undoing an incorrect pick.
 
-{{< webp image="/process-user-flow.png" caption="Visualizing the task help me see it as a loop that we were sending the user into and out of." >}}
+{{< webp image="/process-user-flow.png" caption="Visualizing the user flow for the task of Assisted Alignment— a loop of plane-picking." >}}
 
 I started with sketching to visualize the simplest way to demonstrate the plane-picking interaction and undoing the action.
 
@@ -331,7 +324,7 @@ To simplify and maximize space for viewing, I sketched out options that constrai
 
 I considered whether spacing out controls from each other might prevent errors (e.g., “Undo” placed farther from “Align”). I also compared how putting controls centrally or duplicated on the right and left (e.g., “Undo”) would allow shorter cursor travel and less user effort. Yet when I took responsive design into account, the best option seemed to be placing all of the controls on the right side of the navigation bar. I ordered the buttons from left to right, in the order that we assumed the user would need them, as they completed the task.
 
-##### Progress Indicator
+#### Progress Indicator
 
 With the new split-screen format, I assumed that displaying progress in the model and point cloud’s respective viewing spaces (rather than a group, as before) would lead to a better user experience. Keeping progress displayed in the same visual area where the user would be searching for surfaces to pick could make progress easier to find and understand.
 
