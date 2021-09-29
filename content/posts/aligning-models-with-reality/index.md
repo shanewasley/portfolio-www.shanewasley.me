@@ -41,7 +41,7 @@ SKUR Inc. created a web app for high-fidelity visual analysis of construction si
 | **Role**             | UI/UX Designer                                                  |
 | **Team**             | Three developers, product manager, customer success manager                     |
 | **Timeline**         | Two months, while working on parallel projects              |
-| **Skills & Methods** | Sketching, wireframing, user flows, prototyping, user interviews, user testing |
+| **Skills & Methods** | Sketching, wireframing, user flows, prototyping, user interviews, user testing, design system |
 | **Tools**            | Sketch, Framer Classic, Invision, Zeppelin, Screenflow, HTML/CSS, JIRA, Github                     |
 | **Deliverables**     | User research artifacts, sketches, prototypes, UI specifications |
 
