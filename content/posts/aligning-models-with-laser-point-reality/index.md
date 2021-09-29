@@ -299,7 +299,7 @@ After the team pushed the update to the development server, we reviewed the expe
 
 Then one of the developers proposed a compelling solution: splitting the screen. Rather than have the axis centered between the objects, give each object its own viewing space with a centered rotation. In this way, searching for a surface on the model— whether you were panning, zooming, or rotating— would not affect your view of the point cloud (and vice versa).
 
-{{< webp image="/process-protoV2-split-screen.jpg" caption="We created more consistency and increased ease-of-use by splitting the screen between the model and point cloud." >}}
+{{< webp image="/process-protoV2-split-screen.png" caption="We created more consistency and increased ease-of-use by splitting the screen between the model and point cloud." >}}
 
 Once the team pushed a working version of the new rotational system to the development server, improvement to the viewing experience was evident. With the model and scan in their own viewing space, they rotated in place and required little or no panning to navigate around their shape. This split-screen change had made the process of finding surfaces quicker and easier. Split-screen was here to stay.
 
