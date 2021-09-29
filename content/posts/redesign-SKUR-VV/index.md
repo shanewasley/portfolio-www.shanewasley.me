@@ -1,5 +1,5 @@
 ---
-title: "SKUR VV Project Brief VV"
+title: "I'm only seeing red, and I like it"
 date: 2020-09-12T11:30:03+00:00
 # weight: 1
 # aliases: ["/first"]

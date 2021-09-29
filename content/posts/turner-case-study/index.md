@@ -1,5 +1,5 @@
 ---
-title: "Backpocket prototyping in skyscrapers"
+title: "Million dollar cardboard scraps kickstart design innovation"
 date: 2020-09-14T11:30:03+00:00
 # weight: 1
 # aliases: ["/first"]
@@ -33,26 +33,20 @@ cover:
 As a UX designer, I led the research and design process for an application intended to help superintendents monitor work progress at construction sites. My team's efforts lead to an organization-wide transformation towards design-driven innovation at one of the world's largest construction companies.
 
 ## Highlights
+|                      |                                                              |
+|----------------------|--------------------------------------------------------------|
+| **Company**          | Turner Construction Co.                                      |
+| **Product**          | Web app prototype                                            |
+| **Users**            | Superintendents at construction mega-sites                        |
+| **Role**             | UX Designer                                                  |
+| **Team**             | Two other designers, one product manager                     |
+| **Timeline**         | Five months, while working on parallel projects              |
+| **Skills & Methods** | Sketching, task flows, prototyping, training the team to perform user research |
+| **Tools**            | Sketch, Framer Classic, paper prototypes                     |
+| **Deliverables**     | Research synthesis reports, personas, experience maps, sketches, prototypes |
 
-**Company:** Turner Construction Co.
 
-**Product:** Web App prototype
-
-**Users:** Superintendents working at large-scale construction sites
-
-**Role:** UX Designer
-
-**Team:** Two other designers, one product manager
-
-**Project timeline:** Five months from initial designs to the executive presentation, while working on parallel projects
-
-**Skills & methods:** Sketching, task and user flows, prototyping, training the team to perform user interviews and testing
-
-**Design Tools:** Sketch, Framer Classic, paper prototypes
-
-**Deliverables:** Research synthesis reports, personas, experience maps, sketches, prototypes
-
-## Background
+## Summary
 
 Turner Construction Co. manages mega-projects: construction projects above $1 billion, such as skyscrapers and hospitals. Delays in the scheduled work on a mega-project site present a colossal source of increased costs and reduced profit—and a significant motivation to understand the causes of these delays and develop ways of preventing them or responding more quickly to mitigate them.
 
@@ -80,7 +74,7 @@ When Turner’s executive team considered the potential risk to their profit mar
 
 The speed at which problems are identified and resolved is critical to the success of any operation. Think about a time you sent in a support ticket to your IT department, and they responded that they would get back to you in 24 hours. If that problem prevented you from working, then your company stood to lose a lot more money because of your inactivity than it would have lost if IT had responded to your problem in one hour or less. Similarly, internal research conducted by Turner Construction showed that the company would lose less money due to schedule delays if the superintendents responsible for monitoring a job could respond more quickly to the problems tradespeople were having at the construction site.
 
-{{< webp image="/turner-project-costs-delays.png" caption="Just a visual aid to explain delays vs. costs. Not based on actual data." >}}
+{{< webp image="/turner-project-costs-delays.png" caption="Reducing schedule delays is one of the most significant ways to reduce costs and increase profits for companies like Turner. Chart not based on actual data." >}}
 
 An essential activity on a construction site—the site-walk performed by superintendents—significantly impacts responsiveness. During a site walk, the superintendent physically walks through the site to check the progress in each area and identify any problems. On mega-project sites like sports stadiums, this activity can take days to complete.
 

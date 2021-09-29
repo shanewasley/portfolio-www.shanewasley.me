@@ -1,5 +1,5 @@
 ---
-title: "Aligning models with reality"
+title: "Does your model align with my laser beam reality?"
 date: 2020-09-15T11:30:03+00:00
 # weight: 1
 # aliases: ["/first"]
@@ -32,25 +32,18 @@ cover:
 
 SKUR Inc. created a web app for high-fidelity visual analysis of construction sites. By showing how laser surface scans of buildings differed from their 3D design specifications, SKUR’s app helped customers identify problems that could increase project delays and costs if they went unaddressed. As SKUR's UI/UX designer, I helped design new product features and improve the user experience for customers. This case study will highlight the team effort to transform a service into a new product feature that would save customers time.
 
-## Summary
-
-**Company:** SKUR Inc.
-
-**Product:** Web App
-
-**Users:** Engineers and operations managers working at large-scale engineering, fabrication, and construction companies
-
-**Role:** UI/UX Designer
-
-**Team:** Three developers, product manager, customer success manager
-
-**Project timeline:** Two months
-
-**Skills & methods:** Sketching, wireframing, user flows, prototyping, user interviews, user testing
-
-**Tools:** Sketch, Framer, Invision, Zeppelin, Screenflow, HTML/CSS, JIRA, Github
-
-**Deliverables:** User research artifacts, sketches, prototypes, UI specifications
+## Highlights
+|                      |                                                              |
+|----------------------|--------------------------------------------------------------|
+| **Company**          | SKUR Inc.                                      |
+| **Product**          | Web app                                            |
+| **Users**            | Engineers and operations managers working at large-scale engineering, fabrication, and construction companies                        |
+| **Role**             | UI/UX Designer                                                  |
+| **Team**             | Three developers, product manager, customer success manager                     |
+| **Timeline**         | Two months, while working on parallel projects              |
+| **Skills & Methods** | Sketching, wireframing, user flows, prototyping, user interviews, user testing |
+| **Tools**            | Sketch, Framer Classic, Invision, Zeppelin, Screenflow, HTML/CSS, JIRA, Github                     |
+| **Deliverables**     | User research artifacts, sketches, prototypes, UI specifications |
 
 ## Background
 
@@ -62,7 +55,7 @@ By comparing the CAD model to the point cloud, SKUR’s app created a visual map
 
 {{< webp image="/background-varianceMap-process.png" caption="Comparing a CAD model to a point cloud can identify the differences between design and built structure. With SKUR’s Variance Map, the differences are classified with a red, yellow, and green color system (most to least, respectively)." >}}
 
-Even minor variances identified by SKUR’s app could have significant implications for a construction site. For example, a chemical pipe installed one inch higher than planned might be misaligned to a pipe it will connect to later in the project. The Variance Map was meant to identify these problems sooner before they became much more expensive repairs later— after the parts and crew arrived on site.
+Even minor variances identified by SKUR’s app can reveal costly implications for a construction site. A chemical pipe installed one inch higher than planned could be misaligned to the pipe it will connect to later in the project. Adjusting for such a discrepancy quickly— such as ordering new parts before crews arrive to continue construction— can prevent increases in costs and delays on a project. The Variance Map was meant to identify these problems sooner before they became much more expensive repairs later.
 
 {{< webp image="/background-variance-misalign.png" caption="The utility of the Variance Map comes from what it can predict. A pipe installed outside of design tolerances may be a problem for the pipe it should connect to at a later stage of the project." >}}
 
@@ -152,12 +145,14 @@ We determined that the initial prototype needed to let Carson accomplish the fol
 
 To accomplish these tasks, the prototype needed to show Carson, at a minimum:
 
-1. A view of both the model and scan, side by side, with all surfaces visible
-2. Controls that let the user rotate, pan, and zoom to identify surfaces
-3. System feedback showing the user when a surface was picked
-4. A control that let the user undo an incorrect surface pick
-5. A control that let the user execute the alignment
-6. A view of the model and scan aligned with each other
+1. Views of:
+   - the model and scan, side by side, with all surfaces visible
+   - feedback showing the user when a surface was picked
+   - the model and scan aligned with each other
+2. Controls for:
+   - rotating, panning, and zooming to identify surfaces
+   - undoing an incorrect surface pick
+   - executing the alignment
 
 ### Designing a prototype
 
@@ -173,7 +168,7 @@ Keeping our customer’s context in mind, my criteria for choosing the three col
 
 1. Not reusing Variance Map colors (red, yellow, green)
 2. Color-blind-friendly
-3. High contrast with
+3. High contrast with:
    - colors in the UI navigation and controls
    - the greyscale rendering of models and point clouds
    - the light background of the viewing screen
@@ -187,7 +182,7 @@ While researching color combinations, I came across [Colorbrewer](https://colorb
 Then I created a click-through prototype to show two paths that Carson could take using the feature:
 
 1. the default or “happy path” picking surfaces and executing alignment,
-2. and an error path for undoing an incorrect pick.
+2. an error path for undoing an incorrect pick.
 
 {{< webp image="/process-user-flow.png" caption="Visualizing the user flow for the task of Assisted Alignment— a loop of plane-picking." >}}
 
@@ -205,7 +200,7 @@ Then I imported the vector drawings into wireframes I made in Sketch, and then i
 
 I repeated my process for the undo path, using different frames and created a second click-through prototype for the team.
 
-{{< video src="process-protoV1-animation-undo@540" autoplay="true" muted="true" loop="true" playsinline="true" caption="An early prototype showing how a user can undo an unsuccessful plane-picking and alignment task.">}}
+{{< video src="process-protoV1-animation-undo@540" autoplay="true" muted="true" loop="true" playsinline="true" caption="Alignment will fail if a user picks non-matching pairs of planes. This prototype demostrates how a mismatch can happen and how it can be undone.">}}
 
 After reviewing the prototype with the team, we agreed on the assumption that the system needed to provide more visual feedback on Carson’s progress to help him succeed with the task. We then considered what else the customer would need based on real-world use cases with much larger models. After the discussion concluded, we reached an agreement on new elements to add to the design that would further help Carson complete the alignment task:
 
@@ -269,7 +264,7 @@ I created a separate mockup of the re-alignment form (undo path) because Carson 
 
 When the team pushed a working version of Assisted Alignment to the development server, we tested the feature internally with real-world examples, and regrouped to discuss our observations.
 
-{{< video src="progress-protoV1-dev-demo@360" autoplay="true" muted="true" loop="true" playsinline="true" caption="Screen recording of an early dev version of the Assisted Alignment feature. Debug controls are present in this recording that were removed before release.">}}
+{{< video src="progress-protoV1-dev-demo@360" autoplay="true" muted="true" loop="true" playsinline="true" caption="Screen recording of an early development version of the Assisted Alignment feature— before colors and component styling were completed. The model and point cloud are based on a section of SKUR's offices in Oakland.">}}
 
 During our discussion, the number one problem was disorientation while trying to rotate, pan, or zoom around the viewing area to select surfaces. Several team members demonstrated frustration if they zoomed or panned the model out of view while trying to find surfaces. Choosing a standard isometric view from the controls could help reestablish orientation, but it also meant restarting the surface searching task— like being kicked to the back of the line. In other words, using the standard views as an escape didn’t save time or reduce effort.
 

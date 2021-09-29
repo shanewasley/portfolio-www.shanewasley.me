@@ -288,6 +288,12 @@ body {
     margin-bottom: calc(1rem * var(--headings-multiplier)/3);
 }
 
+.post-content li {
+    font-size: calc(1rem * var(--text-multiplier));
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
 h1 {
     font-size: calc(2rem * var(--headings-multiplier));
     margin-top: 0;
@@ -499,6 +505,11 @@ button#theme-toggle {
     margin-left: calc(var(--content-gap) / 2);
     margin-right: calc(var(--content-gap) / 2);
 }
+
+.post-content ul {
+    margin-left: var(--content-gap);
+}
+
 
 /* footer */
 @media screen and (max-width: 992px) {
