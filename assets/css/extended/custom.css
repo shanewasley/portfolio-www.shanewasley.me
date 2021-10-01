@@ -621,3 +621,8 @@ video {
     width: 1280px;
     height: auto;
 }
+
+.wide-image {
+    width: 80vw;
+    margin-left: -10vw;
+}

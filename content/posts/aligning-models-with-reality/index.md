@@ -51,15 +51,15 @@ SKUR created a software solution at the intersection of two other technologies: 
 
 {{< figure class="responsiveimg" src="test-CAD-vs-pointCloud.png" caption="The caption text" >}}
 
-{{< webp image="/background-CAD-vs-pointCloud.jpg" caption="On the left, a CAD model of piping in a trench. On the right, a laser-based, high-definition survey (HDS) of the same trench during construction. Millions of points create the HDS image, called a point cloud." >}}
+{{< webp image="/images/skur-aa/background-CAD-vs-pointCloud.jpg" caption="On the left, a CAD model of piping in a trench. On the right, a laser-based, high-definition survey (HDS) of the same trench during construction. Millions of points create the HDS image, called a point cloud." >}}
 
 By comparing the CAD model to the point cloud, SKUR’s app created a visual map of variance between the planned structure and the structure in reality. With this map in hand, SKUR’s customers had an accurate, objective tool to investigate construction site discrepancies and take action.
 
-{{< webp image="/background-varianceMap-process.png" caption="Comparing a CAD model to a point cloud can identify the differences between design and built structure. With SKUR’s Variance Map, the differences are classified with a red, yellow, and green color system (most to least, respectively)." >}}
+{{< webp image="/images/skur-aa/background-varianceMap-process.png" caption="Comparing a CAD model to a point cloud can identify the differences between design and built structure. With SKUR’s Variance Map, the differences are classified with a red, yellow, and green color system (most to least, respectively)." >}}
 
 Even minor variances identified by SKUR’s app can reveal costly implications for a construction site. A chemical pipe installed one inch higher than planned could be misaligned to the pipe it will connect to later in the project. Adjusting for such a discrepancy quickly— such as ordering new parts before crews arrive to continue construction— can prevent increases in costs and delays on a project. The Variance Map was meant to identify these problems sooner before they became much more expensive repairs later.
 
-{{< webp image="/images/background-variance-misalign.png" caption="The utility of the Variance Map comes from what it can predict. A pipe installed outside of design tolerances may be a problem for the pipe it should connect to at a later stage of the project." >}}
+{{< webp image="/images/skur-aa/background-variance-misalign.png" caption="The utility of the Variance Map comes from what it can predict. A pipe installed outside of design tolerances may be a problem for the pipe it should connect to at a later stage of the project." >}}
 
 ### Faster and easier than competitors
 
@@ -116,13 +116,13 @@ The other major constraint was limited technology to design prototypes in 3D. Du
 
 To see how much taller your tallest books are from the rest of your books, you could put them all on a bookshelf and compare them. With the books upright and aligned along their bottom edge, you could see precisely how far your tallest books stood out. Alignment reveals the variance.
 
-{{< webp image="/process-variance-books.jpg" caption="Aligning objects along a standard reference helps identify how they vary in dimensions. Picture by Annie Spratt @ Unsplash">}}
+{{< webp image="/images/skur-aa/process-variance-books.jpg" caption="Aligning objects along a standard reference helps identify how they vary in dimensions. Picture by Annie Spratt @ Unsplash">}}
 
 For SKUR’s customers, alignment was a necessary step before reviewing variance. In their case, alignment took place in three dimensions: the corners, edges, and surfaces of a CAD model had to line up with an HDS capture of a built structure. In the industry, this lining-up process is called registration, aka alignment.
 
 When Carson used SKUR’s app, he would encounter the new alignment feature we were building as an intermediate step of the user flow: after he uploaded his model and point cloud files, and before the app provided him a variance map.
 
-{{< webp image="/process-alignment-within-overall-flow.png" caption="This case study covers a new feature, Assisted Alignment, which is in the middle of the user flow for SKUR's app.">}}
+{{< webp image="/images/skur-aa/process-alignment-within-overall-flow.png" caption="This case study covers a new feature, Assisted Alignment, which is in the middle of the user flow for SKUR's app.">}}
 
 ### Scope and requirements
 
@@ -132,7 +132,7 @@ After reviewing various alignment methods, we determined that matching surfaces 
 
 We needed Carson to match three non-coplanar pairs between the model and point cloud for alignment to succeed. In other words, we needed the user to pick a surface on the X, Y, and Z-axis planes of the model and pick the corresponding surfaces on the X, Y, and Z-axis of the point cloud.
 
-{{< webp image="/process-coplanar.png" caption="Surfaces in 3D space that share the same plane are coplanar. Surfaces that do not share the same plane are non-coplanar. SKUR’s Assisted Alignment required three pairs of non-coplanar planes to align two objects." >}}
+{{< webp image="/images/skur-aa/process-coplanar.png" caption="Surfaces in 3D space that share the same plane are coplanar. Surfaces that do not share the same plane are non-coplanar. SKUR’s Assisted Alignment required three pairs of non-coplanar planes to align two objects." >}}
 
 #### Tasks
 
@@ -160,7 +160,7 @@ To accomplish these tasks, the prototype needed to show Carson, at a minimum:
 
 I began my design process by focusing on the surface picking feature before moving to the broader user flow, navigation, and supporting screens. I started by sketching ways that the system could provide visual feedback after a surface pick. The three methods I compared were (a) coloring the surface, (b) labeling the surface with a number, or (c) both.
 
-{{< webp image="/process-protoV1-sketch-color-boxes.jpg" caption="I sketched various combinations of colors and numbers as a system for showing surface picks." >}}
+{{< webp image="/images/skur-aa/process-protoV1-sketch-color-boxes.jpg" caption="I sketched various combinations of colors and numbers as a system for showing surface picks." >}}
 
 Using simple blocks as examples, both numbering and coloring (c) provided the most feedback. The colors showed which surfaces were picked, and numbers indicated the sequence— a proxy for showing progress. However, when I compared both methods with real-world examples, the numbering method (b) would sometimes block my view of a surface on the model I wanted to pick. An occluded surface might be frustrating for a user trying to access it. Moreover, after checking with the developers, I learned that rendering a floating label would take longer to code than changing the color of surfaces. Considering all these factors, going with colored surfaces only (a), was the best choice.
 
@@ -175,26 +175,26 @@ Keeping our customer’s context in mind, my criteria for choosing the three col
    - the greyscale rendering of models and point clouds
    - the light background of the viewing screen
 
-{{< webp image="/process-protoV1-color-tiles.png" caption="I narrowed the color choices for the new feature by laying out the colors already used in SKUR’s app." >}}
+{{< webp image="/images/skur-aa/process-protoV1-color-tiles.png" caption="I narrowed the color choices for the new feature by laying out the colors already used in SKUR’s app." >}}
 
 While researching color combinations, I came across [Colorbrewer](https://colorbrewer2.org), a tool that provides color-blind-friendly color schemes for data sets. To help constrain my choices, I viewed the output of Colorbrewer while using [Color Oracle](http://colororacle.org)— a tool that lets you wear colorblind glasses. Lastly, I ranked choices based on their [WCAG](https://www.w3.org/WAI/standards-guidelines/wcag/) contrast rating. I narrowed down the options to two sets and then picked the set that seemed like the best compromise: green, orange, and purple.
 
-{{< webp image="/process-color-blind.jpg" caption="Color-blind-friendly design tools also helped narrow the new feature’s color palette." >}}
+{{< webp image="/images/skur-aa/process-color-blind.jpg" caption="Color-blind-friendly design tools also helped narrow the new feature’s color palette." >}}
 
 Then I created a click-through prototype to show two paths that Carson could take using the feature:
 
 1. the default or “happy path” picking surfaces and executing alignment,
 2. an error path for undoing an incorrect pick.
 
-{{< webp image="/process-user-flow.png" caption="Visualizing the user flow for the task of Assisted Alignment— a loop of plane-picking." >}}
+{{< webp image="/images/skur-aa/process-user-flow.png" caption="Visualizing the user flow for the task of Assisted Alignment— a loop of plane-picking." >}}
 
 I started with sketching to visualize the simplest way to demonstrate the plane-picking interaction and undoing the action.
 
-{{< webp image="/process-protoV1-sketch-screens.jpg" caption="Sketching the process of plane picking, screen-by screen, helped me create a digital prototype to review with the team." >}}
+{{< webp image="/images/skur-aa/process-protoV1-sketch-screens.jpg" caption="Sketching the process of plane picking, screen-by screen, helped me create a digital prototype to review with the team." >}}
 
 Using the app SketchUp, I created simple 3D examples to represent a CAD model of a house and an in-progress HDS capture of the house.
 
-{{< webp image="/process-sketchup-models.png" caption="I chose a simple house model for the prototype because it could show the consequences of choosing incorrect surface pairs more clearly than cubes." >}}
+{{< webp image="/images/skur-aa/process-sketchup-models.png" caption="I chose a simple house model for the prototype because it could show the consequences of choosing incorrect surface pairs more clearly than cubes." >}}
 
 Then I imported the vector drawings into wireframes I made in Sketch, and then inserted the frames into a click-through prototype in Invision.
 
@@ -216,29 +216,29 @@ I started my process by sketching various UI patterns I was familiar with for pr
 
 I started with progress indicators and viewing angles. Then I sketched options for help patterns. Finally, I wrapped up by sketching options for layouts within the constraints of the viewing window of the SKUR app.
 
-{{< webp image="/process-protoV1-sketches-progress-view.jpg" caption="Sketches of various UI patterns for task progress and isometric viewing angles." >}}
+{{< webp image="/images/skur-aa/process-protoV1-sketches-progress-view.jpg" caption="Sketches of various UI patterns for task progress and isometric viewing angles." >}}
 
-{{< webp image="/process-protoV1-sketches-help.jpg" caption="Sketches of various UI patterns help features." >}}
+{{< webp image="/images/skur-aa/process-protoV1-sketches-help.jpg" caption="Sketches of various UI patterns help features." >}}
 
-{{< webp image="/process-protoV1-sketches-controls.jpg" caption="Sketches of layouts for the controls in our next iteration." >}}
+{{< webp image="/images/skur-aa/process-protoV1-sketches-controls.jpg" caption="Sketches of layouts for the controls in our next iteration." >}}
 
 After comparing options, I decided on a collapsable sidebar containing the view controls, progress, and CTA (“align”) that I could assemble from Bootstrap components. Considering the limited window we had for our release cycle, I decided on the bare minimum for a help pattern: a dismissible notification describing steps and a link to an off-page support Wiki. The customer success team was already managing a help Wiki, so I assumed this would be a consistent (albeit not ideal) choice for Carson to get us over the finish line for our first release.
 
 Next, I created a basic wireframe of the features and layout to share during a review meeting with the PM. Then, with the go-ahead on my design, I moved to a higher-fidelity design process to prepare for handoff to the developers.
 
-{{< webp image="/process-protoV1-wf.png" caption="This wireframe was meant to show just enough of the layout to understand where the requested features could be found in the UI." >}}
+{{< webp image="/images/skur-aa/process-protoV1-wf.png" caption="This wireframe was meant to show just enough of the layout to understand where the requested features could be found in the UI." >}}
 
 ### Digital designs and handoff
 
 Using Sketch and components from the Bootstrap v3 design system I assembled for SKUR, I produced mockups and handed off my work to the developers. These mockups contained each screen at every step of the user flow, with all the corresponding component states. In order to make the process quick and consistent with the rest of the SKUR app, I used default settings for colors and components.
 
-{{< webp image="/process-protoV1-handoff.png" caption="An example screen from the design I handed off to developers for testing." >}}
+{{< webp image="/images/skur-aa/process-protoV1-handoff.png" caption="An example screen from the design I handed off to developers for testing." >}}
 
 ### Designing the input forms
 
 While the developers built the new feature, I met again with the PM to understand product requirements for the input forms that Carson would interact with before starting the surface-picking task. In addition to offering our new feature (Assisted Alignment), we would offer an option to use a numerical shortcut called an XYZ transform. We also wanted to allow Carson an undo path to re-align a model and point cloud if a mistake was made.
 
-{{< webp image="/process-user-flow-forms.png" caption="The flow for interacting with the input forms a user would encounter before seeing the Assisted Alignment interface." >}}
+{{< webp image="/images/skur-aa/process-user-flow-forms.png" caption="The flow for interacting with the input forms a user would encounter before seeing the Assisted Alignment interface." >}}
 
 #### Tasks
 
@@ -256,17 +256,17 @@ While the developers built the new feature, I met again with the PM to understan
 
 After outlining the design problem with the PM, we decided that the quickest option would be appending a sub-modal form to an existing modal form that Carson already interacts within the app within their user flow. Before handing off to developers, I created mockups of this appended form using Sketch and Bootstrap system components.
 
-{{< webp image="/process-input-forms-01.png" caption="Mockups of the input forms for the new Assisted Alignment feature. We kept it simple by adding a field with inline validation to an existing form (highlighted yellow)." >}}
+{{< webp image="/images/skur-aa/process-input-forms-01.png" caption="Mockups of the input forms for the new Assisted Alignment feature. We kept it simple by adding a field with inline validation to an existing form (highlighted yellow)." >}}
 
 I created a separate mockup of the re-alignment form (undo path) because Carson could mistakenly undo his work. We wanted the user to explicitly confirm the removal of their previous work, to prevent an upsetting amount of data loss, so we decided to create an input form that reflected that. To further prevent redundant work for Carson, we included in-line validation on the form to check whether the selected files were already aligned.
 
-{{< webp image="/process-input-forms-02.png" caption="Mockups of the modal confirmation forms a user would see if they wanted to remove their previous alignment work and start over." >}}
+{{< webp image="/images/skur-aa/process-input-forms-02.png" caption="Mockups of the modal confirmation forms a user would see if they wanted to remove their previous alignment work and start over." >}}
 
 ### Learning from internal testing
 
 When the team pushed a working version of Assisted Alignment to the development server, we tested the feature internally with real-world examples, and regrouped to discuss our observations.
 
-{{< video src="progress-protoV1-dev-demo@360" autoplay="true" muted="true" loop="true" playsinline="true" caption="Screen recording of an early development version of the Assisted Alignment feature— before colors and component styling were completed. The model and point cloud are based on a section of SKUR's offices in Oakland.">}}
+{{< video src="process-protoV1-dev-demo@360" autoplay="true" muted="true" loop="true" playsinline="true" caption="Screen recording of an early development version of the Assisted Alignment feature— before colors and component styling were completed. The model and point cloud are based on a section of SKUR's offices in Oakland.">}}
 
 During our discussion, the number one problem was disorientation while trying to rotate, pan, or zoom around the viewing area to select surfaces. Several team members demonstrated frustration if they zoomed or panned the model out of view while trying to find surfaces. Choosing a standard isometric view from the controls could help reestablish orientation, but it also meant restarting the surface searching task— like being kicked to the back of the line. In other words, using the standard views as an escape didn’t save time or reduce effort.
 
@@ -280,7 +280,7 @@ Every user was able to complete the alignment task, despite some difficulty find
 
 We also learned what parts of the UI were not used. Out of all the controls we offered in the design, the users almost exclusively used the “reset” button instead of the top-down-left-right controls that were also available. Also, users were not referencing the instruction text. Instead, if they had questions about the process, they would ask us instead.
 
-{{< webp image="/process-protoV1-markup.png" caption="A visual summary of what we learned after limited internal and user-based testing of the new feature. We certainly had an opportunity to improve the design." >}}
+{{< webp image="/images/skur-aa/process-protoV1-markup.png" caption="A visual summary of what we learned after limited internal and user-based testing of the new feature. We certainly had an opportunity to improve the design." >}}
 
 These observations showed us that we had over-designed the UI and made the experience more difficult than expected. We had chosen a rotational axis for the viewer that provided more options for navigation, but it was unwieldy and disorienting. We offered numerous controls to help establish standard views, but only one was used. We provided help instructions within the viewer, but they weren’t read. And finally, I had not designed an obvious CTA because users weren’t finding it quickly.
 
@@ -296,7 +296,7 @@ After the team pushed the update to the development server, we reviewed the expe
 
 Then one of the developers proposed a compelling solution: splitting the screen. Rather than have the axis centered between the objects, give each object its own viewing space with a centered rotation. In this way, searching for a surface on the model— whether you were panning, zooming, or rotating— would not affect your view of the point cloud (and vice versa).
 
-{{< webp image="/process-protoV2-split-screen.png" caption="We created more consistency and increased ease-of-use by splitting the screen between the model and point cloud." >}}
+{{< webp image="/images/skur-aa/process-protoV2-split-screen.png" caption="We created more consistency and increased ease-of-use by splitting the screen between the model and point cloud." >}}
 
 Once the team pushed a working version of the new rotational system to the development server, improvement to the viewing experience was evident. With the model and scan in their own viewing space, they rotated in place and required little or no panning to navigate around their shape. This split-screen change had made the process of finding surfaces quicker and easier. Split-screen was here to stay.
 
@@ -317,7 +317,7 @@ I took an inventory of what we could cut and what we needed to keep in the UI. T
 
 To simplify and maximize space for viewing, I sketched out options that constrained all the controls to the navigation bar.
 
-{{< webp image="/process-protoV2-sketches-nav.jpg" caption="Considering responsive state changes helped narrow the nav bar options." >}}
+{{< webp image="/images/skur-aa/process-protoV2-sketches-nav.jpg" caption="Considering responsive state changes helped narrow the nav bar options." >}}
 
 I considered whether spacing out controls from each other might prevent errors (e.g., “Undo” placed farther from “Align”). I also compared how putting controls centrally or duplicated on the right and left (e.g., “Undo”) would allow shorter cursor travel and less user effort. Yet when I took responsive design into account, the best option seemed to be placing all of the controls on the right side of the navigation bar. I ordered the buttons from left to right, in the order that we assumed the user would need them, as they completed the task.
 
@@ -325,7 +325,7 @@ I considered whether spacing out controls from each other might prevent errors (
 
 With the new split-screen format, I assumed that displaying progress in the model and point cloud’s respective viewing spaces (rather than a group, as before) would lead to a better user experience. Keeping progress displayed in the same visual area where the user would be searching for surfaces to pick could make progress easier to find and understand.
 
-{{< webp image="/process-protoV2-sketches-progress.jpg" caption="Sketching out options helped narrow the choices for a progress pattern. I chose based on simplicity, reusing existing code, and minimizing eye movement." >}}
+{{< webp image="/images/skur-aa/process-protoV2-sketches-progress.jpg" caption="Sketching out options helped narrow the choices for a progress pattern. I chose based on simplicity, reusing existing code, and minimizing eye movement." >}}
 
 After sketching out options, I chose a pair of vertical checkboxes, centered in the viewing space, for progress. I assumed this pattern would keep the progress indicator in view with the least amount of eye movement to find it. This pattern also worked well for responsive screen changes and would be easiest to implement because developers had already built checkboxes in the earlier iteration.
 
@@ -337,9 +337,9 @@ The last decision was to remove help. The release date was looming, and I did no
 
 For my final deliverables, I used Sketch and components from our Bootstrap design system to produce a second round of mockups for my handoff to the developers. These mockups contained each screen at every user flow step, with all the corresponding component states. I also created a click-through prototype to demonstrate the state changes.
 
-{{< webp image="/process-protoV2-responsive.png" caption="Sample screens from the design specifications showing responsive state changes for the nav bar and progress indicators." >}}
+{{< webp image="/images/skur-aa/process-protoV2-responsive.png" caption="Sample screens from the design specifications showing responsive state changes for the nav bar and progress indicators." >}}
 
-{{< webp image="/process-protoV2-mockup.png" caption="A sample screen from the final deliverables to the development team." >}}
+{{< webp image="/images/skur-aa/process-protoV2-mockup.png" caption="A sample screen from the final deliverables to the development team." >}}
 
 {{< video src="process-protoV2-demo@540" autoplay="true" muted="true" loop="true" playsinline="true" caption="A click-through prototype demonstrating the default path to complete alignment.">}}
 

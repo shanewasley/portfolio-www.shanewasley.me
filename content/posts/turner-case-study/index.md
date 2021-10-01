@@ -62,7 +62,7 @@ My most valuable direct contributions were to facilitate the design and strategy
 
 As a construction project gets underway, tradespeople enter the site, do their work, and hand-off to the next team—from pouring concrete for the foundation to completing the interior finishing and decoration. The construction schedule defines all of the hand-offs from one work team to the next.
 
-{{< webp image="/turner-construction-parade-trades.jpg" caption="From foundation onwards, mega-construction projects run on schedules that dictate the sequence of thousands of tradespeople and activities at the site. Photos by Scott Blake, Jose Figueroa, Ricardo Gomez Angel, Morgan Von Gunten @Unsplash." >}}
+{{< webp image="/images/turner/turner-construction-parade-trades.jpg" caption="From foundation onwards, mega-construction projects run on schedules that dictate the sequence of thousands of tradespeople and activities at the site. Photos by Scott Blake, Jose Figueroa, Ricardo Gomez Angel, Morgan Von Gunten @Unsplash." >}}
 
 When teams fall behind schedule in their assigned work, they create delays for the teams that follow, which puts the project’s final delivery date at risk. Such delays are common in construction and pose a big problem for the industry. A McKinsey report acquired by Turner Construction showed the following:
 
@@ -74,7 +74,7 @@ When Turner’s executive team considered the potential risk to their profit mar
 
 The speed at which problems are identified and resolved is critical to the success of any operation. Think about a time you sent in a support ticket to your IT department, and they responded that they would get back to you in 24 hours. If that problem prevented you from working, then your company stood to lose a lot more money because of your inactivity than it would have lost if IT had responded to your problem in one hour or less. Similarly, internal research conducted by Turner Construction showed that the company would lose less money due to schedule delays if the superintendents responsible for monitoring a job could respond more quickly to the problems tradespeople were having at the construction site.
 
-{{< webp image="/turner-project-costs-delays.png" caption="Reducing schedule delays is one of the most significant ways to reduce costs and increase profits for companies like Turner. Chart not based on actual data." >}}
+{{< webp image="/images/turner/turner-project-costs-delays.png" caption="Reducing schedule delays is one of the most significant ways to reduce costs and increase profits for companies like Turner. Chart not based on actual data." >}}
 
 An essential activity on a construction site—the site-walk performed by superintendents—significantly impacts responsiveness. During a site walk, the superintendent physically walks through the site to check the progress in each area and identify any problems. On mega-project sites like sports stadiums, this activity can take days to complete.
 
@@ -84,7 +84,7 @@ It is easy to see how the time starts to add up: a problem happens and takes day
 
 When I joined the design team at Turner, the company had already begun trials of a third-party application to help superintendents perform site assessments faster. This application overlaid photos taken at the site every day onto a floor plan that the superintendent could access and review by computer. The thinking went this way: if the superintendent could assess the site and identify problems by clicking on photos viewed on his office computer (rather than by walking the site), he would save time, and the work team involved could respond more quickly.
 
-{{< webp image="/turner-problem-current-tool.jpg" caption="Current tools were only providing heaps of construction site photos without the context needed to identify problems and create solutions." >}}
+{{< webp image="/images/turner/turner-problem-current-tool.jpg" caption="Current tools were only providing heaps of construction site photos without the context needed to identify problems and create solutions." >}}
 
 This application, however, was falling short in two key areas:
 
@@ -101,7 +101,7 @@ Our product would allow superintendents to save time by assessing construction s
 
 The primary users for this project were Turner’s superintendents, whom we collectively named “Jack.” I got to know Jack through other members of my team who had interviewed Turner’s superintendents directly.
 
-{{< webp image="/turner-users-super-jack.png" caption="" >}}
+{{< webp image="/images/turner/turner-users-super-jack.png" caption="" >}}
 
 Known as a “super” on the job, Jack has enormous shoes to fill as he manages the day-to-day operations at a mega-project construction site. He has to track the progress of hundreds of tradespeople in great detail while quickly prioritizing and resolving any problems before they affect the schedule.
 
@@ -113,7 +113,7 @@ The demands on Jack require that he have a rare form of focus and discipline to 
 
 One of Jack’s most critical roles is that of arbitrator and intermediary between the tradespeople that build the project and the team based in the company office, which plans, approves, and finances all project activities.
 
-{{< webp image="/turner-users-super-conduit.png" caption="Jack is the conduit between the field teams who wield the tools and the office team that holds the plans and paychecks. Office photo by Campaign Creators @Unsplash" >}}
+{{< webp image="/images/turner/turner-users-super-conduit.png" caption="Jack is the conduit between the field teams who wield the tools and the office team that holds the plans and paychecks. Office photo by Campaign Creators @Unsplash" >}}
 
 ### Jack’s site walks uncover problems at the job site
 
@@ -123,7 +123,7 @@ One of Jack’s main tasks as the site-to-office conduit is performing walking t
 
 After completing the site walk, Jack uses all the source information he’s gathered to notate the status of each area on the building plans—with attention specifically on those areas that are behind schedule or need a problem resolved. Then Jack takes his notated plans to a meeting with the in-office team, where any findings that may affect the project’s schedule or budget are discussed and evaluated.
 
-{{< webp image="/turner-users-site-walk-meeting.jpg" caption="Jack's site-walks lead to meetings with the office team to update plans and schedules based on what problems Jack finds." >}}
+{{< webp image="/images/turner/turner-users-site-walk-meeting.jpg" caption="Jack's site-walks lead to meetings with the office team to update plans and schedules based on what problems Jack finds." >}}
 
 ### Site walks take too much of Jack’s time
 
@@ -174,7 +174,7 @@ To kick off the project and get the initial team members unstuck, I conducted a 
 
 We spent many hours at the whiteboard breaking down the hugely complex processes that underlie construction projects. I was greatly impressed by the deep expertise the initial team members brought to the meetings and excited by all the opportunities their research had revealed.
 
-{{< webp image="/turner-whiteboards.jpg" caption="Our design workshop became a crash coarse in how mega projects get done. We covered every inch of the whiteboards cracking the problems open." >}}
+{{< webp image="/images/turner/turner-whiteboards.jpg" caption="Our design workshop became a crash coarse in how mega projects get done. We covered every inch of the whiteboards cracking the problems open." >}}
 
 We achieved our main objectives for the workshop. We decided on the primary user of our work—Turner’s construction site superintendents—and we clarified a set of problems we would need to tackle—the superintendents’ site-planning tasks. We also established what was missing from the current planning applications that Turner was using.
 
@@ -184,7 +184,7 @@ At the end of the workshop, the team requested that I design an early version of
 
 In the weeks following the workshop, I met with the PM to refine what I had learned. We focused on the needs, problems, and activities of the superintendents. As we made progress, I wanted to capture all of the background research that the initial team had conducted as a deliverable to other stakeholders. I translated all of the gathered research about the superintendents’ behaviors, needs, goals, and problems into a provisional persona that we named “Jack.”
 
-{{< webp image="/turner-provisional-persona-jack.png" caption="A provisional persona of Jack, focusing on behaviors, goals and needs above all." >}}
+{{< webp image="/images/turner/turner-provisional-persona-jack.png" caption="A provisional persona of Jack, focusing on behaviors, goals and needs above all." >}}
 
 I advocated for provisional personas in this project because I thought it would help the team stay focused on the user’s needs that we were presently designing for (Jack), amongst all the other users identified during discovery that we intended to design for next.
 
@@ -198,11 +198,11 @@ Building from the provisional persona, we outlined the three most important use 
 2. Visually confirming work had been completed
 3. Managing the initial steps of an RFI (a particularly costly type of escalation known as a Request for Information).
 
-{{< webp image="/turner-use-case-swim-lane-jack.png" caption="The use cases we defined were high-level provisional task-flows for Jack's major activities. More work would be needed to get to a prototype." >}}
+{{< webp image="/images/turner/turner-use-case-swim-lane-jack.png" caption="The use cases we defined were high-level provisional task-flows for Jack's major activities. More work would be needed to get to a prototype." >}}
 
 In follow-up, the PM and I refined our conceptual model into an experience map that treated Jack’s activities as a series of phases with corresponding tasks. We then aligned these tasks to the features in our design that would support Jack as he completed the tasks.
 
-{{< webp image="/turner-experience-map-jack.png" caption="An experience map helped us visualize how Jack's experience connected to problems we could solve." >}}
+{{< webp image="/images/turner/turner-experience-map-jack.png" caption="An experience map helped us visualize how Jack's experience connected to problems we could solve." >}}
 
 I advocated for a journey map since it provided the design team a visualization for Jack’s experience as a flow of connected tasks over time, rather than a set of siloed activities that the use case model visualized.
 
@@ -225,7 +225,7 @@ The PM and I decided to limit the scope of this prototype to the first step of J
 
 I used samples of Jack’s annotated floor plans as inspiration for my design. I could see that Jack marked-up paper floor plans by shading in areas, highlighting walls, and making annotations.
 
-{{< webp image="/turner-samples-super-jack.jpg" caption="Jack would annotate directly on paper floor plans of construction site to indicate progress and problems he discovered during site-walks." >}}
+{{< webp image="/images/turner/turner-samples-super-jack.jpg" caption="Jack would annotate directly on paper floor plans of construction site to indicate progress and problems he discovered during site-walks." >}}
 
 Jack assesses the progress of a construction site by looking at walls, zones, and floors. Tradespeople first work on walls, and walls make up a zone (e.g., a room). When all the walls of a zone are completed, the zone is completed. When all the zones are completed, the floor is completed, and so on throughout every floor in the building. Jack’s annotations over site plans reflect this order of construction.
 
@@ -233,9 +233,9 @@ Jack assesses the progress of a construction site by looking at walls, zones, an
 
 I assumed that if I designed a familiar view to Jack’s markup, we could create a familiar user experience in the app. For my early sketches, I focused on a single floor plan view with zones with different statuses or stages of work.
 
-{{< webp image="/turner-dig-protoV1-sketches-1.jpg" caption="Initial sketches of the floor plan view prototype where blue was used for in-progress, green for completed, and red for problems." >}}
+{{< webp image="/images/turner/turner-dig-protoV1-sketches-1.jpg" caption="Initial sketches of the floor plan view prototype where blue was used for in-progress, green for completed, and red for problems." >}}
 
-{{< webp image="/turner-dig-protoV1-sketches-2.jpg" caption="Refined sketches of the floor plan view prototype using the same blue, green, and red color scheme for progress and problems." >}}
+{{< webp image="/images/turner/turner-dig-protoV1-sketches-2.jpg" caption="Refined sketches of the floor plan view prototype using the same blue, green, and red color scheme for progress and problems." >}}
 
 ### Creating a click-through prototype
 
@@ -273,7 +273,7 @@ We also decided to add features to the design that would help Jack with the seco
 
 I created a prototype on paper to demonstrate how to display pertinent information for Jack as he worked through these five tasks.
 
-{{< webp image="/turner-paper-proto-example.jpg" caption="I sketched out elements of the paper prototype to start." >}}
+{{< webp image="/images/turner/turner-paper-proto-example.jpg" caption="I sketched out elements of the paper prototype to start." >}}
 
 {{< video src="turner-process-paper-proto-hands-example" autoplay="true" muted="true" loop="true" playsinline="true" caption="After assembling the paper prototype, I demonstrated the method to the team. I re-created the demonstration in this video to show you roughly what it looked like in person.">}}
 
@@ -285,7 +285,7 @@ As I checked in with team members on their progress, we started to see a pattern
 
 At first, the iterations I reviewed had expanded in the amount and types of information available for Jack. There were new ways to show contractor information, organization hierarchies, activity feeds, and photo streams.
 
-{{< webp image="/turner-paperProto-iteration-ex01.jpg" caption="As the team continued to test paper prototypes with Jack in the field, they started to add more and more features." >}}
+{{< webp image="/images/turner/turner-paperProto-iteration-ex01.jpg" caption="As the team continued to test paper prototypes with Jack in the field, they started to add more and more features." >}}
 
 Yet, when I reviewed notes with the team back at the office, it became clear that he did not need the additional filters, controls, or ways to manipulate the data. Instead, Jack wanted a simple visual display of information that would help him understand the status of specific walls in conjunction with the type of tradespeople working on them.
 
@@ -297,13 +297,13 @@ The team had not seen the needs of another user creeping into our process: the p
 
 As I continued to meet with the team after their prototyping sessions with Jack, we identified two ways to identify tradespeople visually. The first way was an icon system, where each trade had a symbol that acted as a status indicator and filter. The walls would remain colored-coded based on their state of completion.
 
-{{< webp image="/turner-paperProto-iteration-ex02.png" caption="Subsequent prototypes tested different icon systems to indicate the tradespeople working at the wall and zone level of a site." >}}
+{{< webp image="/images/turner/turner-paperProto-iteration-ex02.png" caption="Subsequent prototypes tested different icon systems to indicate the tradespeople working at the wall and zone level of a site." >}}
 
 {{< video src="turner-process-paper-proto-iteration-example" autoplay="true" muted="true" loop="true" playsinline="true" caption="A re-assembled demo of what the icon-based approach might have looked like while the team tested designs in the field.">}}
 
 The second way was by adding color to the walls on a floor plan view according to the type of tradesperson working there. In this view, we would highlight only the completed walls in the tradesperson’s assigned color.
 
-{{< webp image="/turner-paperProto-color-walls-01.png" caption="Another iteration of the prototypes used a color-based system to indicate tradesperson type." >}}
+{{< webp image="/images/turner/turner-paperProto-color-walls-01.png" caption="Another iteration of the prototypes used a color-based system to indicate tradesperson type." >}}
 
 This tradespeople-colored view became the favored approach with the design team after we made a connection to an in-field practice used by the tradespeople themselves: paint-striping.
 
@@ -311,7 +311,7 @@ This tradespeople-colored view became the favored approach with the design team 
 
 In the practice of paint-striping, each tradesperson uses spray paint with a unique color to mark walls and zones they complete. The design team decided that if we used the same coloring system in the prototype, it would provide Jack the most explicit connection between the prototype’s floor plan view and photos captured on site.
 
-{{< webp image="/turner-paperProto-color-walls-02.png" caption="The color-based system became the favored approach after the team made a connection to color-based markings used by tradespeople at the construction site, called paint-striping." >}}
+{{< webp image="/images/turner/turner-paperProto-color-walls-02.png" caption="The color-based system became the favored approach after the team made a connection to color-based markings used by tradespeople at the construction site, called paint-striping." >}}
 
 After multiple iterations of the paint-stripe paper prototypes were tested, we were nearing our deadline for the executive presentation. The PM wanted more visual awe for the presentation so we decided that the best next step was to have the visual designer take on the assignment.
 
@@ -319,7 +319,7 @@ After multiple iterations of the paint-stripe paper prototypes were tested, we w
 
 The main problem to be solved was to show the status of a given subcontractor at a given stage without having the amount of information overwhelm the superintendent. The visual designer continued the team’s iterations and created several UI mockups for presentations to executive stakeholders. Note: I could not show all final assets for this case study due to NDA.
 
-{{< webp image="/turner-visual-designer-deliverable.png" caption="An early mock-up of the paint-stripe-inspired design that was eventually presented to executive stakeholders." >}}
+{{< webp image="/images/turner/turner-visual-designer-deliverable.png" caption="An early mock-up of the paint-stripe-inspired design that was eventually presented to executive stakeholders." >}}
 
 ## Outcomes and Lessons
 
@@ -337,7 +337,7 @@ Overall, the results of our efforts were well received. Still, the executives de
 
 The findings from the project impressed Turner’s executive team with how much we accomplished in such a short time by using design-driven methods. As a result, our process was used as a model to form [Turner Labs](https://turnerlabs.org/), a new department that would seek out and support innovative projects throughout the company. I acted as a consultant to the PM to help launch the initiative and design content on the website.
 
-{{< webp image="/turner-outcomes-turnerLabs.jpg" caption="Screenshots of the Turner Labs website that launched after the innovation team was formed." >}}
+{{< webp image="/images/turner/turner-outcomes-turnerLabs.jpg" caption="Screenshots of the Turner Labs website that launched after the innovation team was formed." >}}
 
 ### Lessons learned as a designer and researcher
 
