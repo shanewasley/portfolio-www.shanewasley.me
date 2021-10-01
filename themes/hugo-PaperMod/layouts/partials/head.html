@@ -75,6 +75,7 @@ fingerprint }}
   rel="preload stylesheet"
   as="style"
 />
+<link rel="preload" as="font">
 {{- end }} {{- with .Site.Params.profileMode }} {{- if and .enabled .imageUrl
 $.IsHome }}
 <link rel="preload" href="{{ .imageUrl }}" as="image" />
