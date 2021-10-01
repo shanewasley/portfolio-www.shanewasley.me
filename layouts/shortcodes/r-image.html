@@ -1,0 +1,58 @@
+<figure>
+    <picture>
+        {{ $ImgOg := resources.Get (.Get "webp") }}
+
+        {{ if gt $ImgOg.Width 1920 }}
+        <source srcset="{{ $ImgOg.Permalink }}" type="image/webp" media="(min-width: 1920px)">
+        {{ else if gt $ImgOg.Width 1600 }}
+        <source srcset="{{ $ImgOg.Permalink }}" type="image/webp" media="(min-width: 1600px)">
+        {{ else if gt $ImgOg.Width 1280 }}
+        <source srcset="{{ $ImgOg.Permalink }}" type="image/webp" media="(min-width: 1280px)">
+        {{ else if gt $ImgOg.Width 1024 }}
+        <source srcset="{{ $ImgOg.Permalink }}" type="image/webp" media="(min-width: 1024px)">
+        {{ else if gt $ImgOg.Width 720 }}
+        <source srcset="{{ $ImgOg.Permalink }}" type="image/webp" media="(min-width: 720px)">
+        {{ else if gt $ImgOg.Width 480 }}
+        <source srcset="{{ $ImgOg.Permalink }}" type="image/webp" media="(min-width: 480px)">
+        {{ else }}
+        <source srcset="{{ $ImgOg.Permalink }}" type="image/webp">
+        {{ end }}
+
+        {{ if gt $ImgOg.Width 1920 }}
+        {{ $ImgOg1920 := $ImgOg.Resize "1920x" }}
+        <source srcset="{{ $ImgOg1920.Permalink }}" type="image/webp" media="(min-width: 1600px)">
+        {{ end }}
+
+        {{ if gt $ImgOg.Width 1600 }}
+        {{ $ImgOg1600 := $ImgOg.Resize "1600x" }}
+        <source srcset="{{ $ImgOg1600.Permalink }}" type="image/webp" media="(min-width: 1280px)">
+        {{ end }}
+
+        {{ if gt $ImgOg.Width 1280 }}
+        {{ $ImgOg1280 := $ImgOg.Resize "1280x" }}
+        <source srcset="{{ $ImgOg1280.Permalink }}" type="image/webp" media="(min-width: 1024px)">
+        {{ end }}
+
+        {{ if gt $ImgOg.Width 1024 }}
+        {{ $ImgOg1024 := $ImgOg.Resize "1024x" }}
+        <source srcset="{{ $ImgOg1024.Permalink }}" type="image/webp" media="(min-width: 720px)">
+        {{ end }}
+
+        {{ if gt $ImgOg.Width 720 }}
+        {{ $ImgOg720 := $ImgOg.Resize "720x" }}
+        <source srcset="{{ $ImgOg720.Permalink }}" type="image/webp" media="(min-width: 480px)">
+        {{ end }}
+
+        {{ if gt $ImgOg.Width 480 }}
+        {{ $ImgOg480 := $ImgOg.Resize "480x" }}
+        <source srcset="{{ $ImgOg480.Permalink }}" type="image/webp" media="(max-width: 480px)">
+        {{ end }}
+
+        {{ $param := (print $ImgOg.Width "x jpg") }}
+        {{ $resourceJpg := $ImgOg.Resize $param }}
+        <img src="{{ $resourceJpg.Permalink }}" height="{{ $ImgOg.Height }}" width="{{ $ImgOg.Width }}"
+            alt="{{ with .Get " alt" }}{{ . }}{{ else }}{{ .Get "caption" | markdownify| plainify }}{{ end }}"
+            class="img-fluid rounded" loading="lazy" decoding="async" />
+    </picture>
+    <figcaption class="figure-caption ms-1">{{ .Get "caption" }}</figcaption>
+</figure>

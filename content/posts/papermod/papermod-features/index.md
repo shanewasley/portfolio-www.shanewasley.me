@@ -127,8 +127,6 @@ ex. [config.yml#L106](https://github.com/adityatelange/hugo-PaperMod/blob/exampl
 
 ### Profile Mode
 
-![profile](/images/profile.jpg)
-
 Shows Index/Home page as Full Page with Social Links and Image
 
 add following to config file

@@ -1,6 +1,8 @@
-{{ $image := .Get "image"}} {{ $type_arr := split $image "." }} {{ $srcbase :=
-index $type_arr 0 }} {{ $altsplit := split $srcbase "/" }} {{ $altbase := index
-$altsplit 1 }}
+{{ $image := .Get "image"}}
+{{ $type_arr := split $image "." }}
+{{ $srcbase :=index $type_arr 0 }}
+{{ $altsplit := split $srcbase "/" }}
+{{ $altbase := index $altsplit 1 }}
 
 <figure>
   <picture>

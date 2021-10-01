@@ -4,6 +4,9 @@ title: Shane Wasley
 paginate: 4
 theme: "hugo-PaperMod"
 
+imaging:
+  quality: 100
+
 enableInlineShortcodes: true
 enableRobotsTXT: true
 buildDrafts: false
@@ -42,6 +45,8 @@ params:
   showtoc: true
   tocopen: false
   images: ["papermod-cover.png"]
+  responsiveImages: true
+  convertImagesTo: "webp"
 
   # assets:
   #     # disableHLJS: true # to disable highlight.js
