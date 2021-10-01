@@ -108,7 +108,7 @@
     font-family: "Public Sans";
     font-style: normal;
     font-weight: 400;
-    src: url("/fonts/Inter-Regular.woff2") format("woff2"),
+    src: url("/fonts/PublicSans-Regular.woff2") format("woff2"),
         url("/fonts/PublicSans-Regular.woff") format("woff");
     font-display: swap;
 }
