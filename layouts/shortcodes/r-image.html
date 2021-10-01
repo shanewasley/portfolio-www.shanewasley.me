@@ -1,12 +1,7 @@
 <figure>
     <picture>
         {{ $ImgOg := resources.Get (.Get "webp") }}
-
-        {{ if gt $ImgOg.Width 1920 }}
-        <source srcset="{{ $ImgOg.Permalink }}" type="image/webp" media="(min-width: 1920px)">
-        {{ else if gt $ImgOg.Width 1600 }}
-        <source srcset="{{ $ImgOg.Permalink }}" type="image/webp" media="(min-width: 1600px)">
-        {{ else if gt $ImgOg.Width 1280 }}
+        {{ if gt $ImgOg.Width 1280 }}
         <source srcset="{{ $ImgOg.Permalink }}" type="image/webp" media="(min-width: 1280px)">
         {{ else if gt $ImgOg.Width 1024 }}
         <source srcset="{{ $ImgOg.Permalink }}" type="image/webp" media="(min-width: 1024px)">
@@ -16,16 +11,6 @@
         <source srcset="{{ $ImgOg.Permalink }}" type="image/webp" media="(min-width: 480px)">
         {{ else }}
         <source srcset="{{ $ImgOg.Permalink }}" type="image/webp">
-        {{ end }}
-
-        {{ if gt $ImgOg.Width 1920 }}
-        {{ $ImgOg1920 := $ImgOg.Resize "1920x" }}
-        <source srcset="{{ $ImgOg1920.Permalink }}" type="image/webp" media="(min-width: 1600px)">
-        {{ end }}
-
-        {{ if gt $ImgOg.Width 1600 }}
-        {{ $ImgOg1600 := $ImgOg.Resize "1600x" }}
-        <source srcset="{{ $ImgOg1600.Permalink }}" type="image/webp" media="(min-width: 1280px)">
         {{ end }}
 
         {{ if gt $ImgOg.Width 1280 }}

@@ -49,7 +49,7 @@ SKUR Inc. created a web app for high-fidelity visual analysis of construction si
 
 SKUR created a software solution at the intersection of two other technologies: 3D modeling (CAD) and high definition laser surveying (HDS). SKUR’s customers used the design models from CAD software to plan and construct their buildings. As they built the structure from the CAD plan, SKUR’s customers would use HDS technology to survey the site and create a snapshot of the current state. This snapshot, also known as a “reality capture,” was a 3D rendering of the site made up of millions of points, called a point cloud.
 
-{{< figure src="test-CAD-vs-pointCloud.png" caption="The caption text" >}}
+{{< figure class="responsiveimg" src="test-CAD-vs-pointCloud.png" caption="The caption text" >}}
 
 {{< webp image="/background-CAD-vs-pointCloud.jpg" caption="On the left, a CAD model of piping in a trench. On the right, a laser-based, high-definition survey (HDS) of the same trench during construction. Millions of points create the HDS image, called a point cloud." >}}
 
