@@ -12,7 +12,7 @@ draft: false
 hidemeta: false
 comments: false
 description: "Desc Text WRITE SOMETHING?."
-canonicalURL: "/posts/aligning-models-with-laser-point-reality/"
+canonicalURL: "https://competent-bartik-7bb565.netlify.app/posts/aligning-models-with-laser-point-reality/"
 disableHLJS: true # to disable highlightjs
 disableShare: true
 hideSummary: false
@@ -53,11 +53,11 @@ SKUR created a software solution at the intersection of two other technologies: 
 
 By comparing the CAD model to the point cloud, SKUR’s app created a visual map of variance between the planned structure and the structure in reality. With this map in hand, SKUR’s customers had an accurate, objective tool to investigate construction site discrepancies and take action.
 
-{{< webp image="/images/skur-aa/background-varianceMap-process.png" caption="Comparing a CAD model to a point cloud can identify the differences between design and built structure. With SKUR’s Variance Map, the differences are classified with a red, yellow, and green color system (most to least, respectively)." >}}
+{{< webp image="/images/skur-aa/background-varianceMap-process.jpg" caption="Comparing a CAD model to a point cloud can identify the differences between design and built structure. With SKUR’s Variance Map, the differences are classified with a red, yellow, and green color system (most to least, respectively)." >}}
 
 Even minor variances identified by SKUR’s app can reveal costly implications for a construction site. A chemical pipe installed one inch higher than planned could be misaligned to the pipe it will connect to later in the project. Adjusting for such a discrepancy quickly— such as ordering new parts before crews arrive to continue construction— can prevent increases in costs and delays on a project. The Variance Map was meant to identify these problems sooner before they became much more expensive repairs later.
 
-{{< webp image="/images/skur-aa/background-variance-misalign.png" caption="The utility of the Variance Map comes from what it can predict. A pipe installed outside of design tolerances may be a problem for the pipe it should connect to at a later stage of the project." >}}
+{{< webp image="/images/skur-aa/background-variance-misalign.jpg" caption="The utility of the Variance Map comes from what it can predict. A pipe installed outside of design tolerances may be a problem for the pipe it should connect to at a later stage of the project." >}}
 
 ### Faster and easier than competitors
 

@@ -3,6 +3,7 @@
 {{ $srcbase :=index $type_arr 0 }}
 {{ $altsplit := split $srcbase "/" }}
 {{ $altbase := index $altsplit 1 }}
+{{ $config := imageConfig (printf "static/%s" $image) }}
 
 <figure>
   <picture>
@@ -10,6 +11,8 @@
     <img
       src="{{.Get `image`}}"
       alt="{{$altbase}}"
+      height="100%"
+      width="100%"
       loading="lazy"
       decoding="async"
       caption="{{.Get `caption` }}"
