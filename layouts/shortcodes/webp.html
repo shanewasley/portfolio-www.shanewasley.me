@@ -3,7 +3,8 @@
 {{ $srcbase :=index $type_arr 0 }}
 {{ $altsplit := split $srcbase "/" }}
 {{ $altbase := index $altsplit 1 }}
-{{ $config := imageConfig (printf "static/%s" $image) }}
+
+
 
 <figure>
   <picture>
