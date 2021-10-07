@@ -1,41 +1,19 @@
-<!-- layouts/partials/render-image.html -->
-<!-- get image URL from Markdown tag -->
-{{- $src := ( .Destination | safeURL ) -}}
-<!-- split # fragment and keep clean URL -->
-{{- $fragments := ( split $src "#" ) -}}
-{{- $src = index ($fragments ) 0 -}}
-<!-- get actual filename -->
-{{- $src = path.Base $src -}}
-<!-- check if it exists as a page resource -->
-{{- with ($.Page.Resources.ByType "image").GetMatch ( printf "**%s" $src ) -}}
-	<!-- resize if wider than 800px -->
-	{{- $resized := cond (lt .Width "800") . ( .Resize "800x" ) -}}
-	<!-- if a JPEG (certain to be opaque) generate a low resolution placeholder to use as background -->
-	{{ $placeholder := "" }}
-	{{- if or (eq (path.Ext .) ".jpg") (eq (path.Ext .) ".jpeg") }}
-		{{ $placeholder = .Resize "48x q20 jpg Gaussian" }}
-	{{ end -}}
-	<!-- if a GIF file, then revert to original to avoid resizing animations	 -->
-	{{- if (eq (path.Ext .) ".gif") }}
-		{{ $resized = . }}
-	{{ end -}}
-	<img src="{{ $resized.RelPermalink }}"
-	width="{{ $resized.Width }}"
-	height="{{ $resized.Height }}"
-	{{ with $placeholder }}style="
-		background-image: url('data:image/jpg;base64,{{ .Content | base64Encode }}');
-		background-position: 50% 50%;
-		background-repeat: no-repeat;
-		background-size: cover;"{{ end }}
-	alt="{{ $.Text }}" {{ with $.Title }} title="{{ . }}" {{ end }}
-	{{ with index ($fragments ) 1 }}class="{{ . }}" {{ end }}
-	loading="lazy"
-	>
-<!-- or otherwise simply load the URL -->
-{{- else -}}
-	<img src="{{ .Destination | safeURL }}"
-	alt="{{ .Text }}" {{ with .Title }} title="{{ . }}" {{ end }}
-	{{ with index ($fragments ) 1 }}class="{{ . }}" {{ end }}
-	loading="lazy"
-	>
-{{- end -}}
+{{ $image := .Page.Resources.GetMatch (printf "%s" (.Destination | safeURL)) }}
+{{ if ne $image nil }}
+{{ $alt := (.PlainText | safeHTML) | default "picture" }}{{ $caption := "" }} {{ with .Title }}{{ $caption = . | safeHTML }}{{ end }}
+{{ $iw := $image.Width }}{{ $ih := $image.Height }}{{ $ms   := site.Params.Images.maxSize | default 1024}}
+{{ if or (ge $iw $ms) (ge $ih $ms) }}{{ $image = $image.Fit (print $ms "x" $ms ) }}{{end}}
+{{ $srcset := slice }}{{ range site.Params.Images.setSizes -}}
+  {{ if lt (mul . 1.2) $iw }}{{ $size := print  . "x" .}}{{ $thumb := $image.Fit $size }}{{ $srcset = $srcset | append (printf ("%s %dw") $thumb.RelPermalink $thumb.Width ) }}{{ end }}
+{{- end }}
+<figure>
+<img loading=lazy src={{ $image.RelPermalink }}
+{{ if gt (len $srcset) 0 }}sizes="(max-width: 480px) 90vw, (max-width: 960px) 80vw, {{ $image.Width }}px" {{ $sl := delimit $srcset ", "}}srcset="{{$sl}}" {{ end }}
+width="100%" height="100%" alt={{ $alt }} /><br/>
+{{- with $caption }}
+<figcaption {{ . | markdownify }}></figcaption>
+{{ end -}}
+</figure>
+{{else}}
+{{ errorf "Failed on page %q - missing image %q" .Page.File.Path .Destination }}
+{{end}}

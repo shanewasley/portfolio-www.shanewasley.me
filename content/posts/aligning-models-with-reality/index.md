@@ -30,13 +30,13 @@ cover:
 
 ## Introduction
 
-SKUR Inc. created a web app for high-fidelity visual analysis of construction sites. By showing how laser surface scans of buildings differed from their 3D design specifications, SKUR’s app helped customers identify problems that could increase project delays and costs if they went unaddressed. As SKUR's UI/UX designer, I helped design new product features and improve the user experience for customers. This case study will highlight the team effort to transform a service into a new product feature that would save customers time.
+SKUR Inc. created a SAAS analytics app for variance analysis of construction sites. By showing how laser surface scans of buildings differed from their 3D design specifications, SKUR’s app helped customers identify problems that could increase project delays and costs if they went unaddressed. As SKUR's UI/UX designer, I helped design new product features and improve the user experience for customers. This case study will highlight the team effort to transform a service into a new product feature that would save customers time.
 
 ## Highlights
 |                      |                                                              |
 |----------------------|--------------------------------------------------------------|
 | **Company**          | SKUR Inc.                                      |
-| **Product**          | Web app                                            |
+| **Product**          | Web app, SAAS analytics                                            |
 | **Users**            | Engineers and operations managers working at large-scale engineering, fabrication, and construction companies                        |
 | **Role**             | UI/UX Designer                                                  |
 | **Team**             | Three developers, product manager, customer success manager                     |
@@ -48,6 +48,8 @@ SKUR Inc. created a web app for high-fidelity visual analysis of construction si
 ## Background
 
 SKUR created a software solution at the intersection of two other technologies: 3D modeling (CAD) and high definition laser surveying (HDS). SKUR’s customers used the design models from CAD software to plan and construct their buildings. As they built the structure from the CAD plan, SKUR’s customers would use HDS technology to survey the site and create a snapshot of the current state. This snapshot, also known as a “reality capture,” was a 3D rendering of the site made up of millions of points, called a point cloud.
+
+![The ALt text or title](background-CAD-vs-pointCloud.webp "On the left, a CAD model of piping in a trench. On the right, a laser-based, high-definition survey (HDS) of the same trench during construction. Millions of points create the HDS image, called a point cloud.")
 
 {{< webp image="/images/skur-aa/background-CAD-vs-pointCloud.jpg" caption="On the left, a CAD model of piping in a trench. On the right, a laser-based, high-definition survey (HDS) of the same trench during construction. Millions of points create the HDS image, called a point cloud." >}}
 
