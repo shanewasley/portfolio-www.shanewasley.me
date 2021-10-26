@@ -1,25 +1,25 @@
 ---
 title: "Let's get aligned"
-date: 2020-09-15T11:30:03+00:00
+date: 2018-09-15T11:30:03+00:00
 # weight: 1
 # aliases: ["/first"]
 tags: ["case-study","2018"]
-author: "Me"
+author:
 # author: ["Me", "You"] # multiple authors
 showToc: true
 TocOpen: false
 draft: false
 hidemeta: false
 comments: false
-description: "Desc Text WRITE SOMETHING?."
+description: "Case study: Designing a new feature in a SAAS analytics app for comparing laser scans and CAD models. CASE STUDY"
 canonicalURL: "https://competent-bartik-7bb565.netlify.app/posts/lets-get-aligned"
 disableHLJS: true # to disable highlightjs
 disableShare: true
-hideSummary: false
+hideSummary: true
 searchHidden: true
 ShowReadingTime: true
 ShowBreadCrumbs: false
-ShowPostNavLinks: false
+ShowPostNavLinks: true
 
 ---
 ## Highlights

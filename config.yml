@@ -28,12 +28,12 @@ params:
   author: Me
   # author: ["Me", "You"] # multiple authors
   #images: ["<link or path of image for opengraph, twitter-cards>"]
-  DateFormat: "January 2, 2006"
+  DateFormat: "2006"
   defaultTheme: auto # dark, light
   disableThemeToggle: false
   disableAnchoredHeadings: true
   ShowReadingTime: true
-  ShowShareButtons: true
+  ShowShareButtons: false
   ShowPostNavLinks: true
   ShowBreadCrumbs: false
   ShowCodeCopyButtons: false
@@ -41,16 +41,16 @@ params:
   disableScrollToTop: false
   comments: false
   hidemeta: false
-  hideSummary: false
+  hideSummary: true
   showtoc: true
   tocopen: false
   images:
-    maxSize: 1480
+    maxSize: 1440
     setSizes:
       - 480
       - 800
-      - 1200
-    sizes: 'sizes=(max-width: 30em) 90vw, (max-width: 60em) 80vw, 1480px'
+      - 720
+    sizes: 'sizes=(max-width: 30em) 90vw, (max-width: 60em) 80vw, 1440px'
   responsiveImages: true
   convertImagesTo: "webp"
 

@@ -1,6 +1,6 @@
 ---
 title: "Kickstarting design innovation"
-date: 2020-09-14T11:30:03+00:00
+date: 2017-09-14T11:30:03+00:00
 # weight: 1
 # aliases: ["/first"]
 tags: ["case-study","2017"]
@@ -11,15 +11,15 @@ TocOpen: false
 draft: false
 hidemeta: false
 comments: false
-description: "Desc Text WRITE SOMETHING?."
+description: "Case Study: Desc Text WRITE SOMETHING?."
 canonicalURL: "https://competent-bartik-7bb565.netlify.app/posts/kickstarting-design-innovation"
 disableHLJS: true # to disable highlightjs
 disableShare: true
-hideSummary: false
+hideSummary: true
 searchHidden: true
 ShowReadingTime: true
 ShowBreadCrumbs: false
-ShowPostNavLinks: false
+ShowPostNavLinks: true
 ---
 
 ## Highlights

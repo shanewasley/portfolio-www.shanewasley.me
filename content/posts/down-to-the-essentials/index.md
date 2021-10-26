@@ -1,6 +1,6 @@
 ---
 title: "Down to the essentials"
-date: 2020-09-12T11:30:03+00:00
+date: 2018-09-12T11:30:03+00:00
 # weight: 1
 # aliases: ["/first"]
 tags: ["project-brief","2018"]
@@ -11,15 +11,15 @@ TocOpen: false
 draft: false
 hidemeta: false
 comments: false
-description: "Redesigning a SASS Analytics app to simplify construction site inspection."
+description: "Project Brief: Redesigning a SASS analytics app to simplify construction site inspection."
 canonicalURL: "https://competent-bartik-7bb565.netlify.app/posts/down-to-the-essentials"
 disableHLJS: true # to disable highlightjs
 disableShare: true
-hideSummary: false
+hideSummary: true
 searchHidden: true
 ShowReadingTime: true
 ShowBreadCrumbs: false
-ShowPostNavLinks: false
+ShowPostNavLinks: true
 
 ---
 
@@ -37,7 +37,7 @@ ShowPostNavLinks: false
 | **Deliverables**     | User research artifacts, sketches, prototypes, UI specifications |
 
 ## Overview
-SKUR Inc. created a web app for variance analysis of construction sites. By showing how high-definition laser surveys of buildings differed from a 3D CAD model, SKUR’s app helped customers identify problems that could increase project delays and costs if they went unaddressed. For more about SKUR’s technology, primary users, and the team I worked with, see ~this link to the AA case study~.
+SKUR Inc. created a web app for variance analysis of construction sites. By showing how high-definition laser surveys of buildings differed from a 3D CAD model, SKUR’s app helped customers identify problems that could increase project delays and costs if they went unaddressed. For more about SKUR’s technology, primary users, and the team I worked with, [see the related case study](/posts/lets-get-aligned/).
 
 {{< webp image="/images/skur-vv/overview-variance-map.png" caption="Comparing a CAD model to an HDS laser survey (aka a point cloud) can identify the differences between a design and the built structure. SKUR’s Variance Map classified differences with a red, yellow, and green color system (most to least, respectively)." >}}
 
@@ -45,7 +45,7 @@ The SKUR team suspected they could deliver better value with the product after s
 
 The redesign process hinged on revisiting our assumptions about what users needed to do and see in the app. We assumed that customers would require an extensive view of data while performing a large portion of their workflow in SKUR’s app. We learned from user research that the customer needed to use our app to see a limited set of high-priority data to complete the rest of their job outside of our app— with tools they were already using to get the job done. Improving the user experience meant shifting the app's defaults from a state of “do everything, show everything” to “show only what’s needed to do the most important thing.”
 
-| Defaults before                             | Defaults after                           |
+| **Defaults before**                         | **Defaults after**                       |
 |---------------------------------------------|------------------------------------------|
 | Support 4 tasks                             | Support 1 task                           |
 | Display all variances                       | Display only high priority variances     |
@@ -53,7 +53,7 @@ The redesign process hinged on revisiting our assumptions about what users neede
 
 Through iterative prototyping, we stripped down the interface to the critical views and controls that would help our customers precisely get what they needed from the app to perform their jobs. By offering less, we provided more, and we transformed the experience of the variance interface to be more efficient and on-task for our customers.
 
-{{< webp image="/images/skur-vv/overview-before-after-UI.png" caption="When I started this project, SKUR’s Variance Viewer had a busy interface (left). All of the viewing layers were on by default, and a user had to sift through a huge data table to navigate building objects to inspect them. The final prototype I delivered (right), was a redesigned interface that prioritized object-by-object inspection of the critical variance problems at the site."  >}}
+{{< webp image="/images/skur-vv/overview-before-after-UI.png" caption="When I started, SKUR’s Variance Viewer had a busy interface (left). All of the viewing layers were on by default, and a user would sift through a data table to navigate building objects for inspection. The final prototype I delivered (right), was a redesigned interface that prioritized object-by-object inspection of the critical variance problems at the site."  >}}
 
 ## Key contributions
 My most valuable contributions were conducting user research, training team members to perform user research when I was unavailable, creating product prototypes to test with customers, and delivering design specifications to the development team.
@@ -71,7 +71,7 @@ It was clear to me that the amount of data we were presenting to users was overw
 ### Revisiting assumptions about our customer’s tools
 Early in the project, I had the opportunity to interview several of SKUR’s customers about their workflow. My goal was to understand how they used SKUR’s app, whom they were working with, and what other tools they used to get their job done.
 
-I went into the customer interviews assuming that SKUR’s app was the one tool that supported the customer’s task flow from end to end. Our product team had designed the experience to help our primary user, Carson, complete the critical tasks of identifying variance problems at the construction site and initiating a resolution to those problems with his team (~see case study link for more on Carson~). Accordingly, we included all of the data in SKUR’s Variance Report and Variance Viewer to support Carson in this way.
+I went into the customer interviews assuming that SKUR’s app was the one tool that supported the customer’s task flow from end to end. Our product team had designed the experience to help our primary user, Carson, complete the critical tasks of identifying variance problems at the construction site and initiating a resolution to those problems with his team (for more on Carson, [see the related case study](/posts/lets-get-aligned/#carson-vdc-engineer)). Accordingly, we included all of the data in SKUR’s Variance Report and Variance Viewer to support Carson in this way.
 
 {{< webp image="/images/skur-vv/task-flow-tools-before.png" caption="We designed SKUR’s Variance Report and Variance Viewer to support our users’ task flow from end to end. At every step, whether it was reviewing the site or delegating actions to the team, we assumed our user would complete their work all within the app."  >}}
 
@@ -188,7 +188,7 @@ I needed a 3D animation app to help me prototype this next idea. By good luck, I
 ### Final deliverable
 For the final deliverable to the team, I brought everything together for a click-through prototype in Framer Studio: the redesigned filter element, the variance detail card, a minimized variance list, dark background, transparency, and motion.
 
-{{< video src="proto-v2-handoff@576-10" autoplay="true" muted="true" loop="true" playsinline="true" caption="I used Sketchfab’s ability to interact with design tools to create a prototype that could demonstrate all the features I assumed would improve the inspection experience for our customers." >}}
+{{< video src="proto-v2-handoff@576-10" autoplay="true" muted="true" loop="true" playsinline="true" caption="A handoff prototype that demonstrated all the features I assumed would improve the inspection experience for our customers." >}}
 
 I also provided static mockups to demonstrate state changes for the filter list and the variance detail card— depending on what variance threshold users were examining their site with.
 
