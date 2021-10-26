@@ -20,12 +20,7 @@ searchHidden: true
 ShowReadingTime: true
 ShowBreadCrumbs: false
 ShowPostNavLinks: false
-cover:
-  image: "/images/cover-image.jpg" # image path/url
-  alt: "cover-image" # alt text
-  caption: "The cover image" # display caption under cover
-  relative: false # when using page bundles set this to true
-  hidden: true # only hide on current single page
+
 ---
 ## Highlights
 |                      |                                                              |

@@ -20,12 +20,7 @@ searchHidden: true
 ShowReadingTime: true
 ShowBreadCrumbs: false
 ShowPostNavLinks: false
-cover:
-  image: "/images/cover-image.jpg" # image path/url
-  alt: "cover-image" # alt text
-  caption: "The cover image" # display caption under cover
-  relative: false # when using page bundles set this to true
-  hidden: true # only hide on current single page
+
 ---
 
 ## Highlights
@@ -199,7 +194,7 @@ I also provided static mockups to demonstrate state changes for the filter list 
 
 {{< webp image="/images/skur-vv/static-screens-handoff.png" caption="Screen mockups to demonstrate object inspection at different variance thresholds. In SKUR’s app, a mesh is overlaid on the selected object."  >}}
 
-## Outcomes and Discussion
+## Outcomes and Lessons
 ### Received well, not user-tested, released in pieces
 The prototype was a success for the team. The PM and developers pointed out that the redesign provided a cleaner, clearer experience using the Variance Viewer. The CEO noted that the prototype was an exciting change to the visual presentation of the app, and he looked forward to showing the redesigned app to new customers and investors.
 
