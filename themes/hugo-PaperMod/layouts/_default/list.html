@@ -72,6 +72,13 @@
     {{- partial "post_meta.html" . -}}
   </footer>
   {{- end }}
+   {{ if .Params.tags }}
+          <ul class="post-tags">
+            {{ range .Params.tags }}
+              <li><a href="{{ (urlize (printf "tags/%s" . )) | absURL }}/">{{ . }}</a></li>
+            {{ end }}
+          </ul>
+        {{ end }}
   <a class="entry-link" aria-label="post link to {{ .Title | plainify }}" href="{{ .Permalink }}"></a>
 </article>
 {{- end }}

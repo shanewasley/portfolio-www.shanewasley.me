@@ -1,6 +1,6 @@
 ---
 title: "Let's get aligned"
-date: 2018-09-15T11:30:03+00:00
+date: 2018-09-16T11:30:03+00:00
 # weight: 1
 # aliases: ["/first"]
 tags: ["case-study","2018"]
@@ -9,9 +9,9 @@ author:
 showToc: true
 TocOpen: false
 draft: false
-hidemeta: false
+hidemeta: true
 comments: false
-description: "Case study: Designing a new feature in a SAAS analytics app for comparing laser scans and CAD models. CASE STUDY"
+description: "Designing a new feature in a SAAS analytics app that aligned site surveys with CAD models."
 canonicalURL: "https://competent-bartik-7bb565.netlify.app/posts/lets-get-aligned"
 disableHLJS: true # to disable highlightjs
 disableShare: true
@@ -25,6 +25,7 @@ ShowPostNavLinks: true
 ## Highlights
 |                      |                                                              |
 |----------------------|--------------------------------------------------------------|
+| **Format**          | Case Study                                                    |
 | **Company**          | SKUR Inc.                                      |
 | **Product**          | Web app, SAAS analytics                                            |
 | **Users**            | Engineers and operations managers working at large-scale engineering, fabrication, and construction companies                        |
@@ -326,7 +327,7 @@ After sketching out options, I chose a pair of vertical checkboxes, centered in 
 
 The last decision was to remove help. The release date was looming, and I did not think we had enough time to design, build and test a successful help feature — especially when we couldn’t schedule additional user testing to validate our ideas. Instead, the PM and customer success manager agreed to distribute a screen recording demo to customers during the update announcement. We reasoned that we could build a help page on the Wiki site or revisit an in-app help feature in a future release.
 
-### Digital design and handoff, round 2
+### Final Deliverables
 
 For my final deliverables, I used Sketch and components from our Bootstrap design system to produce a second round of mockups for my handoff to the developers. These mockups contained each screen at every user flow step, with all the corresponding component states. I also created a click-through prototype to demonstrate the state changes.
 
@@ -336,19 +337,14 @@ For my final deliverables, I used Sketch and components from our Bootstrap desig
 
 {{< video src="process-protoV2-demo@540" autoplay="true" muted="true" loop="true" playsinline="true" caption="A click-through prototype demonstrating the default path to complete alignment.">}}
 
-### Dev testing and release
-
-After the team pushed the updated prototype to the development server, nearly everything worked as designed, save one thing. The text elements of the checkboxes were not easy to read when a point cloud entered their visual space.
-
-{{< video src="process-protoV2-dev-demo@480-15" autoplay="true" muted="true" loop="true" playsinline="true" caption="Screen recording from dev server testing of the new feature before it was released.">}}
-
-During prototyping, my mistake was due to my assumptions: I used static screenshots of models and point clouds in the viewer. I had not considered the case where a user would move the point cloud into the corners of the viewing space. The team was already inside the development freeze when I identified this bug, so we released the feature as-is. Still, we would have more opportunities to improve the legibility of text and iterate further on the design in subsequent releases.
 
 ## Outcomes and Lessons
 
 ### Launch of a new feature
 
 We successfully launched the new feature, Assisted Alignment, within the release cycle we allocated for it. While we did perform updates and bugs fixes to this feature during subsequent cycles, I was proud that what we released was based on a user-informed iteration. As the user experience advocate, it felt like a win. Moreover, the time the team got back by not having to perform alignment-as-a-service let them put more effort into supporting other customer needs.
+
+{{< video src="process-protoV2-dev-demo@480-15" autoplay="true" muted="true" loop="true" playsinline="true" caption="Screen recording from dev server testing of the new feature before it was released.">}}
 
 ### Challenges with 3D prototyping
 

@@ -1,9 +1,10 @@
 ---
 author: "Hugo Authors"
 title: "Emoji Support"
-date: "2019-03-05"
+date: "2012-03-05"
 description: "Guide to emoji usage in Hugo"
 tags: ["emoji"]
+draft: true
 ShowToc: false
 ShowBreadCrumbs: false
 ---

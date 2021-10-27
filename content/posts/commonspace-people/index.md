@@ -1,6 +1,6 @@
 ---
 title: "Clickers, screens, and the great machine"
-date: 2020-09-11T11:30:03+00:00
+date: 2019-09-11T11:30:03+00:00
 # weight: 1
 # aliases: ["/first"]
 tags: ["case-study"]
@@ -8,8 +8,8 @@ author: "Me"
 # author: ["Me", "You"] # multiple authors
 showToc: true
 TocOpen: false
-draft: false
-hidemeta: false
+draft: true
+hidemeta: true
 comments: false
 description: "Desc Text WRITE SOMETHING?."
 canonicalURL: "https://"

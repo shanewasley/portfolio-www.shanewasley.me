@@ -1,6 +1,6 @@
 ---
 title: "Down to the essentials"
-date: 2018-09-12T11:30:03+00:00
+date: 2018-09-18T11:30:03+00:00
 # weight: 1
 # aliases: ["/first"]
 tags: ["project-brief","2018"]
@@ -9,9 +9,9 @@ author: "Me"
 showToc: true
 TocOpen: false
 draft: false
-hidemeta: false
+hidemeta: true
 comments: false
-description: "Project Brief: Redesigning a SASS analytics app to simplify construction site inspection."
+description: "Redesigning a feature in a SASS analytics app to simplify construction site inspection."
 canonicalURL: "https://competent-bartik-7bb565.netlify.app/posts/down-to-the-essentials"
 disableHLJS: true # to disable highlightjs
 disableShare: true
@@ -26,6 +26,7 @@ ShowPostNavLinks: true
 ## Highlights
 |                      |                                                              |
 |----------------------|--------------------------------------------------------------|
+| **Format**          | Project Brief                                                    |
 | **Company**          | SKUR Inc.                                                    |
 | **Product**          | Web app, SAAS analytics                                      |
 | **Users**            | Engineers and operations managers working at large-scale engineering, fabrication, and construction companies |
