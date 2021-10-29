@@ -19,9 +19,9 @@ ShowBreadCrumbs: false
 ShowPostNavLinks: true
 ---
 
-## As a designer today
+## As a designer
 
-I'm skilled in UI and interaction design, prototyping, qualitative research methods, and workshop facilitation. I lead design projects that deliver quick insights and actionable recommendations. I help leaders refine and communicate their product vision to their organizations. I ask tough questions and challenge assumptions with one thing in mind: cultivating excellent work from myself and my team.
+I'm skilled in UI and interaction design, prototyping, qualitative research methods, and workshop facilitation. I lead design projects that deliver quick insights and actionable recommendations. I help leaders refine and communicate their product vision to their organizations. I probe and challenge assumptions with one thing in mind: cultivating excellent work from myself and my team.
 
 ## How I got here
 
@@ -35,14 +35,20 @@ My work with [Stamen](https://stamen.com/), [USCF Osher Center](https://osher.uc
 
 I honed my service design and user research skills when I worked with [Mandel Communications](https://www.mandel.com/), [Be Great LLC](https://begreatllc.com), and [Claude Stein](https://claudestein.com/) to create new offerings in communication and leadership training.
 
-Most recent work as a designer for [Flipcause](https://www.flipcause.com) has helped me develop my ability to influence an organization’s product vision and direction and mentor junior designers. The opportunity to use my talents to give back to an underserved but vital sector in our society has been gratifying.
+My most recent work as a designer for [Flipcause](https://www.flipcause.com) has helped me develop my ability to influence an organization’s product vision and direction and mentor junior designers. The opportunity to use my talents to give back to an underserved but vital sector in our society has been gratifying.
 
 ## When I'm not designing
 
-When I’m not designing, I’m doing the other things I love: West African dancing, acting classes, cooking, exercise, and working on my first album. I also maintain a hypnotherapy and spiritual counseling practice.
+When I’m not designing, I’m doing the other things I love: West African dancing, cooking, exercise, and working on my first album. I also maintain a hypnotherapy and spiritual counseling practice.
 
-For music I oscillate up to the energy of punk, pop and techno (e.g. [The Ramones](https://www.youtube.com/watch?v=XTdbn5t3xH4), [Sia](https://www.youtube.com/watch?v=GKSRyLdjsPA), [Disclosure](https://www.youtube.com/watch?v=4nsKDJlpUbA), [Chlär](https://www.youtube.com/watch?v=LcaiiDMKipU&t=1742s)), and wind down to the sounds of jazz and blues (e.g. [Eva Cassidy](https://www.youtube.com/watch?v=2rd8VktT8xY), [Chuck Brown](https://www.youtube.com/watch?v=YvOOmTHwx40), [B.B. King](https://www.youtube.com/watch?v=kpC69qIe02E)). I'm more team [Solange](https://www.youtube.com/watch?v=_W14wK4QGh4) than team Beyonce.
+{{< webp image="/images/about/shane-mask-on-mask-off.jpg" caption="Recent pictures of me with my mask off and my mask on." >}}
 
-Except for browsing Hacker News [articles](https://news.ycombinator.com/item?id=28942189), I'm taking a break from social media. If I have free time to spend on the internet, I'm often looking at [images](https://apod.nasa.gov/apod/ap141001.html) from the Hubble Space Telescope, or browsing art [collections](https://www.artic.edu/artists/35282/paul-klee).
+For music I oscillate up to the energy of punk, pop and techno (e.g. [The Ramones](https://www.youtube.com/watch?v=4ColuiAvNP4), [Sia](https://www.youtube.com/watch?v=GKSRyLdjsPA), [Chlär](https://youtu.be/oku_XeRtC1U?t=1244)), and wind down to jazz and blues (e.g. [Orice Jenkins](https://www.youtube.com/watch?v=HRBnQ35CcgM), [Eva Cassidy](https://www.youtube.com/watch?v=K-X1g-aEeNc), [B.B. King](https://www.youtube.com/watch?v=kpC69qIe02E)). I'm more team [Solange](https://www.youtube.com/watch?v=_W14wK4QGh4) than team Beyonce.
 
-I currently live in San Jose, CA, and my happy place during the pandemic has been [Pescadero State Beach](https://goo.gl/maps/gAhBwpTTyGJxG8G37) and jumping in the cold waters of the Pacific.
+Except for browsing Hacker News [articles](https://news.ycombinator.com/item?id=28942189), I'm taking a break from social media. If I have free time to spend on the internet, I'm usually looking at pictures of [space](https://apod.nasa.gov/apod/ap190731.html) or pictures of [Earth](https://eol.jsc.nasa.gov/Collections/EarthArt/all.htm) from space.
+
+{{< webp image="/images/about/shane-internet-interests.jpg" caption="On the left: the Fishhead Nebula from the Hubble Space Telescope. On the right: Madagascar from the International Space Station." >}}
+
+I currently live in San Jose, CA, and my happy place during the pandemic has been the beach and jumping into the cold waters of the Pacific!
+
+{{< webp image="/images/about/shane-loves-the-beach.jpg" caption="From left to right: I also design beach forts; Testing my wings; It's true, I really do get in the water." >}}

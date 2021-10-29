@@ -487,20 +487,6 @@ button#theme-toggle {
     border-radius: 2px;
 }
 
-.post-content figure>figcaption {
-    color: var(--primary);
-    font-size: 16px;
-    font-weight: bold;
-    margin: 8px;
-}
-
-.post-content figure>figcaption>p {
-    color: var(--secondary);
-    font-size: 14px;
-    font-weight: normal;
-    margin: 8px;
-}
-
 .post-tags a {
     display: block;
     padding-inline-start: 14px;
@@ -521,12 +507,18 @@ button#theme-toggle {
 .post-content figure {
     margin-top: calc(2 * var(--content-gap));
     margin-bottom: calc(2 * var(--content-gap));
+    /* margin-left: calc(var(--content-gap) / 2);
+    margin-right: calc(var(--content-gap) / 2); */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .post-content figure>figcaption {
     margin-left: 0px;
     margin-right: 0px;
     margin-top: -8px;
+    /* text-align: center; */
 }
 
 .post-content figure>figcaption>p {
