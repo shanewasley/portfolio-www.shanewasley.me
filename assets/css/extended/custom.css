@@ -14,8 +14,8 @@
     --theme: #fff;
     --entry: #F1F5F9;
     --primary: #F04330;
-    --secondary: #334155;
-    --tertiary: #6B7280;
+    --secondary: #475569;
+    --tertiary: #94A3B8;
     --content: #334155;
     --hljs-bg: #1E293B;
     --code-bg: #F1F5F9;
@@ -36,7 +36,7 @@
     --tertiary: #D1D5DB;
     --content: #F8FAFC;
     --hljs-bg: #1E293B;
-    --code-bg: #0F172A;
+    --code-bg: #1E293B;
     --border: #334155;
 }
 
@@ -369,7 +369,7 @@ button {
 .footer,
 .top-link {
     font-size: 12px;
-    color: var(--theme);
+    color: var(--secondary);
 }
 
 .footer a {
@@ -417,7 +417,6 @@ button#theme-toggle {
     padding: 0 16px;
 }
 
-/* post-entry.css */
 .first-entry .entry-header h1 {
     font-size: 34px;
     line-height: 1.3;
@@ -433,19 +432,18 @@ button#theme-toggle {
     font-size: 14px;
 }
 
-.entry-header h2 {
-    font-size: 24px;
-}
-
 .entry-content {
-    margin: 8px 0;
     color: var(--secondary);
-    font-size: 14px;
-    line-height: 1.6;
     overflow: hidden;
     display: -webkit-box;
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 2;
+}
+
+.post-description {
+    font-size: calc(1rem * var(--text-multiplier));
+    margin-top: calc(1rem * var(--text-multiplier));
+    margin-bottom: calc(1rem * var(--text-multiplier)/2);
 }
 
 .entry-footer {
@@ -457,6 +455,12 @@ button#theme-toggle {
 .entry-isdraft {
     font-size: 14px;
     color: var(--secondary);
+}
+
+.entry-header h2 {
+    font-size: calc(1.175rem * var(--headings-multiplier));
+    margin-top: calc(1.175rem * var(--headings-multiplier));
+    margin-bottom: calc(1.175rem * var(--headings-multiplier)/3);
 }
 
 /* post-single.css */
@@ -489,11 +493,12 @@ button#theme-toggle {
 
 .post-tags a {
     display: block;
-    padding-inline-start: 14px;
-    padding-inline-end: 14px;
+    padding-inline-start: calc(0.8 * var(--gap));
+    padding-inline-end: calc(0.8 * var(--gap));
     color: var(--secondary);
-    font-size: 14px;
-    line-height: 34px;
+    line-height: calc(1rem + var(--gap));
+    font-size: calc(.8rem * var(--text-multiplier));
+
     background: var(--code-bg);
 }
 

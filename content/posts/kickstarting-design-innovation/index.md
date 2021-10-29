@@ -11,8 +11,8 @@ TocOpen: false
 draft: false
 hidemeta: true
 comments: false
-description: "Case Study: Training a team to prototype inspires the formation of a company-wide design initiative."
-canonicalURL: "https://competent-bartik-7bb565.netlify.app/posts/kickstarting-design-innovation"
+description: "Training a team to prototype inspires the formation of a company-wide design initiative."
+canonicalURL: "/posts/kickstarting-design-innovation"
 disableHLJS: true # to disable highlightjs
 disableShare: true
 hideSummary: true

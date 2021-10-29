@@ -1,4 +1,4 @@
-baseURL: https://competent-bartik-7bb565.netlify.app
+baseURL: https://www.shanewasley.me
 languageCode: en-us
 title: Shane Wasley
 paginate: 4
@@ -22,10 +22,10 @@ minify:
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  title: ExampleSite
-  description: "ExampleSite description"
-  keywords: [Blog, Portfolio, PaperMod]
-  author: Me
+  title: Shane Wasley's Design Portfolio
+  description: "Shane Wasley's design portfolio site, where you can find examples of Shane's work and learn more about Shane as a designer."
+  keywords: [Portfolio, Design, UX Design, Product Design, UX Research]
+  author: Shane Wasley
   # author: ["Me", "You"] # multiple authors
   #images: ["<link or path of image for opengraph, twitter-cards>"]
   DateFormat: "2006"
@@ -84,19 +84,10 @@ params:
 
   # home-info mode
   homeInfoParams:
-    Title: "Hi there \U0001F44B"
-    Content: >
-      Welcome to demo of hugo's theme PaperMod.
-      - PaperMod is based on theme [Paper](https://github.com/nanxiaobei/hugo-paper).
-      Welcome to my blog
-
-  socialIcons:
-    - name: twitter
-      url: "https://twitter.com/"
-    - name: stackoverflow
-      url: "https://stackoverflow.com"
-    - name: github
-      url: "https://github.com/"
+    Title: "Hello \U0001F44B"
+    Content:
+      Welcome to my portfolio site, where you can find examples of my work and learn more about me as a designer.
+      If you want details about my work history, please visit my Linkedin [profile](https://www.linkedin.com/in/shanewasley/).
 
   analytics:
     google:

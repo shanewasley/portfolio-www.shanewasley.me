@@ -9,7 +9,7 @@ TocOpen: false
 draft: false
 hidemeta: true
 comments: false
-canonicalURL: "https://competent-bartik-7bb565.netlify.app/posts/about-me"
+canonicalURL: "/posts/about-me"
 disableHLJS: true # to disable highlightjs
 disableShare: true
 hideSummary: true
@@ -21,13 +21,13 @@ ShowPostNavLinks: true
 
 ## As a designer
 
-I'm skilled in UI and interaction design, prototyping, qualitative research methods, and workshop facilitation. I lead design projects that deliver quick insights and actionable recommendations. I help leaders refine and communicate their product vision to their organizations. I probe and challenge assumptions with one thing in mind: cultivating excellent work from myself and my team.
+I'm skilled in UI and interaction design, prototyping, qualitative research methods, and workshop facilitation. I lead design projects that deliver quick insights and actionable recommendations. I help leaders refine and communicate their product vision to their organizations. I probe and challenge assumptions with one thing in mind: cultivating the best work from my team so we can deliver the best results for our users.
 
 ## How I got here
 
 Back when I worked at [Yammer](https://www.yammer.com), and then [Microsoft](https://www.microsoft.com/), I was designing analytics and reporting systems with my eye solely on the business. Then one day, I had the good fortune to be invited to a user research meeting. It was my first introduction to UX and designing with the user front of mind. I was hooked.
 
-Since 2015 I have been fortunate to have learned many lessons as a product designer, a UX designer, a service designer, and a researcher for many organizations. To name a few:
+Since 2015 I have been fortunate for experiences that helped me grow as a product designer, a UX designer, a service designer, and a researcher working for many organizations.
 
 My work at [Turner Construction](https://www.turnerconstruction.com) and [SKUR Inc.](https://www.crunchbase.com/organization/skur) challenged me to design products in 3D and improvise with new methods and design tools.
 
@@ -35,7 +35,9 @@ My work with [Stamen](https://stamen.com/), [USCF Osher Center](https://osher.uc
 
 I honed my service design and user research skills when I worked with [Mandel Communications](https://www.mandel.com/), [Be Great LLC](https://begreatllc.com), and [Claude Stein](https://claudestein.com/) to create new offerings in communication and leadership training.
 
-My most recent work as a designer for [Flipcause](https://www.flipcause.com) has helped me develop my ability to influence an organization’s product vision and direction and mentor junior designers. The opportunity to use my talents to give back to an underserved but vital sector in our society has been gratifying.
+And most recently, my work for [Flipcause](https://www.flipcause.com) rallied all of my previous experience together as I helped influence the product vision and direction and mentored junior designers. The opportunity to use my talents to give back to an underserved but vital sector in our society has been gratifying.
+
+*Visit my [Linkedin](https://www.linkedin.com/in/shanewasley/) profile for more details about my work history.*
 
 ## When I'm not designing
 
