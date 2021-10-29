@@ -60,7 +60,9 @@ As a construction project gets underway, tradespeople enter the site, do their w
 
 When teams fall behind schedule in their assigned work, they create delays for the teams that follow, which puts the project’s final delivery date at risk. Such delays are common in construction and pose a big problem for the industry. A McKinsey report acquired by Turner Construction showed the following:
 
-> “Schedule delays add an average of 20 additional months and 80% additional costs to mega-projects.” — McKinsey Co. report for Turner’s industry
+{{< blockquote author="— McKinsey Co. report for Turner’s industry" >}}
+  “Schedule delays add an average of 20 additional months and 80% additional costs to mega-projects.”
+{{< /blockquote >}}
 
 When Turner’s executive team considered the potential risk to their profit margin on upcoming mega-projects, they were eager to find solutions to help their work teams stay on schedule by being more responsive in mitigating any delays.
 
@@ -99,7 +101,10 @@ The primary users for this project were Turner’s superintendents, whom we coll
 
 Known as a “super” on the job, Jack has enormous shoes to fill as he manages the day-to-day operations at a mega-project construction site. He has to track the progress of hundreds of tradespeople in great detail while quickly prioritizing and resolving any problems before they affect the schedule.
 
-> “On the busy days, I’ve watched Jack answer requests on his phone every 8 seconds.” — a member of Turner’s team.
+{{< blockquote author="- a member of Turner’s design team" >}}
+  “On the busy days, I’ve watched Jack answer requests on his phone every 8 seconds.”
+{{< /blockquote >}}
+
 
 The demands on Jack require that he have a rare form of focus and discipline to excel at his job. I learned that it is not uncommon for companies like Turner to recruit military commanders to fill positions like Jack’s. To understand why, consider the roles that Jack must play.
 
@@ -113,7 +118,9 @@ One of Jack’s most critical roles is that of arbitrator and intermediary betwe
 
 One of Jack’s main tasks as the site-to-office conduit is performing walking tours of the construction site (site walks) to assess the tradespeople’s progress. Jack visits areas of the building where work is incomplete, talks to the tradespeople working there, and then documents the status of each area with paper notes and photographs.
 
-> “He’ll use whatever is available to him for taking notes. Sometimes he’ll grab some scrap cardboard, outline a $1 million change order for the project on it, then stuff it in his belt.” — a member of Turner’s design team.
+{{< blockquote author="- a member of Turner’s design team" >}}
+  “He’ll use whatever is available to him for taking notes. Sometimes he’ll grab a piece of scrap cardboard, outline a $1 million change order for the project on it, then stuff it in his belt.”
+{{< /blockquote >}}
 
 After completing the site walk, Jack uses all the source information he’s gathered to notate the status of each area on the building plans—with attention specifically on those areas that are behind schedule or need a problem resolved. Then Jack takes his notated plans to a meeting with the in-office team, where any findings that may affect the project’s schedule or budget are discussed and evaluated.
 

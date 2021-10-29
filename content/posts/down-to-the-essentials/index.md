@@ -116,7 +116,9 @@ Moreover, showing all objects at all measured variance levels (colored red, yell
 
 {{< webp image="/images/skur-vv/defaults-rgy-to-red-only.png" caption="How a structure looks as you start to filter out low (green) and medium (yellow) variance objects. Keeping only the high variance objects (red) toggled on by default meant that the essential visual data our users sought stood out clearly."  >}}
 
-> “Just show me the red.” - a customer expressing the need for simplicity in the UI
+{{< blockquote author="— a SKUR customer" >}}
+  "Just show me the red."
+{{< /blockquote >}}
 
 To improve the user experience, we needed to help Carson complete his inspection as efficiently as possible. As one customer said in an interview, “Just show me the red.” Accordingly, I redesigned the filter element to cut down the filter choices and keep only one filter on by default.
 
@@ -153,7 +155,10 @@ To help visualize how everything from the redesign came together, I created a cl
 
 {{< video src="proto-v1-red@576-12" autoplay="true" muted="true" loop="true" playsinline="true" caption="A click-through prototype showing the redesigned interface with only the highest variance objects (red) toggled on (the new default)." >}}
 
-> “I’m only seeing red, and I like it.” - a customer after previewing the prototype
+{{< blockquote author="— a SKUR customer" >}}
+  “I’m only seeing red, and I like it.”
+{{< /blockquote >}}
+
 
 I had the opportunity to perform a user walkthrough of the prototype with two of our customers. They both expressed how much simpler and quicker the process of inspection appeared to be then before. One customer noted they were so busy that they only had a few minutes to review the variance analysis, noting, “I’m only seeing red, and I like it.”
 

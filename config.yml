@@ -86,8 +86,7 @@ params:
   homeInfoParams:
     Title: "Hello \U0001F44B"
     Content:
-      Welcome to my portfolio site, where you can find examples of my work and learn more about me as a designer.
-      If you want details about my work history, please visit my Linkedin [profile](https://www.linkedin.com/in/shanewasley/).
+      Welcome to my portfolio site, where you can find examples of my work and learn more about me as a designer. If you want details about my work history, please visit my Linkedin [profile](https://www.linkedin.com/in/shanewasley/).
 
   analytics:
     google:
