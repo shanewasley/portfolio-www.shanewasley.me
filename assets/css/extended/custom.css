@@ -570,7 +570,6 @@ button#theme-toggle {
     min-width: var(--content-gap);
     padding: calc(var(--content-gap) / 2) 0 calc(var(--content-gap) / 2) 0;
     font-size: calc(0.9rem * var(--text-multiplier));
-    font-weight: 600;
     text-align: start;
 }
 
