@@ -23,18 +23,18 @@ ShowPostNavLinks: true
 ---
 
 ## Highlights
-|                      |                                                              |
-|----------------------|--------------------------------------------------------------|
-| **Format**          | Case Study                                                    |
-| **Company**          | Turner Construction Co.                                      |
-| **Product**          | Web app prototype                                            |
-| **Users**            | Superintendents at construction mega-sites                        |
-| **Role**             | UX Designer                                                  |
-| **Team**             | Two other designers, one product manager                     |
-| **Timeline**         | Five months, while working on parallel projects              |
-| **Skills & Methods** | Sketching, task flows, prototyping, training the team to perform user research |
-| **Tools**            | Sketch, Framer Classic, paper prototypes                     |
-| **Deliverables**     | Research synthesis reports, personas, experience maps, sketches, prototypes |
+|                      | |                                                              |
+|----------------------|-|-------------------------------------------------------------|
+| **Format**          | | Case Study                                                    |
+| **Company**          | | Turner Construction Co.                                      |
+| **Product**          | | Web app prototype                                            |
+| **Users**            | | Superintendents at construction mega-sites                        |
+| **Role**             | | UX Designer                                                  |
+| **Team**            | | Two other designers, one product manager                     |
+| **Timeline**         | | Five months, while working on parallel projects              |
+| **Skills & Methods** | | Sketching, task flows, prototyping, training the team to perform user research |
+| **Tools**            | | Sketch, Framer Classic, paper prototypes                     |
+| **Deliverables**     | | Research synthesis reports, personas, experience maps, sketches, prototypes |
 
 ## Introduction
 

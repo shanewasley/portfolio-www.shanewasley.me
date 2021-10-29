@@ -232,7 +232,7 @@ html {
 body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    line-height: 1.5;
+    line-height: 1.6;
     word-break: break-word;
     background: var(--theme);
 }
@@ -279,7 +279,7 @@ body {
 .post-title {
     font-size: calc(2rem * var(--headings-multiplier));
     margin-top: 0;
-    margin-bottom: calc(2rem * var(--headings-multiplier)/2);
+    margin-bottom: calc(2rem * var(--headings-multiplier)/4);
 }
 
 .post-content h1 {
@@ -425,11 +425,17 @@ button#theme-toggle {
 .first-entry .entry-content {
     margin: 14px 0;
     font-size: 16px;
+    color: var(--content);
     -webkit-line-clamp: unset;
 }
 
 .first-entry .entry-footer {
     font-size: 14px;
+}
+
+.post-entry {
+    margin-bottom: var(--gap);
+    padding: calc(var(--gap) / 2) var(--gap) var(--gap) var(--gap);
 }
 
 .entry-content {
@@ -442,7 +448,7 @@ button#theme-toggle {
 
 .post-description {
     font-size: calc(1rem * var(--text-multiplier));
-    margin-top: calc(1rem * var(--text-multiplier));
+    margin-top: calc(1rem * var(--text-multiplier)/2);
     margin-bottom: calc(1rem * var(--text-multiplier)/2);
 }
 
@@ -475,11 +481,6 @@ button#theme-toggle {
 
 .breadcrumbs a {
     font-size: 16px;
-}
-
-.post-content table th {
-    font-size: 14px;
-    text-align: start;
 }
 
 .post-content code {
@@ -558,6 +559,36 @@ button#theme-toggle {
     margin-bottom: calc(1.5 *var(--content-gap));
 
 }
+
+.post-content table {
+    margin: var(--content-gap) 0 calc(2 * var(--content-gap)) 0;
+
+}
+
+.post-content table th,
+.post-content table:not(.highlighttable, .highlight table, .gist .highlight) td {
+    min-width: var(--content-gap);
+    padding: calc(var(--content-gap) / 2) 0 calc(var(--content-gap) / 2) 0;
+    font-size: calc(0.9rem * var(--text-multiplier));
+    font-weight: 600;
+    text-align: start;
+}
+
+.post-content table td{
+    font-size: calc(0.8rem * var(--text-multiplier));
+}
+
+.toc {
+    margin: 0 0 calc(var(--content-gap) * 2) 0;
+    padding: 0.4em;
+}
+
+.toc details summary {
+    font-size: calc(1rem * var(--text-multiplier));
+    margin-inline-start: calc(var(--content-gap) / 1.5);
+}
+
+
 
 /* footer */
 @media screen and (max-width: 992px) {

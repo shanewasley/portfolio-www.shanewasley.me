@@ -24,18 +24,18 @@ ShowPostNavLinks: true
 ---
 
 ## Highlights
-|                      |                                                              |
-|----------------------|--------------------------------------------------------------|
-| **Format**          | Project Brief                                                    |
-| **Company**          | SKUR Inc.                                                    |
-| **Product**          | Web app, SAAS analytics                                      |
-| **Users**            | Engineers and operations managers working at large-scale engineering, fabrication, and construction companies |
-| **Role**             | UI/UX Designer                                               |
-| **Team**             | Three developers, product manager, customer success manager  |
-| **Timeline**         | Two months, while working on parallel projects               |
-| **Skills & Methods** | Sketching, wireframing, user flows, prototyping, user interviews, user testing, design system |
-| **Tools**            | Sketch, Zeppelin, Framer Studio, Screenflow, Sketchfab, JIRA, Github |
-| **Deliverables**     | User research artifacts, sketches, prototypes, UI specifications |
+|                     | |                                                              |
+|--------------------|-|--------------------------------------------------------------|
+| **Format**         | | Project Brief                                                 |
+| **Company**        | | SKUR Inc.                                                    |
+| **Product**        | | Web app, SAAS analytics                                      |
+| **Users**          | | Engineers and operations managers working at large-scale engineering, fabrication, and construction companies|
+| **Role**           | | UI/UX Designer                                               |
+| **Team**           | | Three developers, product manager, customer success manager|
+| **Timeline**       | | Two months, while working on parallel projects               |
+| **Skills & Methods**| | Sketching, wireframing, user flows, prototyping, user interviews, user testing, design system|
+| **Tools**          | | Sketch, Zeppelin, Framer Studio, Screenflow, Sketchfab, JIRA, Github|
+| **Deliverables**   | | User research artifacts, sketches, prototypes, UI specifications|
 
 ## Overview
 SKUR Inc. created a web app for variance analysis of construction sites. By showing how high-definition laser surveys of buildings differed from a 3D CAD model, SKUR’s app helped customers identify problems that could increase project delays and costs if they went unaddressed. For more about SKUR’s technology, primary users, and the team I worked with, [see the related case study](/posts/lets-get-aligned/).
@@ -46,11 +46,11 @@ The SKUR team suspected they could deliver better value with the product after s
 
 The redesign process hinged on revisiting our assumptions about what users needed to do and see in the app. We assumed that customers would require an extensive view of data while performing a large portion of their workflow in SKUR’s app. We learned from user research that the customer needed to use our app to see a limited set of high-priority data to complete the rest of their job outside of our app— with tools they were already using to get the job done. Improving the user experience meant shifting the app's defaults from a state of “do everything, show everything” to “show only what’s needed to do the most important thing.”
 
-| **Defaults before**                         | **Defaults after**                       |
-|---------------------------------------------|------------------------------------------|
-| Support 4 tasks                             | Support 1 task                           |
-| Display all variances                       | Display only high priority variances     |
-| 12 column, 1000+ row table of variance data | Variance data displayed object-by-object |
+| **Defaults before**                        | | **Defaults after**                       |
+|--------------------------------------------|-|------------------------------------------|
+| Support 4 tasks                            | | Support 1 task                           |
+| Display all variances                      | | Display only high priority variances     |
+| Variance data displayed in a table with 12 columns and 1,000+ rows | | Variance data displayed per object in a card element |
 
 Through iterative prototyping, we stripped down the interface to the critical views and controls that would help our customers precisely get what they needed from the app to perform their jobs. By offering less, we provided more, and we transformed the experience of the variance interface to be more efficient and on-task for our customers.
 
