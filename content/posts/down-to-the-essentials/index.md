@@ -12,7 +12,7 @@ draft: false
 hidemeta: true
 comments: false
 description: "Redesigning a feature in a SASS analytics app to simplify construction site inspection."
-canonicalURL: "/posts/down-to-the-essentials"
+canonicalURL: "https://www.shanewasley.me/posts/down-to-the-essentials"
 disableHLJS: true # to disable highlightjs
 disableShare: true
 hideSummary: true

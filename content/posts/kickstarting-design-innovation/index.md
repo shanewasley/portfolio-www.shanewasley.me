@@ -12,7 +12,7 @@ draft: false
 hidemeta: true
 comments: false
 description: "Training a team to prototype inspires the formation of a company-wide design initiative."
-canonicalURL: "/posts/kickstarting-design-innovation"
+canonicalURL: "https://www.shanewasley.me/posts/kickstarting-design-innovation"
 disableHLJS: true # to disable highlightjs
 disableShare: true
 hideSummary: true

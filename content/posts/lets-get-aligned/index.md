@@ -12,7 +12,7 @@ draft: false
 hidemeta: true
 comments: false
 description: "Designing a new feature in a SAAS analytics app that aligned site surveys with CAD models."
-canonicalURL: "/posts/lets-get-aligned"
+canonicalURL: "https://www.shanewasley.me/posts/lets-get-aligned"
 disableHLJS: true # to disable highlightjs
 disableShare: true
 hideSummary: true
