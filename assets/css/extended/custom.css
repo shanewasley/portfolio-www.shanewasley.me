@@ -424,7 +424,7 @@ button#theme-toggle {
 
 .first-entry .entry-content {
     margin: 14px 0;
-    font-size: 16px;
+    font-size: 20px;
     color: var(--content);
     -webkit-line-clamp: unset;
 }
@@ -447,7 +447,7 @@ button#theme-toggle {
 }
 
 .post-description {
-    font-size: calc(0.9rem * var(--text-multiplier));
+    font-size: calc(1rem * var(--text-multiplier));
     margin-top: calc(1rem * var(--text-multiplier)/2);
     margin-bottom: calc(1rem * var(--text-multiplier)/2);
 }
