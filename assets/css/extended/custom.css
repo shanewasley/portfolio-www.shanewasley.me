@@ -419,31 +419,6 @@ button#theme-toggle {
     padding: 0 16px;
 }
 
-first-entry home-info entry-header entry-content
-
-.ffirst-entry .eentry-header h1 {
-    font-size: 36px;
-    line-height: 1;
-}
-
-.ffirst-entry .eentry-content {
-    margin: 0 0 80 0;
-    color: var(--content);
-}
-
-.ffirst-entry .eentry-content p {
-    margin: 0 0 80 0;
-    color: var(--content);
-}
-
-.hhome-info .eentry-content {
-    -webkit-line-clamp: unset;
-}
-
-.ffirst-entry .eentry-footer {
-    font-size: 14px;
-}
-
 .post-entry {
     margin-bottom: var(--gap);
     padding: calc(var(--gap) / 2) var(--gap) var(--gap) var(--gap);
