@@ -2,7 +2,7 @@
 
 This is the repo for my design portfolio website, www.shanewasley.me. Most of my work is NDA'd, but what I can share so far is up online. 
 
-After looking at lots of static site gen options, I decided on Netlify and Hugo. I used the Hugo Papermod theme as my starting point and made changes to the theme's colors, spacing, typography to suit my tastes. I also added in a few shortcodes for looping videos and webp image formats.
+After looking at lots of static site gen options, I decided on Netlify and Hugo. I used the [Hugo Papermod theme](https://github.com/adityatelange/hugo-PaperMod) as my starting point and made changes to the theme's colors, spacing, typography to suit my tastes. I also added in a few shortcodes for [looping videos](https://github.com/martignoni/hugo-video) from [@martignoni](https://github.com/martignoni) and webp image formats adapted from [@martijnvv](https://github.com/martijnvv).
 
 I'm happy with the results and I'm seeing 100's across the board on lighthouse.
 
