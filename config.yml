@@ -2,7 +2,7 @@ baseURL: https://www.shanewasley.me
 languageCode: en-us
 title: Shane Wasley
 paginate: 4
-theme: "hugo-PaperMod"
+theme: "shane-portfolio"
 
 imaging:
   quality: 100
@@ -31,8 +31,8 @@ params:
   DateFormat: "2006"
   defaultTheme: auto # dark, light
   disableThemeToggle: false
-  disableAnchoredHeadings: true
-  ShowReadingTime: true
+  disableAnchoredHeadings: false
+  ShowReadingTime: false
   ShowShareButtons: false
   ShowPostNavLinks: true
   ShowBreadCrumbs: false
@@ -42,7 +42,7 @@ params:
   comments: false
   hidemeta: false
   hideSummary: true
-  showtoc: true
+  showtoc: false
   tocopen: false
   images:
     maxSize: 1440
@@ -84,9 +84,9 @@ params:
 
   # home-info mode
   homeInfoParams:
-    Title: "Hello \U0001F44B"
+    Title: "Shane Wasley"
     Content:
-      Welcome to my portfolio site, where you can find examples of my work and learn more about me as a designer. If you want details about my work history, please visit my Linkedin [profile](https://www.linkedin.com/in/shanewasley/).
+      Welcome to my portfolio site, where you can find examples of my work and learn more about me as a designer. For my work history, visit my Linkedin [profile](https://www.linkedin.com/in/shanewasley/).
 
   analytics:
     google:
@@ -118,6 +118,10 @@ params:
     keys: ["title", "permalink", "summary", "content"]
 menu:
   main:
+    - identifier: home
+      name: Home
+      url: /
+      weight: 20
     - identifier: about
       name: About
       url: /about/about-me/
@@ -127,19 +131,6 @@ taxonomies:
   category: categories
   tag: tags
   series: series
-
-# Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
-# pygmentsUseClasses: true
-# markup:
-# goldmark:
-#     renderer:
-#         unsafe: true
-#     highlight:
-#         # anchorLineNos: true
-#         codeFences: true
-#         guessSyntax: true
-#         lineNos: true
-#         style: monokai
 
 privacy:
   vimeo:

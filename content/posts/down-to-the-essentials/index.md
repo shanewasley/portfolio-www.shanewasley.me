@@ -3,10 +3,10 @@ title: "Down to the essentials"
 date: 2018-09-18T11:30:03+00:00
 # weight: 1
 # aliases: ["/first"]
-tags: ["project-brief","2018"]
+tags:
 author: "Me"
 # author: ["Me", "You"] # multiple authors
-showToc: true
+showToc: false
 TocOpen: false
 draft: false
 hidemeta: true
@@ -23,16 +23,15 @@ ShowPostNavLinks: true
 
 ---
 
-## Highlights
+## Summary
 |                     | |                                                              |
 |--------------------|-|--------------------------------------------------------------|
-| **Format**         | | Project Brief                                                 |
 | **Company**        | | SKUR Inc.                                                    |
 | **Product**        | | Web app, SAAS analytics                                      |
 | **Users**          | | Engineers and operations managers working at large-scale engineering, fabrication, and construction companies|
 | **Role**           | | UI/UX Designer                                               |
 | **Team**           | | Three developers, product manager, customer success manager|
-| **Timeline**       | | Two months, while working on parallel projects               |
+| **Timeline**       | | Two months in 2018, while working on parallel projects               |
 | **Skills & Methods**| | Sketching, wireframing, user flows, prototyping, user interviews, user testing, design system|
 | **Tools**          | | Sketch, Zeppelin, Framer Studio, Screenflow, Sketchfab, JIRA, Github|
 | **Deliverables**   | | User research artifacts, sketches, prototypes, UI specifications|

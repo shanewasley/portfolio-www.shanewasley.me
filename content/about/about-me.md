@@ -3,7 +3,7 @@ author: "Shane Wasley"
 title: "About Me"
 date: "2019-03-10"
 description: ""
-tags: ["about"]
+tags:
 ShowToc: false
 TocOpen: false
 draft: false

@@ -3,10 +3,10 @@ title: "Clickers, screens, and the great machine"
 date: 2019-09-11T11:30:03+00:00
 # weight: 1
 # aliases: ["/first"]
-tags: ["case-study"]
+tags:
 author: "Me"
 # author: ["Me", "You"] # multiple authors
-showToc: true
+showToc: false
 TocOpen: false
 draft: true
 hidemeta: true

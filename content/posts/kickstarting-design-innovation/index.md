@@ -3,10 +3,10 @@ title: "Kickstarting design innovation"
 date: 2017-09-14T11:30:03+00:00
 # weight: 1
 # aliases: ["/first"]
-tags: ["case-study","2017"]
+tags:
 author: "Me"
 # author: ["Me", "You"] # multiple authors
-showToc: true
+showToc: false
 TocOpen: false
 draft: false
 hidemeta: true
@@ -25,13 +25,12 @@ ShowPostNavLinks: true
 ## Highlights
 |                      | |                                                              |
 |----------------------|-|-------------------------------------------------------------|
-| **Format**          | | Case Study                                                    |
 | **Company**          | | Turner Construction Co.                                      |
 | **Product**          | | Web app prototype                                            |
 | **Users**            | | Superintendents at construction mega-sites                        |
 | **Role**             | | UX Designer                                                  |
 | **Team**            | | Two other designers, one product manager                     |
-| **Timeline**         | | Five months, while working on parallel projects              |
+| **Timeline**         | | Five months in 2017, while working on parallel projects              |
 | **Skills & Methods** | | Sketching, task flows, prototyping, training the team to perform user research |
 | **Tools**            | | Sketch, Framer Classic, paper prototypes                     |
 | **Deliverables**     | | Research synthesis reports, personas, experience maps, sketches, prototypes |

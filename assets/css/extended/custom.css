@@ -52,6 +52,7 @@
 
 /* FONTS */
 
+
 @font-face {
     font-family: "Public Sans";
     font-style: normal;
@@ -433,7 +434,7 @@ button#theme-toggle {
 }
 
 .first-entry {
-    margin-top: calc(var(--gap) * 2);
+    margin-top: calc(var(--gap));
 }
 
 .first-entry .entry-header h1 {
@@ -450,7 +451,7 @@ button#theme-toggle {
 
 .first-entry .entry-content p {
     margin-top: 8px;
-    margin-bottom: calc(var(--gap) * 3);
+    margin-bottom: calc(var(--gap));
 }
 
 .post-entry {

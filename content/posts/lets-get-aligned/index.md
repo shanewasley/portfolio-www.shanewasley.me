@@ -3,10 +3,10 @@ title: "Let's get aligned"
 date: 2018-09-16T11:30:03+00:00
 # weight: 1
 # aliases: ["/first"]
-tags: ["case-study","2018"]
+tags:
 author:
 # author: ["Me", "You"] # multiple authors
-showToc: true
+showToc: false
 TocOpen: false
 draft: false
 hidemeta: true
@@ -25,13 +25,12 @@ ShowPostNavLinks: true
 ## Highlights
 |                      | |                                                              |
 |----------------------|-|--------------------------------------------------------------|
-| **Format**          | | Case Study                                                    |
 | **Company**          | | SKUR Inc.                                      |
 | **Product**          | | Web app, SAAS analytics                                            |
 | **Users**            | | Engineers and operations managers working at large-scale engineering, fabrication, and construction companies                        |
 | **Role**             | | UI/UX Designer                                                  |
 | **Team**             | | Three developers, product manager, customer success manager                     |
-| **Timeline**         | | Two months, while working on parallel projects              |
+| **Timeline**         | | Two months in 2018, while working on parallel projects              |
 | **Skills & Methods** | | Sketching, wireframing, user flows, prototyping, user interviews, user testing, design system |
 | **Tools**            | | Sketch, Framer Classic, Invision, Zeppelin, Screenflow, HTML/CSS, JIRA, Github                     |
 | **Deliverables**     | | User research artifacts, sketches, prototypes, UI specifications |
