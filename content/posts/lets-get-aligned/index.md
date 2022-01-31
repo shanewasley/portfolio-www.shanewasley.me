@@ -22,7 +22,7 @@ ShowBreadCrumbs: false
 ShowPostNavLinks: true
 
 ---
-## Highlights
+
 |                      | |                                                              |
 |----------------------|-|--------------------------------------------------------------|
 | **Company**          | | SKUR Inc.                                      |

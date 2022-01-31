@@ -22,8 +22,8 @@ ShowBreadCrumbs: false
 ShowPostNavLinks: true
 ---
 
-## Highlights
-|                      | |                                                              |
+
+|        | |                                       |
 |----------------------|-|-------------------------------------------------------------|
 | **Company**          | | Turner Construction Co.                                      |
 | **Product**          | | Web app prototype                                            |
