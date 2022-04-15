@@ -6,7 +6,7 @@ date: 2017-09-14T11:30:03+00:00
 tags:
 author: "Me"
 # author: ["Me", "You"] # multiple authors
-showToc: false
+showToc: true
 TocOpen: false
 draft: false
 hidemeta: true
