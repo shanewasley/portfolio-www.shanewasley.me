@@ -11,7 +11,7 @@ TocOpen: false
 draft: false
 hidemeta: true
 comments: false
-description: "Training a team to prototype inspires the formation of a company-wide design initiative."
+description: "Training a team to prototype inspires the launch of a corporate design innovation lab."
 canonicalURL: "https://www.shanewasley.me/posts/kickstarting-design-innovation"
 disableHLJS: true # to disable highlightjs
 disableShare: true
@@ -23,8 +23,9 @@ ShowPostNavLinks: true
 ---
 
 
-|        | |                                       |
+| `Highlights`       | |                                       |
 |----------------------|-|-------------------------------------------------------------|
+| **Format**        | | Case Study                                                    |
 | **Company**          | | Turner Construction Co.                                      |
 | **Product**          | | Web app prototype                                            |
 | **Users**            | | Superintendents at construction mega-sites                        |
@@ -34,6 +35,7 @@ ShowPostNavLinks: true
 | **Skills & Methods** | | Sketching, task flows, prototyping, training the team to perform user research |
 | **Tools**            | | Sketch, Framer Classic, paper prototypes                     |
 | **Deliverables**     | | Research synthesis reports, personas, experience maps, sketches, prototypes |
+| **Outcome**   | | Formation of design innovation lab |
 
 ## Introduction
 

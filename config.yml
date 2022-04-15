@@ -1,4 +1,4 @@
-baseURL: https://www.shanewasley.me
+baseURL: https://shanewasley.me
 languageCode: en-us
 title: Shane Wasley
 paginate: 4
@@ -27,7 +27,7 @@ params:
   keywords: [Portfolio, Design, UX Design, Product Design, UX Research]
   author: Shane Wasley
   # author: ["Me", "You"] # multiple authors
-  #images: ["<link or path of image for opengraph, twitter-cards>"]
+  images: ["shane-wasley-profile.jpg"]
   DateFormat: "2006"
   defaultTheme: auto # dark, light
   disableThemeToggle: false
@@ -72,15 +72,10 @@ params:
     enabled: false # needs to be explicitly set
     title: ExampleSite
     subtitle: "This is subtitle"
-    imageUrl: "<img location>"
+    imageUrl: "shane-wasley-profile.jpg"
     imageWidth: 120
     imageHeight: 120
-    imageTitle: my image
-    buttons:
-      - name: Posts
-        url: posts
-      - name: Tags
-        url: tags
+    imageTitle: Shane Wasley
 
   # home-info mode
   homeInfoParams:
