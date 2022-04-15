@@ -12,7 +12,7 @@ draft: false
 hidemeta: true
 comments: false
 description: "Redesigning a feature in a SASS analytics app to reduce improve the experience of construction site inspection."
-canonicalURL: "https://shanewasley.me/posts/redesign-speed-simplicity"
+canonicalURL: "https://shanewasley.me/posts/accelerating-site-inspection"
 disableHLJS: true # to disable highlightjs
 disableShare: true
 hideSummary: true
