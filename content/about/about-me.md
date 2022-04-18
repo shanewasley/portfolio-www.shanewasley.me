@@ -41,16 +41,16 @@ And most recently, my work for [Flipcause](https://www.flipcause.com) rallied al
 
 ## When I'm not designing
 
-When I’m not designing, I’m doing the other things I love: West African dancing, cooking, exercise, and working on my first album. I also maintain a hypnotherapy and spiritual counseling practice.
+When I’m not designing, I’m doing the other things I love: West African dancing, cooking, hitting the gym, and working on my EP. I also maintain a hypnotherapy and spiritual counseling practice.
 
 {{< webp image="/images/about/shane-mask-on-mask-off.jpg" caption="Recent pictures of me with my mask off and my mask on." >}}
 
-For music I oscillate up to the energy of punk, pop and techno (e.g. [The Ramones](https://www.youtube.com/watch?v=4ColuiAvNP4), [Sia](https://www.youtube.com/watch?v=GKSRyLdjsPA), [Chlär](https://youtu.be/oku_XeRtC1U?t=1244)), and wind down to jazz and blues (e.g. [Orice Jenkins](https://www.youtube.com/watch?v=HRBnQ35CcgM), [Eva Cassidy](https://www.youtube.com/watch?v=K-X1g-aEeNc), [B.B. King](https://www.youtube.com/watch?v=kpC69qIe02E)). I'm more team [Solange](https://www.youtube.com/watch?v=_W14wK4QGh4) than team Beyonce.
+For music I oscillate up to the energy of punk/rock and techno (e.g. [QOTSA](https://www.youtube.com/watch?v=LRRPeOBygG8), [HÖR Berlin](https://www.youtube.com/c/HÖRBERLIN/videos)), and wind down to jazz/blues (e.g. [Orice Jenkins](https://www.youtube.com/watch?v=HRBnQ35CcgM), [Eva Cassidy](https://www.youtube.com/watch?v=K-X1g-aEeNc), [Sam Cooke](https://www.youtube.com/watch?v=x58gDMjDbc8)). My favorite diva is still [Solange](https://www.youtube.com/watch?v=_W14wK4QGh4).
 
-Except for browsing Hacker News [articles](https://news.ycombinator.com/item?id=28942189), I'm taking a break from social media. If I have free time to spend on the internet, I'm usually looking at pictures of [space](https://apod.nasa.gov/apod/ap190731.html) or pictures of [Earth](https://eol.jsc.nasa.gov/Collections/EarthArt/all.htm) from space.
+On the internet I'm frequently browsing Hacker News [articles](https://news.ycombinator.com/item?id=28942189), scouring Reddit for non-bot product reviews, and spending time in forums and Discord servers. I love looking at pictures of [space](https://apod.nasa.gov/apod/ap190731.html) or pictures of [Earth](https://eol.jsc.nasa.gov/Collections/EarthArt/all.htm) from space.
 
 {{< webp image="/images/about/shane-internet-interests.jpg" caption="On the left: the Fishhead Nebula from the Hubble Space Telescope. On the right: Madagascar from the International Space Station." >}}
 
-I currently live in San Jose, CA, and my happy place during the pandemic has been the beach and jumping into the cold waters of the Pacific!
+I currently live in San Carlos, CA, and my happy place during the pandemic has been the beach and jumping into the cold waters of the Pacific!
 
 {{< webp image="/images/about/shane-loves-the-beach.jpg" caption="From left to right: I also design beach forts; Testing my wings; It's true, I really do get in the water." >}}
