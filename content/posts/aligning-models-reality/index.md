@@ -20,6 +20,13 @@ searchHidden: true
 ShowReadingTime: true
 ShowBreadCrumbs: false
 ShowPostNavLinks: true
+cover:
+    image: "/images/covers/cover-skur-aa.jpg"
+    # can also paste direct link from external site
+    # ex. https://i.ibb.co/K0HVPBd/paper-mod-profilemode.png
+    alt: "Case Study Preview Image"
+    caption: ""
+    relative: false # To use relative path for cover image, used in hugo Page-bundl
 
 ---
 
@@ -124,7 +131,7 @@ After reviewing various alignment methods, we determined that matching surfaces 
 
 We needed Carson to match three non-coplanar pairs between the model and point cloud for alignment to succeed. In other words, we needed the user to pick a surface on the X, Y, and Z-axis planes of the model and pick the corresponding surfaces on the X, Y, and Z-axis of the point cloud.
 
-{{< webp image="/images/skur-aa/process-coplanar.png" caption="We needed the user to match co-planar pairs, on three different planes, for the Assisted Alignment feature to work. For example, in the diagram above we would need the user to match planes #1, #2, and #3 on one object (the 3D model) with the corresponding planes on the other object (the scan)." >}}
+{{< webp image="/images/skur-aa/process-coplanar.png" caption="We needed the user to match co-planar pairs, on three different planes, for the Assisted Alignment feature to work. In the example diagram above, we would need the user to match planes #1, #2, and #3 on the left object with the corresponding planes on the right object, in order to align and compare them." >}}
 
 #### Tasks
 

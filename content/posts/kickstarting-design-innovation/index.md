@@ -20,6 +20,15 @@ searchHidden: true
 ShowReadingTime: true
 ShowBreadCrumbs: false
 ShowPostNavLinks: true
+cover:
+    image: "/images/covers/cover-turner.jpg"
+    # can also paste direct link from external site
+    # ex. https://i.ibb.co/K0HVPBd/paper-mod-profilemode.png
+    alt: "Case Study Preview Image"
+    caption: ""
+    relative: false # To use relative path for cover image, used in hugo Page-bundl
+
+---
 ---
 
 

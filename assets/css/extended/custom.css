@@ -356,6 +356,10 @@ button#theme-toggle {
     font-weight: 500;
 }
 
+.read-more {
+    font-weight: 600;
+}
+
 /* main.css */
 
 .pagination a {
@@ -417,6 +421,10 @@ button#theme-toggle {
 .entry-isdraft {
     font-size: 14px;
     color: var(--secondary);
+}
+
+.entry-cover img {
+    margin-top: var(--gap);
 }
 
 .entry-header h2 {

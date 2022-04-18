@@ -20,6 +20,13 @@ searchHidden: true
 ShowReadingTime: true
 ShowBreadCrumbs: false
 ShowPostNavLinks: true
+cover:
+    image: "/images/covers/cover-skur-vv.jpg"
+    # can also paste direct link from external site
+    # ex. https://i.ibb.co/K0HVPBd/paper-mod-profilemode.png
+    alt: "Case Study Preview Image"
+    caption: ""
+    relative: false # To use relative path for cover image, used in hugo Page-bundl
 
 ---
 
@@ -44,7 +51,7 @@ SKUR Inc. created a web app for variance analysis of construction sites. By show
 
 The SKUR team suspected they could deliver better value with the product after seeing lower than expected engagement with the features they built for variance analysis. As the UI/UX designer working with a five-person team, my task was to redesign the variance interface based on the customer needs we could uncover with research over two months.
 
-The redesign process hinged on revisiting our assumptions about what users needed to do and see in the app. We assumed that customers would require an extensive view of data while performing a large portion of their workflow in SKUR’s app. We learned from user research that the customer needed to use our app to see a limited set of high-priority data to complete the rest of their job outside of our app— with tools they were already using to get the job done. Improving the user experience meant shifting the app's defaults from a state of “do everything, show everything” to “show only what’s needed to do the most important thing.”
+We revisited our assumptions about what users needed to do and see in the app for our redesign. We assumed that customers would require an extensive view of data while performing a large portion of their workflow in SKUR’s app. Yet we learned from user research that the customer only needed to use our app to see a limited set of high-priority data to complete the rest of their job outside of our app— with tools they were already using to get the job done. Improving the user experience meant shifting the app's defaults from a state of “do everything, show everything” to “show only what’s needed to do the most important thing.”
 
 | **App defaults before**                        | | **App defaults after redesign**                       |
 |--------------------------------------------|-|------------------------------------------|
