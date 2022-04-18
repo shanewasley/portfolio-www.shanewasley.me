@@ -41,9 +41,7 @@ And most recently, my work for [Flipcause](https://www.flipcause.com) rallied al
 
 ## When I'm not designing
 
-When I’m not designing, I’m doing the other things I love: West African dancing, cooking, hitting the gym, and working on my EP. I also maintain a hypnotherapy and spiritual counseling practice.
-
-{{< webp image="/images/about/shane-mask-on-mask-off.jpg" caption="Recent pictures of me with my mask off and my mask on." >}}
+When I’m not designing, I’m doing the other things I love: West African dancing, cooking, exercising, and working on my EP. I also maintain a hypnotherapy and spiritual counseling practice.
 
 For music I oscillate up to the energy of punk/rock and techno (e.g. [QOTSA](https://www.youtube.com/watch?v=LRRPeOBygG8), [HÖR Berlin](https://www.youtube.com/c/HÖRBERLIN/videos)), and wind down to jazz/blues (e.g. [Orice Jenkins](https://www.youtube.com/watch?v=HRBnQ35CcgM), [Eva Cassidy](https://www.youtube.com/watch?v=K-X1g-aEeNc), [Sam Cooke](https://www.youtube.com/watch?v=x58gDMjDbc8)). My favorite diva is still [Solange](https://www.youtube.com/watch?v=_W14wK4QGh4).
 
