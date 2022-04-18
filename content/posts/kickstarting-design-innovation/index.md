@@ -69,9 +69,9 @@ When Turner’s executive team considered the potential risk to their profit mar
 
 ### Becoming more responsive to construction delays required new technology
 
-The speed at which problems are identified and resolved is critical to the success of any operation. Think about a time you sent in a support ticket to your IT department, and they responded that they would get back to you in 24 hours. If that problem prevented you from working, then your company stood to lose a lot more money because of your inactivity than it would have lost if IT had responded to your problem in one hour or less. Similarly, internal research conducted by Turner Construction showed that the company would lose less money due to schedule delays if the superintendents responsible for monitoring a job could respond more quickly to the problems tradespeople were having at the construction site.
+The speed at which problems are identified and resolved is critical to the success of any operation. Think about a time you sent in a support ticket to your IT department, and they responded that they would get back to you in 24 hours. If that problem prevented you from working, then your company stood to lose a lot more money because of your inactivity than it would have lost if IT had responded to your problem in one hour or less.
 
-{{< webp image="/images/turner/turner-project-costs-delays.png" caption="Reducing schedule delays is one of the most significant ways to reduce costs and increase profits for companies like Turner. Chart not based on actual data." >}}
+Similarly, internal research conducted by Turner Construction showed that the company would lose less money due to schedule delays if the superintendents responsible for monitoring a job could respond more quickly to the problems tradespeople were having at the construction site.
 
 An essential activity on a construction site—the site-walk performed by superintendents—significantly impacts responsiveness. During a site walk, the superintendent physically walks through the site to check the progress in each area and identify any problems. On mega-project sites like sports stadiums, this activity can take days to complete.
 
@@ -176,7 +176,7 @@ To kick off the project and get the initial team members unstuck, I conducted a 
 
 We spent many hours at the whiteboard breaking down the hugely complex processes that underlie construction projects. I was greatly impressed by the deep expertise the initial team members brought to the meetings and excited by all the opportunities their research had revealed.
 
-{{< webp image="/images/turner/turner-whiteboards.jpg" caption="Our design workshop became a crash coarse in how mega projects get done. We covered every inch of the whiteboards cracking the problems open." >}}
+{{< webp image="/images/turner/turner-whiteboards.jpg" caption="Our design workshop became a crash coarse in how mega projects get done. TBH I don't expect you to learn much from this eye chart, I just placed it here to break up the text!" >}}
 
 We achieved our main objectives for the workshop. We decided on the primary user of our work—Turner’s construction site superintendents—and we clarified a set of problems we would need to tackle—the superintendents’ site-planning tasks. We also established what was missing from the current planning applications that Turner was using.
 
@@ -194,17 +194,9 @@ I advocated for provisional personas in this project because I thought it would 
 
 The next step in my process was to distill what we knew about Jack’s site assessments into a simple set of activities and supporting tasks. By describing the journey Jack would take to complete a site assessment with his current tools (walking around with pen and paper), I could start to design the user experience Jack would have as he completed those same steps on a computer screen.
 
-Building from the provisional persona, we outlined the three most important use cases involving Jack. Initially, I represented these use cases as siloed processes to address one by one:
+Building from the provisional persona, the PM and I refined our conceptual model into an experience map that treated Jack’s activities as a series of phases with corresponding tasks. We then aligned these tasks to the features in our design that would support Jack as he completed the tasks.
 
-1. Comparing the progress contractors were making with the construction schedule
-2. Visually confirming work had been completed
-3. Managing the initial steps of an RFI (a particularly costly type of escalation known as a Request for Information).
-
-{{< webp image="/images/turner/turner-use-case-swim-lane-jack.png" caption="The use cases we defined were high-level provisional task-flows for Jack's major activities. More work would be needed to get to a prototype." >}}
-
-In follow-up, the PM and I refined our conceptual model into an experience map that treated Jack’s activities as a series of phases with corresponding tasks. We then aligned these tasks to the features in our design that would support Jack as he completed the tasks.
-
-{{< webp image="/images/turner/turner-experience-map-jack.png" caption="An experience map helped us visualize how Jack's experience connected to problems we could solve." >}}
+{{< webp image="/images/turner/turner-experience-map-jack.png" caption="An experience map helped us visualize how Jack's goals and tasks connected to problems we could solve." >}}
 
 I advocated for a journey map since it provided the design team a visualization for Jack’s experience as a flow of connected tasks over time, rather than a set of siloed activities that the use case model visualized.
 
