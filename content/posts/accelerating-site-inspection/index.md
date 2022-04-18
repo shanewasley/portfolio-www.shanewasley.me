@@ -11,7 +11,7 @@ TocOpen: false
 draft: false
 hidemeta: true
 comments: false
-description: "Redesigning a feature in a SASS analytics app to reduce improve the experience of construction site inspection."
+description: "Redesigning a feature in a SASS analytics app to optimize visual heirarchy and speed up construction site inspection."
 canonicalURL: "https://shanewasley.me/posts/accelerating-site-inspection"
 disableHLJS: true # to disable highlightjs
 disableShare: true
@@ -38,23 +38,25 @@ ShowPostNavLinks: true
 | **Outcome**   | | UI redesigned and shipped to customers |
 
 ## Summary
-SKUR Inc. created a web app for variance analysis of construction sites. By showing how high-definition laser surveys of buildings differed from a 3D CAD model, SKUR’s app helped customers identify problems that could increase project delays and costs if they went unaddressed. For more about SKUR’s technology, primary users, and the team I worked with, [see the related case study](/posts/lets-get-aligned/).
+SKUR Inc. created a web app for variance analysis of construction sites. By showing how high-definition laser surveys of buildings (point clouds differed from a 3D CAD model, SKUR’s app helped customers identify problems that could increase project delays and costs if they went unaddressed. For more about SKUR’s technology, primary users, and the team I worked with, [see the related case study](/posts/aligning-models-reality#about-the-technology).
 
-{{< webp image="/images/skur-vv/overview-variance-map.png" caption="Comparing a CAD model to an HDS laser survey (aka a point cloud) can identify the differences between a design and the built structure. SKUR’s Variance Map classified differences with a red, yellow, and green color system (most to least, respectively)." >}}
+{{< webp image="/images/skur-vv/overview-variance-map.jpg" caption="Comparing a CAD model (1) to a point cloud (2) can identify the differences between design and built structure (3). With SKUR’s Variance Map (3), the differences are classified with a red, yellow, and green color system (most to least, respectively)." >}}
 
 The SKUR team suspected they could deliver better value with the product after seeing lower than expected engagement with the features they built for variance analysis. As the UI/UX designer working with a five-person team, my task was to redesign the variance interface based on the customer needs we could uncover with research over two months.
 
 The redesign process hinged on revisiting our assumptions about what users needed to do and see in the app. We assumed that customers would require an extensive view of data while performing a large portion of their workflow in SKUR’s app. We learned from user research that the customer needed to use our app to see a limited set of high-priority data to complete the rest of their job outside of our app— with tools they were already using to get the job done. Improving the user experience meant shifting the app's defaults from a state of “do everything, show everything” to “show only what’s needed to do the most important thing.”
 
-| **Defaults before**                        | | **Defaults after**                       |
+| **App defaults before**                        | | **App defaults after redesign**                       |
 |--------------------------------------------|-|------------------------------------------|
 | Support 4 tasks                            | | Support 1 task                           |
 | Display all variances                      | | Display only high priority variances     |
 | Variance data displayed in a table with 12 columns and 1,000+ rows | | Variance data displayed per object in a card element |
 
-Through iterative prototyping, we stripped down the interface to the critical views and controls that would help our customers precisely get what they needed from the app to perform their jobs. By offering less, we provided more, and we transformed the experience of the variance interface to be more efficient and on-task for our customers.
+Through iterative prototyping, we stripped down the interface to the critical views and controls that would help our customers precisely get what they needed from the app to perform their jobs. By offering less, we provided more, and we sped up the experience in the variance interface to be more efficient and on-task for our customers.
 
-{{< webp image="/images/skur-vv/overview-before-after-UI.png" caption="When I started, SKUR’s Variance Viewer had a busy interface (left). All of the viewing layers were on by default, and a user would sift through a data table to navigate building objects for inspection. The final prototype I delivered (right), was a redesigned interface that prioritized object-by-object inspection of the critical variance problems at the site."  >}}
+{{< webp image="/images/skur-vv/overview-before-UI.jpg"  >}}
+
+{{< webp image="/images/skur-vv/overview-after-UI.png" caption="When I started, SKUR’s Variance Viewer had a busy interface (top). All of the viewing layers were on by default, and a user would sift through a data table to navigate building objects for inspection. The final prototype I delivered (bottom), was a redesigned interface that prioritized object-by-object inspection of the critical variance problems at the site."  >}}
 
 ## Key contributions
 My most valuable contributions were conducting user research, training team members to perform user research when I was unavailable, creating product prototypes to test with customers, and delivering design specifications to the development team.
@@ -63,7 +65,7 @@ My most valuable contributions were conducting user research, training team memb
 ### Where we started
 When I started on the project, the variance analysis feature of SKUR’s app offered extensive information to customers by default. When a customer sought an answer to the question, “What parts of the construction site vary from the CAD design we started with?”, SKUR’s app answered like a peacock showing all of its feathers. A user would see a viewing screen full of brightly colored objects, fine grain dot fields, a table with thousands of rows, and a 30-plus page PDF report slicing up data in every possible combination.
 
-{{< webp image="/images/skur-vv/starting-viewer-and-report.png" caption="By default, SKUR’s app would provide many data for users to parse through during variance analysis. A central assumption was that we discouraged engagement by delivering so much data to users with the app's default behavior."  >}}
+{{< webp image="/images/skur-vv/starting-viewer-and-report.png" caption="By default, SKUR’s app would provide an enormous amount of data to parse through during variance analysis. You could slice the data with eight filters (1), you could scroll thousands of rows (2), input comments and delegate tasks (3), and read a 30-page PDF report (4). My team's central assumption was that we discouraged engagement by delivering so much data to users with the app's default behavior."  >}}
 
 It was clear to me that the amount of data we were presenting to users was overwhelming. We needed to simplify the interface to improve the experience and increase engagement. We did not develop most of the features present at the start of this project from SKUR’s users' researched needs, so we did not know what to prioritize or simplify.
 
@@ -72,15 +74,15 @@ It was clear to me that the amount of data we were presenting to users was overw
 ### Revisiting assumptions about our customer’s tools
 Early in the project, I had the opportunity to interview several of SKUR’s customers about their workflow. My goal was to understand how they used SKUR’s app, whom they were working with, and what other tools they used to get their job done.
 
-I went into the customer interviews assuming that SKUR’s app was the one tool that supported the customer’s task flow from end to end. Our product team had designed the experience to help our primary user, Carson, complete the critical tasks of identifying variance problems at the construction site and initiating a resolution to those problems with his team (for more on Carson, [see the related case study](/posts/lets-get-aligned/#carson-vdc-engineer)). Accordingly, we included all of the data in SKUR’s Variance Report and Variance Viewer to support Carson in this way.
+I went into the customer interviews assuming that SKUR’s app was the one tool that supported the customer’s task flow from end to end. Our product team had designed the experience to help our primary user, Carson, complete the critical tasks of identifying variance problems at the construction site and initiating a resolution to those problems with his team (for more on Carson, [see the related case study](/posts/aligning-models-reality/#carson-vdc-engineer)). Accordingly, we included all of the data in SKUR’s Variance Report and Variance Viewer to support Carson in this way.
 
-{{< webp image="/images/skur-vv/task-flow-tools-before.png" caption="We designed SKUR’s Variance Report and Variance Viewer to support our users’ task flow from end to end. At every step, whether it was reviewing the site or delegating actions to the team, we assumed our user would complete their work all within the app."  >}}
+{{< webp image="/images/skur-vv/task-flow-tools-before.png" caption="We designed SKUR’s Variance Report and Variance Viewer to support our users’ task flow from end to end. At every step, from reviewing the site to delegating actions, we assumed our user would complete their work all within our app."  >}}
 
 However, as Carson walked me through his process at his desk, I learned that he only needed SKUR’s app for *one* of the many tasks he undertook to get his job done. Rather than reviewing the report, he jumped right into inspecting the highest variances in the Viewer (objects we colored red). After that, he left SKUR’s app to complete his workflow using other tools: Autodesk applications to confirm his variance assessment and email or calendar apps to take the next steps with his team.
 
-{{< webp image="/images/skur-vv/task-flow-tools-after.png" caption="After watching our users complete their work in the office, we learned that they did not use our app for as many tasks as we assumed. Instead, they only need SKUR’s app for one of their tasks: inspecting the highest variances that our app detected. They continued to use the same tools they already used with their team for the rest of their tasks."  >}}
+{{< webp image="/images/skur-vv/task-flow-tools-after.png" caption="After watching our users complete their work in the office, we learned that they did not use our app for as many tasks as we assumed. Instead, they ignored the report we produced and only needed SKUR’s app for one of their tasks: inspecting the highest variances that our app detected."  >}}
 
-Each interview with our primary user showed a similar pattern of tool use. The bottom line was that Carson only needed the Variance Viewer in SKUR’s app for the one crucial task that none of his other tools could do: inspecting the highest variance objects at his construction site.
+Each interview with our primary user showed a similar pattern of tool use. The bottom line was that Carson only needed the Variance Viewer in SKUR’s app for the one crucial task that none of his other tools could do: inspecting the highest variance objects at his construction site. These findings revealed the priorities for our redesign: focus on inspection.
 
 ### Prioritizing inspection of high variances
 SKUR’s Variance Viewer was displaying data and input controls to support multiple tasks. Yet from user interviews, we learned that supporting one task— inspection— would deliver the most value for our customers. We knew we needed to transition from a high-level summary of the whole construction site to a detailed view of each high variance object within the structure. What we did not know was what specific data and controls we should display along with each object.
@@ -98,26 +100,28 @@ The variance and confidence values helped our users establish whether the object
 
 Our research revealed what we should prioritize for the Variance Viewer redesign. We mapped what should stay prominent in the UI and what to shelf into secondary elements. My next step was to create a prototype from our findings to test with our users.
 
-{{< webp image="/images/skur-vv/user-priorities-in-variance-viewer.png" caption="After reviewing object inspection mockups with customers, we identified elements of the current design to prioritize visually and which elements to deprioritize. My goal was to redesign a more effective display of the high-priority filters and data while minimizing the lower priority elements."  >}}
+{{< webp image="/images/skur-vv/user-priorities-in-variance-viewer.png" caption="Through user interviews we identified elements of SKUR's interface that user's considered high (1) and low (2) priority. My goal was to redesign a more effective display of the high-priority filters and data (1) while minimizing the lower priority elements (2)."  >}}
 
 ### Prototype part 1: variance filters
 For the rest of the project, I iterated on prototypes while checking in with my PM along the way. The first feature I redesigned was the list of variance filters. Filters let our users see their variance map in 10 different levels of detail. From our research, I knew that we were offering too many options for filtering— we could cut the number of filters in half to 5 and provide everything our users needed.
 
+{{< webp image="/images/skur-vv/part-1-design-filter.png" caption="For part one, I focused on the variance filter element of the UI. In the preceding section, I’ll describe how I went from the initial design (A) to the redesign (B)."  >}}
+
 I sketched out ideas for a redesigned filter element that treated the point cloud as a single global toggle and reduced the amount of text in the component by using colors for categories. Then I created a digital mockup using Sketch app and the Bootstrap design components we used on the team.
 
-{{< webp image="/images/skur-vv/sketches-variance-filters.jpg" caption="Before creating a digital mockup, I sketched options for the filter list to show what was needed based on our research."  >}}
+{{< webp image="/images/skur-vv/sketches-variance-filters.png" caption="Before creating a digital mockup, I leaned on our research findings to sketch options for the filter list."  >}}
 
 #### Setting new defaults
 We also learned from our interviews th at the filters we made active by default were unnecessary for our users. When the Viewer loaded, everything was flipped on, and this wasn’t helping our user complete their inspection task. For example, keeping the point cloud on by default would fill the Viewer with a field of dots that could obscure the view of high variance objects.
 
-{{< video src="toggle-point-cloud@384-10" autoplay="true" muted="true" loop="true" playsinline="true" caption="When the point cloud is toggled on in the Variance Viewer, it can create considerable visual noise during object inspection. In the example above, because the point cloud contains all of the furniture and equipment from an office, the structural objects are obscured until you toggle the point cloud off." >}}
+{{< video src="toggle-point-cloud@384-10" autoplay="true" muted="true" loop="true" playsinline="true" caption="When the point cloud is toggled on in the Variance Viewer, it can create considerable visual noise during object inspection. In the example above, because the point cloud contains all of the furniture and equipment from an office, the structural objects (the objects Carson needs to inspect) are obscured until you toggle the point cloud off." >}}
 
 Moreover, showing all objects at all measured variance levels (colored red, yellow, and green) created more visual noise for our users when they only needed to inspect the highest variance objects (red).
 
-{{< webp image="/images/skur-vv/defaults-rgy-to-red-only.png" caption="How a structure looks as you start to filter out low (green) and medium (yellow) variance objects. Keeping only the high variance objects (red) toggled on by default meant that the essential visual data our users sought stood out clearly."  >}}
+{{< webp image="/images/skur-vv/defaults-rgy-to-red-only.jpg" caption="How a structure looks as you start to filter out low (green) and medium (yellow) variance objects. Keeping only the high variance objects (red) toggled on by default meant that the essential visual data was available first and without distraction."  >}}
 
 {{< blockquote author="— a SKUR customer" >}}
-  "I only have time to address the big problems with variances on site, so I need to log in and clearly see what they are. The red ones, just show me those from the start."
+  "I don't have time to look at every variance. I just need to see the highest priority problems to fix, the red ones, just show me the red from the start."
 {{< /blockquote >}}
 
 To improve the user experience, we needed to help Carson complete his inspection as efficiently as possible. As one customer said in an interview, “Just show me the red.” Accordingly, I redesigned the filter element to cut down the filter choices and keep only one filter on by default.
@@ -127,11 +131,13 @@ To improve the user experience, we needed to help Carson complete his inspection
 ### Prototype part 2: variance details
 The next feature I designed for the prototype was the detailed data we would display for each object our user was inspecting. We offered a massive table to sort through even though our research showed us that our users only needed to see three data points as they viewed each object one by one (variance values, confidence, and object identifiers).
 
+{{< webp image="/images/skur-vv/part-2-design-details.png" caption="For part two, I focused on the variance table element of the UI. In the preceding section, I’ll describe how I went from the initial design (C) to the redesign (D)."  >}}
+
 I interpreted the UI design task as two constituent pieces: (1) making the data visible and clear and (2) providing an obvious affordance for moving from one object to the next (the CTA). Rather than a table, a card element that let the user page through each object came to mind as the best way to show this data. I started my redesign process by sketching out different options for card-style data displays.
 
 As I moved from sketches into digital mockups, I created a card element that transcribed the table data onto a card as a list, almost like an array dump of key-value pairs. Yet when I squint-tested the design, I realized that nothing in the data stood out.
 
-{{< webp image="/images/skur-vv/sketches-variance-detail-v1.jpg" caption="Samples of sketches and an initial mockup of the variance detail card."  >}}
+{{< webp image="/images/skur-vv/sketches-variance-detail-v1.png" caption="Samples of sketches and an initial mockup of the variance detail card."  >}}
 
 From our research, I knew that most of our user's work during inspection would occur outside SKUR’s app, using external tools. Our user needed to reference the object ID from SKUR’s app to find the same object in their external tool to get this work done. Accordingly, the ID of the object needed to stand out the most. Yet if my design was like a “Hello my name is” sticker, I was writing my name way too small.
 
@@ -143,11 +149,11 @@ Instead of what I had, I needed the design to support our users by visually prio
 
 After sketching options, I started iterating on digital designs using Sketch app. With each iteration, I tried to make the object identifier stand out further from the other data.
 
-{{< webp image="/images/skur-vv/variance-detail-card-progression.png" caption="Digital iterations of the variance detail card. With each change, I was aiming for a visual hierarchy that I assumed matched the needs of our users."  >}}
+{{< webp image="/images/skur-vv/variance-detail-card-progression.png" caption="Digital iterations of the variance detail card. With each change, I was aiming for a visual hierarchy that best fit the studied needs of our users."  >}}
 
 I also color-coded each card to each object's variance threshold to provide consistency across the UI. The user would see the same red-yellow-green scale in the viewing filters, the objects in view, and the data detail of that object.
 
-{{< webp image="/images/skur-vv/variance-detail-parts-compare.png" caption="To create visual consistency across the Variance Viewer UI, I matched colors between the filter list, the object under inspection, and the object variance card."  >}}
+{{< webp image="/images/skur-vv/variance-detail-parts-compare.png" caption="To create visual consistency across the Variance Viewer UI, I matched colors between the object under inspection, and the object variance card."  >}}
 
 To help visualize how everything from the redesign came together, I created a click-through prototype showing the filters, variance detail, and a minimized variance list. I used Framer Studio to overlay the UI onto screenshots of models from Navisworks.
 
@@ -155,27 +161,22 @@ To help visualize how everything from the redesign came together, I created a cl
 
 {{< video src="proto-v1-red@576-12" autoplay="true" muted="true" loop="true" playsinline="true" caption="A click-through prototype showing the redesigned interface with only the highest variance objects (red) toggled on (the new default)." >}}
 
-{{< blockquote author="— a SKUR customer" >}}
-  “I’m only seeing red, and I like it.”
-{{< /blockquote >}}
-
-
 I had the opportunity to perform a user walkthrough of the prototype with two of our customers. They both expressed how much simpler and quicker the process of inspection appeared to be then before. One customer noted they were so busy that they only had a few minutes to review the variance analysis, noting, “I’m only seeing red, and I like it.”
 
-### Iterations on the prototype
+### Iterations for visual clarity
 While the prototype I designed seemed to check all the boxes from our users' *expressed* needs during interviews, I wanted to take the redesign further. After reviewing screen recordings that I captured during previous sessions with customers, I noticed three opportunities to improve the visual experience for our users:
 1. changing our Viewer’s background-color
 2. introducing transparency into the object rendering
 3. Using motion to orient users in space while inspecting object variance
 
-#### Dark background
+#### Dark background for contrast
 Our recordings showed that our primary users exclusively used dark backgrounds in their external CAD tools. Every CAD modeling and point cloud tool I could demo had dark backgrounds as defaults, except for SKUR’s app and Sketchup. Should we make the change to a darker view?
 
 After comparing the red-green-yellow-grey palette that SKUR’s app used to render objects against light and dark backgrounds, dark backgrounds provided greater contrast. I assumed that greater contrast would improve the user experience, so I switched to a dark background in the next iteration of the prototype.
 
 {{< webp image="/images/skur-vv/dark-vs-light-background.jpg" caption="Variance Maps cast against a dark background provided better contrast than a light background."  >}}
 
-#### Utilizing transparency
+#### Transparency for removing obstructions
 From the same on-site recordings, I noted that customers would use their external tools (Autocad, Navisworks) for detailed inspection because they could hide/show objects in the building model. Since their external tools allowed model editing, when customers wanted to inspect an object visually obstructed by surrounding objects, they could hide the surrounding objects. Accordingly, if we could hide objects in SKUR’s app, we could improve the inspection experience for our users.
 
 However, model editing was a feature far outside the scope of SKUR’s app. Instead, I assumed we could improve the inspection experience in SKUR’s app by introducing transparency. Rather than hide objects that obstructed a user’s view, we could let the user see through them.
@@ -191,14 +192,18 @@ I needed a 3D animation app to help me prototype this next idea. By good luck, I
 
 {{< video src="motion-demo-sketchfab@360-12" autoplay="true" muted="true" loop="true" playsinline="true" caption="A building model uploaded to Sketchfab. The Sketchfab platform makes it very easy to create annotated tours of construction models that simulate traveling through the site." >}}
 
-### Final deliverable
+### Final deliverables
 For the final deliverable to the team, I brought everything together for a click-through prototype in Framer Studio: the redesigned filter element, the variance detail card, a minimized variance list, dark background, transparency, and motion.
 
-{{< video src="proto-v2-handoff@576-10" autoplay="true" muted="true" loop="true" playsinline="true" caption="A handoff prototype that demonstrated all the features I assumed would improve the inspection experience for our customers." >}}
+{{< video src="proto-v2-handoff@576-10" autoplay="true" muted="true" loop="true" playsinline="true" caption="A handoff prototype that demonstrated all the redesigned features used during high-priority variance inspection." >}}
 
 I also provided static mockups to demonstrate state changes for the filter list and the variance detail card— depending on what variance threshold users were examining their site with.
 
-{{< webp image="/images/skur-vv/static-screens-handoff.png" caption="Screen mockups to demonstrate object inspection at different variance thresholds. In SKUR’s app, a mesh is overlaid on the selected object."  >}}
+{{< webp image="/images/skur-vv/static-screens-handoff-01.png"  >}}
+
+{{< webp image="/images/skur-vv/static-screens-handoff-02.png"  >}}
+
+{{< webp image="/images/skur-vv/static-screens-handoff-03.png" caption="Screen mockups to demonstrate object inspection at different variance thresholds. In SKUR’s app, a mesh was overlaid on the selected object."  >}}
 
 ## Outcomes and Lessons
 ### Received well, not user-tested, released in pieces

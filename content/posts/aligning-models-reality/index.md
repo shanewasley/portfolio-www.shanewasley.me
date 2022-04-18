@@ -11,7 +11,7 @@ TocOpen: false
 draft: false
 hidemeta: true
 comments: false
-description: "Designing new feature for a SAAS analytics app that automated alignment of CAD building models to laser site surveys."
+description: "Designing new feature for a SAAS analytics app that automated the alignment of CAD building models with laser site surveys."
 canonicalURL: "https://shanewasley.me/posts/aligning-models-reality"
 disableHLJS: true # to disable highlightjs
 disableShare: true
@@ -50,7 +50,7 @@ By comparing the CAD model to the point cloud, SKUR’s app created a visual map
 
 {{< webp image="/images/skur-aa/background-varianceMap-process.jpg" caption="Comparing a CAD model (1) to a point cloud (2) can identify the differences between design and built structure (3). With SKUR’s Variance Map (3), the differences are classified with a red, yellow, and green color system (most to least, respectively)." >}}
 
-Even minor variances identified by SKUR’s app can reveal costly implications for a construction site. A chemical pipe installed one inch higher than planned could be misaligned to the pipe it will connect to later in the project. Adjusting for such a discrepancy quickly— such as ordering new parts before crews arrive to continue construction— can prevent increases in costs and delays on a project. The Variance Map was meant to identify these problems sooner before they became much more expensive repairs later.
+Even minor variances identified by SKUR’s app can reveal costly implications for a construction site. A chemical pipe installed one inch higher than planned could be misaligned with the pipe it will connect to later in the project. Adjusting for such a discrepancy quickly— such as ordering new parts before crews arrive to continue construction— can prevent increases in costs and delays on a project. The Variance Map was meant to identify these problems sooner before they became much more expensive repairs later.
 
 {{< webp image="/images/skur-aa/background-variance-misalign.jpg" caption="The utility of the Variance Map comes from what it can predict. A pipe installed outside of design tolerances may be a problem for the pipe it should connect to (4) at a later stage of the project." >}}
 
@@ -124,7 +124,7 @@ After reviewing various alignment methods, we determined that matching surfaces 
 
 We needed Carson to match three non-coplanar pairs between the model and point cloud for alignment to succeed. In other words, we needed the user to pick a surface on the X, Y, and Z-axis planes of the model and pick the corresponding surfaces on the X, Y, and Z-axis of the point cloud.
 
-{{< webp image="/images/skur-aa/process-coplanar.png" caption="Surfaces in 3D space that share the same plane are coplanar. Surfaces that do not share the same plane are non-coplanar. SKUR’s Assisted Alignment feature required a user to match three pairs of coplanar planes that were non-coplanar to the other pairs." >}}
+{{< webp image="/images/skur-aa/process-coplanar.png" caption="We needed the user to match co-planar pairs, on three different planes, for the Assisted Alignment feature to work. For example, in the diagram above we would need the user to match planes #1, #2, and #3 on one object (the 3D model) with the corresponding planes on the other object (the scan)." >}}
 
 #### Tasks
 
