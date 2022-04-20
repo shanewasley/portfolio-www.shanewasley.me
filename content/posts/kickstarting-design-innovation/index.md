@@ -11,7 +11,7 @@ TocOpen: false
 draft: false
 hidemeta: true
 comments: false
-description: "Training a team to prototype inspires the launch of a corporate design innovation lab."
+description: "Training a team to prototype a construction management app inspires the launch of a corporate design innovation lab."
 canonicalURL: "https://www.shanewasley.me/posts/kickstarting-design-innovation"
 disableHLJS: true # to disable highlightjs
 disableShare: true
