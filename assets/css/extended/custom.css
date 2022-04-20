@@ -215,13 +215,13 @@ body:not(.dark) .image_dark {
 .post-title {
     font-size: calc(2rem * var(--headings-multiplier));
     margin-top: 0;
-    margin-bottom: calc(2rem * var(--headings-multiplier)/2);
+    margin-bottom: 0;
 }
 
 .post-content h1 {
     font-size: calc(2rem * var(--headings-multiplier));
     margin-top: 0;
-    margin-bottom: calc(2rem * var(--headings-multiplier)/2);
+    margin-bottom: calc(1rem * var(--headings-multiplier)/2);
 }
 
 .post-content h2 {
