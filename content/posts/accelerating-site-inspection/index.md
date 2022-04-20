@@ -11,7 +11,7 @@ TocOpen: false
 draft: false
 hidemeta: true
 comments: false
-description: "Redesigning a feature in a SASS analytics app to optimize visual heirarchy and speed up construction site inspection."
+description: "Redesigning a feature to optimize visual heirarchy and speed up construction site inspection."
 canonicalURL: "https://shanewasley.me/posts/accelerating-site-inspection"
 disableHLJS: true # to disable highlightjs
 disableShare: true
@@ -20,13 +20,13 @@ searchHidden: true
 ShowReadingTime: true
 ShowBreadCrumbs: false
 ShowPostNavLinks: true
-cover:
-    image: "/images/covers/cover-skur-vv.jpg"
-    # can also paste direct link from external site
-    # ex. https://i.ibb.co/K0HVPBd/paper-mod-profilemode.png
-    alt: "Case Study Preview Image"
-    caption: ""
-    relative: false # To use relative path for cover image, used in hugo Page-bundl
+# cover:
+#     image: "/images/covers/cover-skur-vv.jpg"
+#     # can also paste direct link from external site
+#     # ex. https://i.ibb.co/K0HVPBd/paper-mod-profilemode.png
+#     alt: "Case Study Preview Image"
+#     caption: ""
+#     relative: false # To use relative path for cover image, used in hugo Page-bundl
 
 ---
 

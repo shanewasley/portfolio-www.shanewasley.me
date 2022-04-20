@@ -11,7 +11,7 @@ TocOpen: false
 draft: false
 hidemeta: true
 comments: false
-description: "Designing new feature for a SAAS analytics app that automated the alignment of CAD building models with laser site surveys."
+description: "Designing a new feature that automated the tedious work of aligning CAD building models with laser site surveys."
 canonicalURL: "https://shanewasley.me/posts/aligning-models-reality"
 disableHLJS: true # to disable highlightjs
 disableShare: true
@@ -20,13 +20,13 @@ searchHidden: true
 ShowReadingTime: true
 ShowBreadCrumbs: false
 ShowPostNavLinks: true
-cover:
-    image: "/images/covers/cover-skur-aa.jpg"
-    # can also paste direct link from external site
-    # ex. https://i.ibb.co/K0HVPBd/paper-mod-profilemode.png
-    alt: "Case Study Preview Image"
-    caption: ""
-    relative: false # To use relative path for cover image, used in hugo Page-bundl
+# cover:
+#     image: "/images/covers/cover-skur-aa.jpg"
+#     # can also paste direct link from external site
+#     # ex. https://i.ibb.co/K0HVPBd/paper-mod-profilemode.png
+#     alt: "Case Study Preview Image"
+#     caption: ""
+#     relative: false # To use relative path for cover image, used in hugo Page-bundl
 
 ---
 

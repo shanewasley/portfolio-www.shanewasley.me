@@ -1,0 +1,27 @@
+{{ $image := .Get "image"}}
+{{ $type_arr := split $image "." }}
+{{ $srcbase :=index $type_arr 0 }}
+{{ $altsplit := split $srcbase "/" }}
+{{ $altbase := index $altsplit 1 }}
+
+
+
+<figure>
+  <picture>
+    <source srcset="{{$srcbase}}.webp" type="image/webp" />
+    <img
+      src="{{.Get `image`}}"
+      alt="{{$altbase}}"
+      height="auto"
+      width="100%"
+      loading="lazy"
+      decoding="async"
+      caption="{{.Get `caption` }}"
+      class="image_dark"
+      defer
+    />
+  </picture>
+  <figcaption class="image_dark">
+    <p class="caption">{{.Get "caption" }}</p>
+  </figcaption>
+</figure>

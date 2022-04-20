@@ -20,15 +20,15 @@ searchHidden: true
 ShowReadingTime: true
 ShowBreadCrumbs: false
 ShowPostNavLinks: true
-cover:
-    image: "/images/covers/cover-turner.jpg"
-    # can also paste direct link from external site
-    # ex. https://i.ibb.co/K0HVPBd/paper-mod-profilemode.png
-    alt: "Case Study Preview Image"
-    caption: ""
-    relative: false # To use relative path for cover image, used in hugo Page-bundl
+# cover:
+#     image: "/images/covers/cover-turner.jpg"
+#     # can also paste direct link from external site
+#     # ex. https://i.ibb.co/K0HVPBd/paper-mod-profilemode.png
+#     alt: "Case Study Preview Image"
+#     caption: ""
+#     relative: false # To use relative path for cover image, used in hugo Page-bundl
 
----
+# ---
 ---
 
 
@@ -314,7 +314,7 @@ This tradespeople-colored view became the favored approach with the design team 
 
 In the practice of paint-striping, each tradesperson uses spray paint with a unique color to mark walls and zones they complete. The design team decided that if we used the same coloring system in the prototype, it would provide Jack the most explicit connection between the prototype’s floor plan view and photos captured on site.
 
-{{< webp image="/images/turner/turner-paperProto-color-walls-02.png" caption="The color-based system became the favored approach after the team made a connection to color-based markings used by tradespeople at the construction site, called paint-striping." >}}
+{{< webp image="/images/turner/turner-paperProto-color-walls-02.png" caption="The color-based system became the favored approach after the team made a connection to paint-stripe markings used by tradespeople at the construction site." >}}
 
 After multiple iterations of the paint-stripe paper prototypes were tested, we were nearing our deadline for the executive presentation. The PM wanted more visual awe for the presentation so we decided that the best next step was to have the visual designer take on the assignment.
 

@@ -157,7 +157,15 @@ body {
     line-height: 1.5;
     word-break: break-word;
     background: var(--theme);
+
 }
+
+body:not(.dark) .image_dark {
+    display: none;
+  }
+  .dark .image_light {
+    display: none;
+  }
 
 /* Responsive Headings and Text */
 @media (min-width: 688px) and (max-width: 992px) {
@@ -429,7 +437,7 @@ button#theme-toggle {
 
 .entry-header h2 {
     font-size: calc(1.175rem * var(--headings-multiplier));
-    margin-top: calc(1.175rem * var(--headings-multiplier));
+    margin-top: calc(1rem * var(--headings-multiplier)/2);
     margin-bottom: calc(1.175rem * var(--headings-multiplier)/3);
 }
 
