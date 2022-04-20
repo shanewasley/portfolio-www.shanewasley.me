@@ -11,7 +11,7 @@ TocOpen: false
 draft: false
 hidemeta: true
 comments: false
-description: "Designing a new feature that automated the tedious work of aligning CAD building models with laser site surveys."
+description: "Designing a new feature to automate the tedious work of aligning CAD building models with laser site surveys."
 canonicalURL: "https://shanewasley.me/posts/aligning-models-reality"
 disableHLJS: true # to disable highlightjs
 disableShare: true
