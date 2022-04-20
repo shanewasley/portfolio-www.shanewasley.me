@@ -437,7 +437,7 @@ button#theme-toggle {
 
 .entry-header h2 {
     font-size: calc(1.175rem * var(--headings-multiplier));
-    margin-top: calc(1rem * var(--headings-multiplier)/2);
+    margin-top: calc(1.175rem * var(--headings-multiplier)/2);
     margin-bottom: calc(1.175rem * var(--headings-multiplier)/3);
 }
 
