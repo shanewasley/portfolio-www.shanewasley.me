@@ -180,15 +180,15 @@ body:not(.dark) .image_dark {
         --content-gap: 18px;
     }
     .profile img {
-        margin-left: 4px;
         transform: scale(1);
     }
-    /* * {
-        line-height: 27px;
-        line-height: 1.6875rem;
-        margin: 0px 0px 27px;
-        margin: 0rem 0rem 1.6875rem;
-    } */
+    body {
+        line-height: 1.8rem;
+    }
+    .caption {
+        margin-top: var(--content-gap);
+        line-height: 1.4rem;
+    }
 }
 
 @media (min-width: 992px) {
@@ -199,15 +199,15 @@ body:not(.dark) .image_dark {
         --content-gap: 18px;
     }
     .profile img {
-        margin-left: 4px;
         transform: scale(1);
     }
-    /* * {
-        line-height: 30px;
-        line-height: 1.875rem;
-        margin: 0px 0px 30px;
-        margin: 0rem 0rem 1.875rem;
-    } */
+    body {
+        line-height: 1.8rem;
+    }
+    .caption {
+        margin-top: var(--content-gap);
+        line-height: 1.4rem;
+    }
 }
 
 .page-header h1 {
@@ -486,7 +486,7 @@ button#theme-toggle {
     padding: 6px 2px;
     /* font-size: calc(1rem * var(--text-multiplier)); */
     font-size: calc(1.5rem * var(--headings-multiplier));
-    line-height: 1.5;
+    line-height: 1.7;
     background: none;
     border-radius: 2px;
     font-family: Inter;
