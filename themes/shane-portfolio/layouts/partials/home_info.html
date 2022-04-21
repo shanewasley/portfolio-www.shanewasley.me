@@ -8,6 +8,9 @@
 <article class="first-entry home-info">
   <header class="entry-header">
     <h1>{{ .Title | markdownify }}</h1>
+    <div class="jobtitle">
+      <h5>{{ .subtitle | markdownify }}</h5>
+    </div>
   </header>
   <section class="entry-content">
     <p>{{ .Content | markdownify }}</p>

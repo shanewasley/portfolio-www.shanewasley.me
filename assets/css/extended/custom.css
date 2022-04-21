@@ -15,7 +15,7 @@
     --entry: #F1F5F9;
     --quaternary: #CBD5E1;
     --primary: #c026d3;
-    --secondary: #475569;
+    --secondary: #64748b;
     --tertiary: #94A3B8;
     --content: #0f172a;
     --hljs-bg: #1E293B;
@@ -29,6 +29,7 @@
     --site-blue: #2360FA;
     --title-light: #e879f9;
     --title-dark: #1E293B;
+    --former-secondary: #475569;
 }
 
 .dark {
@@ -219,6 +220,7 @@ body:not(.dark) .image_dark {
     font-size: calc(2rem * var(--headings-multiplier));
     margin-top: 0;
     margin-bottom: 0;
+    text-align: center;
 }
 
 .post-content h1 {
@@ -292,6 +294,16 @@ li {
     font-size: calc(1rem * var(--text-multiplier));
     margin-top: calc(0.5rem * var(--text-multiplier));
     margin-bottom: calc(0.5rem * var(--text-multiplier)/2);
+}
+
+.jobtitle h5{
+    text-transform: uppercase;
+    text-align: center;
+    color: var(--secondary);
+    font-weight: 600;
+    font-size: calc(0.9rem * var(--headings-multiplier));
+    margin-top: calc(1rem * var(--headings-multiplier)/4);
+    margin-bottom: calc(1rem * var(--headings-multiplier)/4);
 }
 
 /* Core Headings Colors */
@@ -391,6 +403,7 @@ button#theme-toggle {
     letter-spacing: -0.05em;
     margin-top: 0;
     margin-bottom: 0;
+    text-align: center;
     background-color: #86198f;
     background-image: linear-gradient(var(--title-light) 25%, var(--title-dark) 100%);
     background-size: 100%;
@@ -404,6 +417,7 @@ button#theme-toggle {
 .first-entry .entry-content {
     margin: 0 0;
     font-size: calc(1rem * var(--text-multiplier));
+    text-align: center;
     -webkit-line-clamp: unset;
 }
 
