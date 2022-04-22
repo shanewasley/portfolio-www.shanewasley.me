@@ -11,7 +11,7 @@ TocOpen: false
 draft: false
 hidemeta: true
 comments: false
-description: "Redesigning a feature to optimize visual heirarchy and speed up construction site inspection."
+description: "Redesigning a feature to optimize visual hierarchy and speed up construction site inspection."
 canonicalURL: "https://shanewasley.me/posts/accelerating-site-inspection"
 disableHLJS: true # to disable highlightjs
 disableShare: true

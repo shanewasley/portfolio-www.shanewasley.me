@@ -395,7 +395,7 @@ button#theme-toggle {
 }
 
 .first-entry {
-    margin-top: calc(var(--gap));
+    margin-top: calc(var(--gap)/2);
 }
 
 .first-entry .entry-header h1 {
